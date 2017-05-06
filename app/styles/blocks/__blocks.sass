@@ -1,0 +1,342 @@
+.dropdown
+	background-color: #fff
+	box-shadow: 0 2px 7px rgba(80,72,68,0.6)
+	border-radius: 7px
+	position: absolute
+	top: 100%
+	margin-top: 8px
+	padding: 8px 0
+	min-width: 130px
+	opacity: 0
+	visibility: hidden
+	transform: translateY(10px)
+	transition: $t300
+	text-align: left
+	z-index: 1
+
+	&__title
+		padding: 2px 17px 10px
+		color: #575757
+		font-size: 15px
+		font-weight: bold
+		border-bottom: 1px solid #eaeaea
+
+		&--red
+			color: $cRed
+
+	&:before
+		content: ""
+		position: absolute
+		left: 13px
+		top: -17px
+		width: 0
+		height: 0
+		opacity: 0.05
+		border-width: 8px
+		border-style: solid
+		border-color: transparent transparent #000 transparent
+
+	&:after
+		content: ""
+		position: absolute
+		left: 14px
+		top: -14px
+		width: 0
+		height: 0
+		border-width: 7px
+		border-style: solid
+		border-color: transparent transparent #fff transparent
+
+	&--right
+		right: 0
+
+		&:before
+			left: auto
+			right: 13px
+
+		&:after
+			left: auto
+			right: 14px
+
+	&--cols
+		display: flex
+
+	&__col
+		width: 50%
+		padding: 0 15px
+
+	&--big
+		min-width: 580px
+		padding: 3px
+		box-shadow: 0 4px 12px rgba(80,72,68,0.6)
+
+
+._active
+	& + .dropdown
+		opacity: 1
+		visibility: visible
+		transform: translateY(0)
+
+.dropdown-nav
+	display: block
+
+	&__item
+		margin-top: 5px
+
+	&__link
+		color: #575757
+		display: block
+		padding: 6px 17px
+		text-decoration: none
+		white-space: nowrap
+		transition: $t300
+
+		&:hover
+			background-color: rgba(0,0,0,0.05)
+			color: #000
+
+.community-tabs
+	background-color: #fff
+	box-shadow: 0 1px 5px rgba(80,72,68,0.23)
+	border-radius: 7px
+	overflow: hidden
+
+	&__tabs
+		padding: 15px 20px 10px 25px
+
+	&__btns
+		display: flex
+
+	&__tab
+		display: none
+
+		&._active
+			display: block
+
+	&__btn
+		width: 50%
+
+		A
+			display: block
+			height: 54px
+			line-height: 54px
+			font-size: 18px
+			color: #fff
+			background-color: $cGrayD
+			text-decoration: none
+			text-align: center
+			transition: $t300
+			box-shadow: inset -3px -3px 7px rgba(0,0,0,0.35)
+			font-family: $titleFont
+
+		&._active
+			A
+				background-color: #fff
+				color: #000
+				box-shadow: none
+
+.community-post
+	margin-bottom: 20px
+
+	&__date
+		font-size: 14px
+		color: $cGrayD
+		margin-bottom: 5px
+
+	&__text
+		font-size: 14px
+		margin-bottom: 8px
+
+.product
+	display: flex
+	flex-direction: column
+	background-color: #fff
+	box-shadow: 0 1px 5px rgba(80,72,68,0.23)
+	border-radius: 7px
+	overflow: hidden
+	height: 100%
+
+	&__header
+		flex-grow: 1
+		padding: 32px 15px 10px
+		position: relative
+
+		&-fav
+			position: absolute
+			left: 15px
+			top: 0
+
+		&-label
+			position: absolute
+			right: 15px
+			top: 8px
+			font-size: 13px
+			color: $cGrayD
+
+			.label
+				margin-left: 5px
+
+		&-brand
+			font-size: 13px
+			color: $cGrayDText
+
+		&-title
+			font-size: 16px
+			font-weight: bold
+			margin-bottom: 5px
+
+		&-info
+			font-size: 13px
+			color: $cGrayD
+
+	&__body
+		position: relative
+		display: block
+		&-img
+			max-height: 200px
+			text-align: center
+			overflow: hidden
+			IMG
+				width: 100%
+				display: inline-block
+
+		&-price
+			position: absolute
+			right: 0
+			bottom: 0
+			min-width: 65px
+			padding: 0 15px
+			height: 45px
+			line-height: 45px
+			text-align: center
+			background-color: #fff
+			font-size: 18px
+			font-weight: 500
+			color: #000
+
+	&__footer
+		padding: 13px 15px
+		position: relative
+
+		&-user
+			position: absolute
+			right: 15px
+			top: 50%
+			margin-top: -17px
+
+			A
+				display: inline-block
+				border-radius: 3px
+				overflow: hidden
+				IMG
+					display: block
+					width: 35px
+
+
+.dropdown-menu
+	display: flex
+
+	&__left
+		width: 230px
+		flex-shrink: 0
+		border-right: 1px solid #f3f3f3
+
+	&__right
+		flex-grow: 1
+
+	&__tab
+		display: none
+
+		&._active
+			display: block
+
+.dropdown-menu-nav
+	&__item
+		display: block
+		border-radius: 5px 0 0 5px
+		cursor: pointer
+		position: relative
+		padding: 8px 30px 8px 40px
+		transition: $t300
+
+		&:hover
+			background-color: rgba(0,0,0,0.05)
+
+		&._active
+			background-color: $cRedL
+			box-shadow: inset -6px 0 4px -4px rgba(0,0,0,0.3)
+			@extend .iconic--down-arrow
+			&:after
+				font-size: 15px
+				position: absolute
+				right: 12px
+				top: 50%
+				margin-top: -7px
+				display: inline-block
+				transform: rotate(-90deg)
+				color: #fff
+				transition: $t300
+				@extend .iconic
+
+			.dropdown-menu-nav__item-title
+				color: #fff
+
+			.dropdown-menu-nav__item-numbers
+				color: #fefefe
+
+			.dropdown-menu-nav__item-icon
+				.iconic
+					color: #fff
+
+		&-icon
+			position: absolute
+			left: 0
+			top: 5px
+			width: 40px
+			text-align: center
+
+			.iconic
+				color: $cGray
+				font-size: 21px
+
+		&-title
+			font-size: 17px
+			font-weight: 500
+			color: #000
+			font-family: $titleFont
+
+		&-numbers
+			font-size: 14px
+			color: $cGray
+
+.dropdown-menu-inner
+	display: flex
+	flex-wrap: wrap
+
+	&__item
+		width: 50%
+		padding: 0 3px
+
+	&__link
+		text-decoration: none
+		display: block
+		border-radius: 5px
+		cursor: pointer
+		position: relative
+		padding: 8px
+		transition: $t300
+
+		&:hover
+			background-color: rgba(0,0,0,0.05)
+
+	&__title
+		font-size: 17px
+		font-weight: 500
+		color: #000
+		font-family: $titleFont
+		display: block
+
+	&__numbers
+		font-size: 14px
+		color: $cGray
+		display: block

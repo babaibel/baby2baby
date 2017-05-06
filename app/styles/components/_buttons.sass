@@ -8,23 +8,103 @@
     text-decoration: none
     position: relative
     user-select: none
-    transition: $t150
+    border-radius: 7px
+    transition: $t300
 
     font-size: inherit
     padding: 0
 
-    
-    & > SPAN
-        border-bottom: 1px solid transparent
-        padding: 0 0 2px 0 
-        transition: border-color $t300
         
     &:hover
         & > SPAN
             border-color: transparent
 
+    &--red
+        background-color: $cRed
+        color: #fff
+        &:hover
+            background-color: $cRedL
+
+    &--red-l
+        background-color: $cRedL
+        color: #fff
+        &:hover
+            background-color: $cRed
+
+    &--green
+        background-color: $cGreen
+        color: #fff
+        &:hover
+            background-color: $cGreenL
+
+    &--gray
+        background-color: $cGrayD
+        color: #fff
+        &:hover
+            background-color: $cGray
+
+    &--green-l
+        background-color: $cGreenL
+        color: #fff
+        &:hover
+            background-color: $cGreen
+
+    
+
+    &--o-green
+        color: $cGreen
+        border: 2px solid $cGreen
+        &:hover
+            color: $cGreen
+            border-color: $cGreenL
+
+    &--showmore
+        height: 42px
+        line-height: 42px
+        width: 152px
+        border-radius: 20px
+        font-family: $titleFont
+        font-size: 16px
+        color: #fff
+
+        .iconic
+            display: inline-block
+            vertical-align: middle
+            margin-right: 10px
+            font-size: 24px
+            color: #fff
 
     /* sizes */
 
     /* colors */
 
+.ico-btn
+    display: inline-block
+    vertical-align: middle
+    cursor: pointer
+    background: transparent
+    text-decoration: none
+    position: relative
+    user-select: none
+    transition: $t300
+
+.btn-fav
+    display: block
+    width: 27px
+    height: 27px
+    line-height: 27px
+    background-color: $cGreen
+    color: #fff
+    font-size: 27px
+    border-radius: 0 0 3px 3px
+    transition: $t150
+
+    &:after
+        display: inline-block
+
+    &:active
+        &:after
+            transform: scale(0.9)
+
+    &._active
+        color: #6c851f

@@ -1,0 +1,78 @@
+
+$checkbox-size: 23px
+
+.checkbox-label
+    display: table
+    white-space: nowrap
+    margin: 0 0 15px
+    line-height: 23px
+
+    .checkbox, &__txt
+        display: inline-block
+        vertical-align: top
+        cursor: pointer
+
+    .checkbox
+        // margin-top: 3px
+        margin-right: -$checkbox-size
+
+    &__txt
+        font-size: 17px
+        line-height: 26px
+        white-space: normal
+        width: 100%
+        padding-left: $checkbox-size + 13px
+        color: $cGrayD
+        font-family: $titleFont
+
+    &._disabled
+        .checkbox-label__txt
+            opacity: 0.6
+            cursor: not-allowed
+
+.checkbox
+    display: inline-block
+    vertical-align: middle
+    cursor: pointer
+    INPUT
+        display: none
+
+    &__view
+        display: block
+        width: $checkbox-size
+        height: $checkbox-size
+        border: 1px solid $cGray
+        border-radius: 3px
+        transition: $t150
+        position: relative
+        @extend .iconic
+        @extend .iconic--tick
+
+        &:after
+            color: #fff
+            font-size: 17px
+            line-height: normal
+            position: absolute
+            left: 2px
+            bottom: 2px
+            transform: translateY(-3px)
+            opacity: 0
+            transition: $t150
+
+        &:hover,
+        &._active,
+        .checkbox-label:hover &,
+        &._active,
+        input:checked +  &
+            background-color: $cRed
+            border-color: $cRed
+
+        &._active,
+        input:checked +  &
+            &:after
+                transform: translateY(0)
+                opacity:   1
+
+        input:disabled + &
+            opacity: 0.6
+            cursor: not-allowed

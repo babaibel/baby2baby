@@ -19,34 +19,24 @@
     z-index: 1
 
 
-.page-body
+.page-inner
+    min-height: 100vh
+    display: flex
+    flex-direction: column
 
+.page-body
+    flex-grow: 1
 
 .wrapper
     position: relative
     margin: 0 auto
     max-width: $maxW
     min-width: $minW
-    padding: 0 $wrapperM-padd
+    padding: 0 $wrapper-padd
 
-    +max-screen($screenSL)
-        padding-left: $wrapperS-padd
-        padding-right: $wrapperS-padd
-
-    +max-screen($screenSS)
-        padding-right: $wrapperSS-padd
-        padding-left: $wrapperSS-padd
 
 .wrapper-inner
     display: block
     width: auto
-    margin-left: -$wrapperM-padd
-    margin-right: -$wrapperM-padd
-
-    +max-screen($screenSL)
-        margin-left: -$wrapperS-padd
-        margin-right: -$wrapperS-padd
-
-    +max-screen($screenSS)
-        margin-left: -$wrapperSS-padd
-        margin-right: -$wrapperSS-padd
+    margin-left: -$wrapper-padd
+    margin-right: -$wrapper-padd

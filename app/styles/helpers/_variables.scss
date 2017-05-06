@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------
 
 $baseFont:  Arial, sans-serif;
-$titleFont:  Arial, sans-serif;
+$titleFont:  "Lato", sans-serif;
 
 
 // ----------------------------------------------------------------------
@@ -16,32 +16,25 @@ $t600: 600ms;
 // ----------------------------------------------------------------------
 // Layout sizes
 // ----------------------------------------------------------------------
-$maxW: 1400px;
-$minW: 320px;
+$maxW: 1600px;
+$minW: 1000px;
 
-$screenXL: 1800px;
-$screenLL: 1500px;
-$screenLS: 1380px;
+$screenXL: 1600px;
+$screenL: 1400px;
+$screenM: 1200px;
+$screenS: 1000px;
 
-$screenM: 1288px;
-$screenMM: 1168px;
-$screenMS: 1020px;
-
-$screenSL: 960px;
-$screenSM: 860px;
-$screenS: 767px;
-$screenSS: 630px;
-$screenXS: 480px;
-
-
-$wrapperM-padd: 30px;
-$wrapperS-padd: 25px;
-$wrapperSS-padd: 15px;
-
-$screenWrapperBreak: $screenM + ($wrapperM-padd * 2);
+$wrapper-padd: 30px;
 
 // ----------------------------------------------------------------------
 // Colors
 // ----------------------------------------------------------------------
-$cGreen: #18e28f;   // Main green
-$cBlue: #16171a;   // Main dark blue
+$cBgGray: #f0f0f0;
+$cGrayDText: #4b4b4b;
+$cGrayD: #777777;
+$cGray: #b4b4b4;
+$cRed: #c11718;
+$cRedD: #b02e2e;
+$cRedL: #cc4040;
+$cGreen: #9bbc33;
+$cGreenL: #b6cd6a;

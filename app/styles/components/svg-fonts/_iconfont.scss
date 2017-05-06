@@ -28,8 +28,65 @@
 @function iconic-char($filename) {
     $char: "";
 
-    @if $filename == cross {
+    @if $filename == baby {
     $char: "\E001";
+}
+    @if $filename == cake {
+    $char: "\E002";
+}
+    @if $filename == cancel {
+    $char: "\E003";
+}
+    @if $filename == comment {
+    $char: "\E004";
+}
+    @if $filename == cross {
+    $char: "\E005";
+}
+    @if $filename == down-arrow {
+    $char: "\E006";
+}
+    @if $filename == download-box {
+    $char: "\E007";
+}
+    @if $filename == eye {
+    $char: "\E008";
+}
+    @if $filename == gender {
+    $char: "\E009";
+}
+    @if $filename == language {
+    $char: "\E00A";
+}
+    @if $filename == like {
+    $char: "\E00B";
+}
+    @if $filename == location {
+    $char: "\E00C";
+}
+    @if $filename == man {
+    $char: "\E00D";
+}
+    @if $filename == message {
+    $char: "\E00E";
+}
+    @if $filename == search {
+    $char: "\E00F";
+}
+    @if $filename == soc-fb {
+    $char: "\E010";
+}
+    @if $filename == soc-inst {
+    $char: "\E011";
+}
+    @if $filename == soc-tw {
+    $char: "\E012";
+}
+    @if $filename == star {
+    $char: "\E013";
+}
+    @if $filename == tick {
+    $char: "\E014";
 }
 
 @return $char;
@@ -42,6 +99,63 @@
 }
 }
 
+.iconic--baby {
+    @include iconic(baby);
+}
+.iconic--cake {
+    @include iconic(cake);
+}
+.iconic--cancel {
+    @include iconic(cancel);
+}
+.iconic--comment {
+    @include iconic(comment);
+}
 .iconic--cross {
     @include iconic(cross);
+}
+.iconic--down-arrow {
+    @include iconic(down-arrow);
+}
+.iconic--download-box {
+    @include iconic(download-box);
+}
+.iconic--eye {
+    @include iconic(eye);
+}
+.iconic--gender {
+    @include iconic(gender);
+}
+.iconic--language {
+    @include iconic(language);
+}
+.iconic--like {
+    @include iconic(like);
+}
+.iconic--location {
+    @include iconic(location);
+}
+.iconic--man {
+    @include iconic(man);
+}
+.iconic--message {
+    @include iconic(message);
+}
+.iconic--search {
+    @include iconic(search);
+}
+.iconic--soc-fb {
+    @include iconic(soc-fb);
+}
+.iconic--soc-inst {
+    @include iconic(soc-inst);
+}
+.iconic--soc-tw {
+    @include iconic(soc-tw);
+}
+.iconic--star {
+    @include iconic(star);
+}
+.iconic--tick {
+    @include iconic(tick);
 }

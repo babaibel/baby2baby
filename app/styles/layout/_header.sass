@@ -1,0 +1,194 @@
+.header
+	&-wr
+		background-color: #fff
+
+	display: flex
+	align-items: center
+	height: 106px
+
+	&__left
+		display: flex
+		align-items: center
+		flex-shrink: 0
+
+	&__right
+		flex-grow: 1
+		text-align: right
+		position: relative
+
+.logo
+	display: inline-block
+	width: 110px
+	IMG
+		display: block
+
+.header-nav
+	display: inline-block
+	margin-left: 50px
+
+	&__item
+		margin-right: 25px
+		display: inline-block
+		position: relative
+
+		&--dropdown
+			.header-nav__link
+				@extend .iconic--down-arrow
+				&:after
+					font-size: 11px
+					margin-left: 7px
+					position: relative
+					top: 1px
+					display: inline-block
+					transform: rotate(0deg)
+					transition: $t300
+					@extend .iconic
+
+				&._active
+					&:after
+						transform: rotate(180deg)
+
+					SPAN
+						border-color: transparent
+						color: $cRed
+
+			SPAN
+				padding: 1px 0
+				border-bottom: 1px dashed #bfbfbf
+				transition: $t300
+
+	&__link
+		font-family: $titleFont
+		font-size: 14px
+		font-weight: 500
+		color: #000
+		text-transform: uppercase
+		text-decoration: none
+		display: inline-block
+
+		&:hover
+			SPAN
+				border-color: transparent
+
+.header-login
+	display: inline-block
+
+	.dropdown
+		min-width: 160px
+		margin-top: 12px
+
+	.btn
+		height: 28px
+		line-height: 28px
+		width: 110px
+		font-size: 14px
+		font-weight: 500
+
+		&--o-green
+			line-height: 24px
+
+	.ico-btn
+		font-size: 23px
+		color: $cGrayD
+
+		&:hover
+			color: $cGrayDText
+
+		&-wr
+			position: relative
+			display: inline-block
+			vertical-align: middle
+			margin-right: 22px
+
+			._active
+				&.iconic--message
+					color: $cRed
+
+				&.iconic--man
+					color: $cGreen
+
+			.dropdown
+				left: -9px
+
+				&--right
+					left: auto
+					right: -9px
+
+
+.header-search
+	position: absolute
+	left: 0
+	top: 50%
+	transform: translateY(-50%)
+	height: 40px
+	width: 40px
+	z-index: 1
+	border-radius: 7px
+	border: 1px solid #e3e2e1
+	background-color: #fff
+	overflow: hidden
+	transition: width $t300
+
+	&._open
+		width: 100%
+
+		.header-search__btn-open
+			display: none
+
+		.header-search__btn-close
+			opacity: 1
+
+	&__btn-open
+		position: absolute
+		left: 0
+		top: -1px
+		width: 40px
+		height: 40px
+		z-index: 1
+		cursor: pointer
+
+	&__btn-real
+		position: absolute
+		left: 0
+		top: -1px
+		width: 40px
+		height: 40px
+		@extend .iconic--search
+		&:after
+			font-size: 20px
+			position: absolute
+			top: 50%
+			left: 50%
+			margin: -10px 0 0 -10px
+			color: #6e6e6e!important
+			line-height: 20px!important
+			@extend .iconic
+
+	&__btn-close
+		position: absolute
+		right: 0
+		top: -1px
+		width: 40px
+		height: 40px
+		opacity: 0
+		transition: opacity $t300
+		cursor: pointer
+		@extend .iconic--cancel
+		&:after
+			font-size: 22px
+			position: absolute
+			top: 50%
+			left: 50%
+			margin: -11px 0 0 -11px
+			color: #6e6e6e!important
+			line-height: 22px!important
+			@extend .iconic
+
+	&__text
+		width: 100%
+		height: 38px
+		line-height: 38px
+		padding: 0 50px
+		font-size: 14px
+		color: #505050
+		font-family: $titleFont

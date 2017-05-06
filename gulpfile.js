@@ -28,7 +28,7 @@ gulp.task('optimize', ['inject'], function () {
     
     return gulp.src(config.allhtml)
         .pipe(assets)
-        .pipe($.if('*.js', $.uglify()))
+        // .pipe($.if('*.js', $.uglify()))
         .pipe($.if('*.css', $.cleanCSS()))
         .pipe(assets.restore())
         .pipe($.useref())

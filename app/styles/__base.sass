@@ -1,11 +1,32 @@
 @charset "UTF-8"
 
-
-//@font-face
-    font-family: 'NeoSansPro'
-    src: url('../fonts/NeoSansProRegular.eot')
-    src: url('../fonts/NeoSansProRegular.eot') format('embedded-opentype'), url('../fonts/NeoSansProRegular.woff2') format('woff2'), url('../fonts/NeoSansProRegular.woff') format('woff'),url('../fonts/NeoSansProRegular.ttf') format('truetype'),url('../fonts/NeoSansProRegular.svg#NeoSansProRegular') format('svg')
+@font-face 
+    font-family: 'Lato'
+    src: url('../fonts/lato/Lato-Regular.eot')
+    src: url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/lato/Lato-Regular.woff2') format('woff2'),url('../fonts/lato/Lato-Regular.woff') format('woff'),url('../fonts/lato/Lato-Regular.ttf') format('truetype'),url('../fonts/lato/Lato-Regular.svg#Lato-Regular') format('svg')
     font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'Lato'
+    src: url('../fonts/lato/Lato-Bold.eot')
+    src: url('../fonts/lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/lato/Lato-Bold.woff2') format('woff2'),url('../fonts/lato/Lato-Bold.woff') format('woff'),url('../fonts/lato/Lato-Bold.ttf') format('truetype'),url('../fonts/lato/Lato-Bold.svg#Lato-Bold') format('svg')
+    font-weight: bold
+    font-style: normal
+
+@font-face 
+    font-family: 'Lato'
+    src: url('../fonts/lato/Lato-Light.eot')
+    src: url('../fonts/lato/Lato-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/lato/Lato-Light.woff2') format('woff2'),url('../fonts/lato/Lato-Light.woff') format('woff'),url('../fonts/lato/Lato-Light.ttf') format('truetype'),url('../fonts/lato/Lato-Light.svg#Lato-Light') format('svg')
+    font-weight: 300
+    font-style: normal
+
+@font-face 
+    font-family: 'Lato'
+    src: url('../fonts/lato/Lato-Medium.eot')
+    src: url('../fonts/lato/Lato-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/lato/Lato-Medium.woff2') format('woff2'),url('../fonts/lato/Lato-Medium.woff') format('woff'),url('../fonts/lato/Lato-Medium.ttf') format('truetype'),url('../fonts/lato/Lato-Medium.svg#Lato-Medium') format('svg')
+    font-weight: 500
+    font-style: normal
 
 
 // ----------------------------------------------------------------------
@@ -25,6 +46,7 @@ BODY
     
 BODY
     font-family:  $baseFont
+    background: $cBgGray
     //font-size: 13px
     //line-height: 20px
 
@@ -58,6 +80,9 @@ P
 
 IMG
     max-width: 100%
+
+h1
+    font-family: "Lato"
 
 
 //::selection

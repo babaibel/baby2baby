@@ -1,6 +1,7 @@
 .link
-
     border-bottom: 1px solid transparent
+    transition: $t150
+    text-decoration: none
 
     &:hover
 
@@ -14,3 +15,51 @@
 
     &--dotted
         border-bottom-style: dotted
+
+    &--black
+        color: #000
+
+        &:hover
+            border-color: lighten(#000,60%)
+
+    &--gray
+        color: #747474
+
+        &:hover
+            border-color: lighten(#747474,20%)
+
+    &--gray-d
+        color: #575757
+
+        &:hover
+            border-color: lighten(#575757,20%)
+
+    &--gray-d2
+        color: $cGrayDText
+
+        &:hover
+            border-color: lighten($cGrayDText,40%)
+
+.link-ico
+    color: #575757
+    text-decoration: none
+    font-size: 13px
+    font-weight: bold
+    margin-right: 7px
+    font-family: $titleFont
+
+    &:hover
+        .iconic
+            color: $cGrayD
+
+    .iconic
+        display: inline-block
+        vertical-align: middle
+        color: $cGray
+        font-size: 21px
+        margin-right: 5px
+        transition: $t300
+
+        &--like
+            position: relative
+            top: -1px

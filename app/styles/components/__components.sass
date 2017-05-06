@@ -9,3 +9,38 @@
 // ----------------------------------------------------------------------
 // Small components
 // ----------------------------------------------------------------------
+.label
+	display: inline-block
+	width: 60px
+	height: 21px
+	line-height: 19px
+	border: 2px solid $cGrayD
+	color: $cGrayD
+	font-size: 13px
+	text-transform: uppercase
+	text-align: center
+	font-weight: bold
+	border-radius: 7px
+	font-family: $titleFont
+
+	.iconic
+		display: inline-block
+		vertical-align: middle
+		line-height: 13px
+		position: relative
+		margin-right: 3px
+		top: -1px
+
+	&--red
+		color: $cRedD
+		border-color: $cRedD
+
+		.iconic
+			color: $cRedD
+
+	&--green
+		color: $cGreen
+		border-color: $cGreen
+
+		.iconic
+			color: $cGreen
