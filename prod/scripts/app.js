@@ -104,6 +104,39 @@ function toggleClass(selector, className, callback) {
     };
 })(jQuery);
 
+//popup
+(function ($) {
+    $.fn.popup = function () {
+
+        $(this).each(function () {
+            var $this = $(this),
+                btnBool = true;
+
+            if($this.hasClass('js-popup--nobtn')){
+                btnBool = false;
+            }
+
+            $this.magnificPopup({
+                type: 'inline',
+                preloader: false,
+                removalDelay: 300,
+                mainClass: 'mfp-fade',
+                showCloseBtn: btnBool,
+                closeMarkup: '<button title="%title%" type="button" class="mfp-close iconic iconic--cancel"></button>',
+                callbacks: {
+                open: function() {
+                    $B.addClass('_popup-open');
+                },
+                beforeClose: function() {
+                    $B.removeClass('_popup-open');
+                }
+              }
+            });
+        });
+
+    };
+})(jQuery);
+
 
 /* -- Применение общих плагинов и функций --- */
 
@@ -114,6 +147,14 @@ $(function () {
     $scrollTrigger.scrollTrigger();
 
 });
+
+$(function () {
+    var  $popup = $('.js-popup');
+    if(!$popup.length) return;
+
+    $popup.popup();
+});
+
 
 $(function () {
     var $tabs = $('.js-tabs');
@@ -150,13 +191,49 @@ $(function () {
     $activeToggle.click(function(){
         $activeToggle.not(this).removeClass('_active');
         $(this).toggleClass('_active');
-        return false;
     });
 
-    // $W.bind('click', function (e) {
-    //     if (!$(e.target).closest($activeToggle).length) {
-    //         $activeToggle.removeClass('_active');
-    //         $W.unbind('click');
-    //     }
-    // });
+    return false;
+});
+
+$(function () {
+    var $activeDropdown = $('*[data-dropdown="active"]');
+
+    //todo
+
+    $activeDropdown.click(function(e){
+        var $this = $(this),
+            $target = $(e.target);
+
+        if($this.hasClass('_active')){
+            if($target.hasClass('js-dropdown') || $target.parents('.js-dropdown').length){
+                return;
+            } else{
+                $this.removeClass('_active');
+                $W.unbind('click');
+                // alert('Мы выключили БИНД');
+            }
+        } else{
+            $W.unbind('click');
+            $activeDropdown.not(this).removeClass('_active');
+            $(this).addClass('_active');
+            $W.bind('click', function (e2){
+                var $bindThis = $(this),
+                    $bindTarget = $(e2.target);
+                // alert('Мы попали в БИНД');
+
+                //тут херь
+                if($this.hasClass('_active')){
+                    return;
+                }
+                if(!$bindTarget.parents('._active').length){
+                    $this.removeClass('_active');
+                    $W.unbind('click');
+                    // alert('Мы выключили БИНД2');
+                }
+
+            });
+        }
+    });
+
 });

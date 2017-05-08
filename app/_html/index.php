@@ -21,14 +21,14 @@
                         <form>
                             <div class="main-filter">
                                 <div class="main-filter__items">
-                                    <div class="main-filter__item">
+                                    <div class="main-filter__item" data-dropdown="active">
                                         <div class="main-filter__item-icon"><span class="iconic iconic--location"></span></div>
                                         <div class="main-filter__item-inner">
                                             <div class="main-filter__item-subtitle">Location</div>
-                                            <div class="main-filter__item-title" data-toggle="active">
+                                            <div class="main-filter__item-title">
                                                 <span>Choose city</span>
                                             </div>
-                                            <div class="dropdown dropdown--cols">
+                                            <div class="dropdown dropdown--cols js-dropdown">
                                                 <div class="dropdown__col">
                                                     <label class="checkbox-label">
                                                         <span class="checkbox">
@@ -90,41 +90,41 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-filter__item">
+                                    <div class="main-filter__item" data-dropdown="active">
                                         <div class="main-filter__item-icon"><span class="iconic iconic--baby"></span></div>
                                         <div class="main-filter__item-inner">
                                             <div class="main-filter__item-subtitle">Product category</div>
-                                            <div class="main-filter__item-title" data-toggle="active">
+                                            <div class="main-filter__item-title">
                                                 <span>Choose product</span>
                                             </div>
-                                            <div class="dropdown dropdown--big">
+                                            <div class="dropdown dropdown--big js-dropdown">
                                                 <div class="dropdown-menu js-tabs">
                                                     <div class="dropdown-menu__left">
                                                         <ul class="dropdown-menu-nav">
                                                             <li class="dropdown-menu-nav__item js-tabs-btn _active">
                                                                 <div class="dropdown-menu-nav__item-icon">
-                                                                    <span class="iconic iconic--eye"></span>
+                                                                    <img src="../images/userfiles/menu-icon-img1.png">
                                                                 </div>
                                                                 <div class="dropdown-menu-nav__item-title">Baby shoes</div>
                                                                 <div class="dropdown-menu-nav__item-numbers">11647</div>
                                                             </li>
                                                             <li class="dropdown-menu-nav__item js-tabs-btn">
                                                                 <div class="dropdown-menu-nav__item-icon">
-                                                                    <span class="iconic iconic--eye"></span>
+                                                                    <img src="../images/userfiles/menu-icon-img4.png">
                                                                 </div>
                                                                 <div class="dropdown-menu-nav__item-title">Games</div>
                                                                 <div class="dropdown-menu-nav__item-numbers">11647</div>
                                                             </li>
                                                             <li class="dropdown-menu-nav__item js-tabs-btn">
                                                                 <div class="dropdown-menu-nav__item-icon">
-                                                                    <span class="iconic iconic--eye"></span>
+                                                                    <img src="../images/userfiles/menu-icon-img3.png">
                                                                 </div>
                                                                 <div class="dropdown-menu-nav__item-title">T-shirs</div>
                                                                 <div class="dropdown-menu-nav__item-numbers">11647</div>
                                                             </li>
                                                             <li class="dropdown-menu-nav__item js-tabs-btn">
                                                                 <div class="dropdown-menu-nav__item-icon">
-                                                                    <span class="iconic iconic--eye"></span>
+                                                                    <img src="../images/userfiles/menu-icon-img2.png">
                                                                 </div>
                                                                 <div class="dropdown-menu-nav__item-title">Wunderful clothes</div>
                                                                 <div class="dropdown-menu-nav__item-numbers">11647</div>
@@ -273,14 +273,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-filter__item">
+                                    <div class="main-filter__item" data-dropdown="active">
                                         <div class="main-filter__item-icon"><span class="iconic iconic--gender"></span></div>
                                         <div class="main-filter__item-inner">
                                             <div class="main-filter__item-subtitle">Gender</div>
-                                            <div class="main-filter__item-title" data-toggle="active">
+                                            <div class="main-filter__item-title">
                                                 <span>Boy or girl</span>
                                             </div>
-                                            <div class="dropdown dropdown--cols">
+                                            <div class="dropdown dropdown--cols js-dropdown">
                                                 <div class="dropdown__col">
                                                     <label class="checkbox-label">
                                                         <span class="checkbox">
@@ -306,14 +306,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-filter__item">
+                                    <div class="main-filter__item" data-dropdown="active">
                                         <div class="main-filter__item-icon"><span class="iconic iconic--cake"></span></div>
                                         <div class="main-filter__item-inner">
                                             <div class="main-filter__item-subtitle">Age</div>
-                                            <div class="main-filter__item-title" data-toggle="active">
+                                            <div class="main-filter__item-title">
                                                 <span>Your child's age</span>
                                             </div>
-                                            <div class="dropdown dropdown--cols">
+                                            <div class="dropdown dropdown--cols js-dropdown">
                                                 <div class="dropdown__col">
                                                     <label class="checkbox-label">
                                                         <span class="checkbox">
@@ -736,6 +736,7 @@
         </div><!-- /page-inner -->
 
         <!-- popups -->
+        <?php include 'base/popups.php';?>
 
     </div><!-- /page -->
 

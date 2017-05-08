@@ -13,6 +13,7 @@
 	transition: $t300
 	text-align: left
 	z-index: 1
+	cursor: default
 
 	&__title
 		padding: 2px 17px 10px
@@ -28,7 +29,7 @@
 		content: ""
 		position: absolute
 		left: 13px
-		top: -17px
+		top: -16px
 		width: 0
 		height: 0
 		opacity: 0.05
@@ -40,7 +41,7 @@
 		content: ""
 		position: absolute
 		left: 14px
-		top: -14px
+		top: -13px
 		width: 0
 		height: 0
 		border-width: 7px
@@ -73,6 +74,12 @@
 
 ._active
 	& + .dropdown
+		opacity: 1
+		visibility: visible
+		transform: translateY(0)
+
+._active
+	.dropdown
 		opacity: 1
 		visibility: visible
 		transform: translateY(0)
@@ -291,13 +298,13 @@
 		&-icon
 			position: absolute
 			left: 0
-			top: 5px
+			top: 4px
 			width: 40px
 			text-align: center
 
-			.iconic
-				color: $cGray
-				font-size: 21px
+			IMG
+				display: inline-block
+				max-width: 36px
 
 		&-title
 			font-size: 17px

@@ -44,7 +44,10 @@
 				<div class="footer-top__right">
 					<div class="footer-lng">
 						<span class="ico-btn-wr">
-							<a href="#!" class="ico-btn iconic iconic--language" data-toggle="active"></a>
+							<a href="#!" class="ico-btn" data-toggle="active">
+								<span class="ico-btn iconic iconic--language"></span>
+								<span class="ico-btn-wr__text">English</span>
+							</a>
 							<div class="dropdown dropdown--right">
 								<ul class="dropdown-nav">
 									<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">English</a></li>
@@ -52,7 +55,7 @@
 									<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Germany</a></li>
 								</ul>
 							</div>
-							<span class="ico-btn-wr__text">English</span>
+							
 						</span>
 					</div>
 					<div class="footer-soc">

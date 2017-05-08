@@ -1,0 +1,58 @@
+
+.popup
+    margin: 0 auto
+    max-width: 646px
+    background-color: #fff
+    border-radius: 7px
+    box-shadow: 0 0 32px rgba(80,72,68,0.8)
+    position: relative
+    padding: 50px 40px
+
+    &__title
+        text-align: center
+        margin-bottom: 30px
+
+    &--remind
+        .form
+            text-align: center
+            max-width: 280px
+            margin: 0 auto
+
+
+.mfp-close
+    width: 60px
+    height: 60px
+    line-height: 60px
+    font-size: 32px
+
+
+/* overlay at start */
+.mfp-fade.mfp-bg
+    opacity: 0
+    background-color: #000
+    cursor: pointer
+    transition: all 0.25s ease-out
+
+    /* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready 
+    opacity: 0.3
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing 
+    opacity: 0
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content
+    opacity: 0
+    transform: scale(0.8)
+    transition: all 0.25s ease-out
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content
+    opacity: 1
+    transform: scale(1)
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content 
+    opacity: 0
+    transform: scale(0.7)

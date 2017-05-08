@@ -5,8 +5,8 @@
 				<a class="logo" href="#!"><img src="../images/svg/logo.svg" alt=""></a>
 				<ul class="header-nav">
 					<li class="header-nav__item header-nav__item--dropdown">
-						<a class="header-nav__link" href="#!" data-toggle="active"><span>Catalogue</span></a>
-						<div class="dropdown">
+						<a class="header-nav__link" href="#!" data-dropdown="active"><span>Catalogue</span></a>
+						<div class="dropdown js-dropdown">
 							<ul class="dropdown-nav">
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Forum</a></li>
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Blog</a></li>
@@ -15,8 +15,8 @@
 						</div>
 					</li>
 					<li class="header-nav__item header-nav__item--dropdown">
-						<a class="header-nav__link" href="#!" data-toggle="active"><span>Community</span></a>
-						<div class="dropdown">
+						<a class="header-nav__link" href="#!" data-dropdown="active"><span>Community</span></a>
+						<div class="dropdown js-dropdown">
 							<ul class="dropdown-nav">
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Forum</a></li>
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Blog</a></li>
@@ -24,27 +24,33 @@
 							</ul>
 						</div>
 					</li>
-					<li class="header-nav__item">
-						<a class="header-nav__link" href="#!"><span>About us</span></a>
+					<li class="header-nav__item header-nav__item--dropdown">
+						<a class="header-nav__link" href="#!" data-dropdown="active"><span>About us</span></a>
+						<div class="dropdown js-dropdown">
+							<ul class="dropdown-nav">
+								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Terms &amp; Privacy</a></li>
+								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Site Map</a></li>
+							</ul>
+						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="header__right">
 				<div class="header-login">
 					<span class="ico-btn-wr">
-						<a href="#!" class="ico-btn iconic iconic--message" data-toggle="active"></a>
-						<div class="dropdown dropdown--right">
+						<a href="#!" class="ico-btn iconic iconic--message" data-dropdown="active"></a>
+						<div class="dropdown dropdown--right js-dropdown">
 							<div class="dropdown__title dropdown__title--red">New messages</div>
 							<ul class="dropdown-nav">
-								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Irina Vetrova (3)</a></li>
-								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Irina Vetrova (3)</a></li>
-								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Elistratov (1)</a></li>
+								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Irina Vetrova (<b>3</b>)</a></li>
+								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Irina Vetrova (<b>3</b>)</a></li>
+								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">Elistratov (<b>1</b>)</a></li>
 							</ul>
 						</div>
 					</span>
 					<span class="ico-btn-wr">
-						<a href="#!" class="ico-btn iconic iconic--man" data-toggle="active"></a>
-						<div class="dropdown">
+						<a href="#!" class="ico-btn iconic iconic--man" data-dropdown="active"></a>
+						<div class="dropdown js-dropdown">
 							<ul class="dropdown-nav">
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">My Profile</a></li>
 								<li class="dropdown-nav__item"><a href="#!" class="dropdown-nav__link">My items</a></li>
@@ -58,10 +64,7 @@
 						</div>
 					</span>
 					<a href="#!" class="btn btn--o-green">Post your ad</a>
-				</div>
-				<div class="header-login" style="display: none">
-					<a href="#!" class="btn btn--o-green">Post your ad</a>
-					<a href="#!" class="btn btn--red">Sign in</a>
+					<a href="#login" class="btn btn--red js-popup">Sign in</a>
 				</div>
 				<div class="header-search js-search">
 					<form>

@@ -28,6 +28,12 @@
     font-weight: 500
     font-style: normal
 
+@font-face
+    font-family: 'Lato'
+    src: url('../fonts/lato/Lato-Semibold.eot')
+    src: url('../fonts/lato/Lato-Semibold.eot?#iefix') format('embedded-opentype'),url('../fonts/lato/Lato-Semibold.woff2') format('woff2'),url('../fonts/lato/Lato-Semibold.woff') format('woff'),url('../fonts/lato/Lato-Semibold.ttf') format('truetype'),url('../fonts/lato/Lato-Semibold.svg#Lato-Semibold') format('svg')
+    font-weight: 600
+    font-style: normal
 
 // ----------------------------------------------------------------------
 // General styles
@@ -81,23 +87,25 @@ P
 IMG
     max-width: 100%
 
-h1
+h1,h2,h3,h4,h5,h6
     font-family: "Lato"
 
+*:focus
+    outline: none
 
 //::selection
     background: red
     color: #fff
     text-shadow: none
 
-//::-webkit-scrollbar-track
+::-webkit-scrollbar-track
     background: transparent
 
-//::-webkit-scrollbar
+::-webkit-scrollbar
     width: 12px
 
-//::-webkit-scrollbar-thumb
-    background-color: red
+::-webkit-scrollbar-thumb
+    background-color: $cGreen
     cursor: pointer
 
 
