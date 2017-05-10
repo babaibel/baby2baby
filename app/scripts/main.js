@@ -205,31 +205,30 @@ $(function () {
         var $this = $(this),
             $target = $(e.target);
 
+        // Если элемент активный
         if($this.hasClass('_active')){
+            // Если список внутри Активного класса дополнительно проверяем это
             if($target.hasClass('js-dropdown') || $target.parents('.js-dropdown').length){
                 return;
             } else{
                 $this.removeClass('_active');
                 $W.unbind('click');
-                // alert('Мы выключили БИНД');
             }
         } else{
             $W.unbind('click');
             $activeDropdown.not(this).removeClass('_active');
             $(this).addClass('_active');
-            $W.bind('click', function (e2){
-                var $bindThis = $(this),
-                    $bindTarget = $(e2.target);
-                // alert('Мы попали в БИНД');
 
-                //тут херь
-                if($this.hasClass('_active')){
+            // Биндим последующий клик
+            $W.bind('click', function (e2){
+                var $bindTarget = $(e2.target);
+
+                // если у родителя есть актив или это эллемент списка или это сама кнопка
+                if($bindTarget.parents('._active').length || $bindTarget.parents('.js-dropdown').length ||  $bindTarget.data('dropdown') == 'active'){
                     return;
-                }
-                if(!$bindTarget.parents('._active').length){
+                } else{
                     $this.removeClass('_active');
                     $W.unbind('click');
-                    // alert('Мы выключили БИНД2');
                 }
 
             });

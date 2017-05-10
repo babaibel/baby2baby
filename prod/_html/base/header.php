@@ -63,7 +63,7 @@
 							</ul>
 						</div>
 					</span>
-					<a href="#!" class="btn btn--o-green">Post your ad</a>
+					<a href="#sellnow" class="btn btn--o-green js-popup">Post your ad</a>
 					<a href="#login" class="btn btn--red js-popup">Sign in</a>
 				</div>
 				<div class="header-search js-search">

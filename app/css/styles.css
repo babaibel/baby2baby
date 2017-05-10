@@ -1006,27 +1006,36 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #f08182;
 }
 /* line 37, ../styles/components/_links.sass */
+.link--u-red {
+  color: #c11718;
+  border-color: #f08182;
+}
+/* line 41, ../styles/components/_links.sass */
+.link--u-red:hover {
+  border-color: transparent;
+}
+/* line 44, ../styles/components/_links.sass */
 .link--gray-d {
   color: #575757;
 }
-/* line 40, ../styles/components/_links.sass */
+/* line 47, ../styles/components/_links.sass */
 .link--gray-d:hover {
   border-color: #8a8a8a;
 }
-/* line 43, ../styles/components/_links.sass */
+/* line 50, ../styles/components/_links.sass */
 .link--gray-d2 {
   color: #4b4b4b;
 }
-/* line 46, ../styles/components/_links.sass */
+/* line 53, ../styles/components/_links.sass */
 .link--gray-d2:hover {
   border-color: #b1b1b1;
 }
-/* line 49, ../styles/components/_links.sass */
+/* line 56, ../styles/components/_links.sass */
 .link--form {
   font-size: 14px;
 }
 
-/* line 53, ../styles/components/_links.sass */
+/* line 60, ../styles/components/_links.sass */
 .link-ico {
   color: #575757;
   text-decoration: none;
@@ -1035,11 +1044,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 7px;
   font-family: "Lato", sans-serif;
 }
-/* line 62, ../styles/components/_links.sass */
+/* line 69, ../styles/components/_links.sass */
 .link-ico:hover .iconic, .link-ico:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico:hover .header-nav__link:after, .link-ico:hover .header-search__btn-real:after, .link-ico:hover .header-search__btn-close:after, .link-ico:hover .checkbox__view, .link-ico:hover .dropdown-menu-nav__item._active:after, .link-ico:hover .main-filter__item-title:after {
   color: #777777;
 }
-/* line 65, ../styles/components/_links.sass */
+/* line 72, ../styles/components/_links.sass */
 .link-ico .iconic, .link-ico .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico .header-nav__link:after, .link-ico .header-search__btn-real:after, .link-ico .header-search__btn-close:after, .link-ico .checkbox__view, .link-ico .dropdown-menu-nav__item._active:after, .link-ico .main-filter__item-title:after {
   display: inline-block;
   vertical-align: middle;
@@ -1048,7 +1057,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 5px;
   transition: 300ms;
 }
-/* line 73, ../styles/components/_links.sass */
+/* line 80, ../styles/components/_links.sass */
 .link-ico .iconic--like {
   position: relative;
   top: -1px;
@@ -1232,18 +1241,41 @@ input:disabled + .checkbox__view {
   padding: 50px 40px;
 }
 /* line 11, ../styles/components/_popups.sass */
+.popup--small {
+  max-width: 530px;
+  padding: 50px 90px;
+  text-align: center;
+}
+/* line 16, ../styles/components/_popups.sass */
 .popup__title {
   text-align: center;
   margin-bottom: 30px;
 }
-/* line 16, ../styles/components/_popups.sass */
+/* line 20, ../styles/components/_popups.sass */
+.popup__subtitle {
+  margin-top: -15px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 300;
+  color: #000;
+}
+/* line 29, ../styles/components/_popups.sass */
+.popup__footer {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 35px;
+}
+/* line 36, ../styles/components/_popups.sass */
 .popup--remind .form {
   text-align: center;
   max-width: 280px;
   margin: 0 auto;
 }
 
-/* line 22, ../styles/components/_popups.sass */
+/* line 42, ../styles/components/_popups.sass */
 .mfp-close {
   width: 60px;
   height: 60px;
@@ -1252,7 +1284,7 @@ input:disabled + .checkbox__view {
 }
 
 /* overlay at start */
-/* line 30, ../styles/components/_popups.sass */
+/* line 50, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg {
   opacity: 0;
   background-color: #000;
@@ -1261,19 +1293,19 @@ input:disabled + .checkbox__view {
   /* overlay animate in */
 }
 
-/* line 37, ../styles/components/_popups.sass */
+/* line 57, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.3;
 }
 
 /* overlay animate out */
-/* line 41, ../styles/components/_popups.sass */
+/* line 61, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0;
 }
 
 /* content at start */
-/* line 45, ../styles/components/_popups.sass */
+/* line 65, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
   -webkit-transform: scale(0.8);
@@ -1282,7 +1314,7 @@ input:disabled + .checkbox__view {
 }
 
 /* content animate it */
-/* line 51, ../styles/components/_popups.sass */
+/* line 71, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1290,7 +1322,7 @@ input:disabled + .checkbox__view {
 }
 
 /* content animate out */
-/* line 56, ../styles/components/_popups.sass */
+/* line 76, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
   -webkit-transform: scale(0.7);
@@ -1338,6 +1370,13 @@ input:disabled + .checkbox__view {
 /* line 46, ../styles/components/__components.sass */
 .label--green .iconic, .label--green .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label--green .header-nav__link:after, .label--green .header-search__btn-real:after, .label--green .header-search__btn-close:after, .label--green .checkbox__view, .label--green .dropdown-menu-nav__item._active:after, .label--green .main-filter__item-title:after {
   color: #9bbc33;
+}
+
+/* line 49, ../styles/components/__components.sass */
+.sep {
+  height: 1px;
+  margin: 35px 0;
+  background: #e9e9e9;
 }
 
 /* line 1, ../styles/blocks/__blocks.sass */
