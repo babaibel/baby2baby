@@ -58,7 +58,7 @@
 	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
 	border-radius: 7px
 	border: 1px solid rgba(0,0,0,0.13)
-	padding: 20px 30px
+	padding: 20px 30px 10px
 
 	&__items
 		display: flex
@@ -66,10 +66,11 @@
 		flex-grow: 1
 
 	&__item
-		margin-right: 25px
+		margin: 0 25px 10px 0
 		position: relative
 		display: flex
 		cursor: pointer
+		flex-grow: 1
 
 		&._active
 			.main-filter__item-icon

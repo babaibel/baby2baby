@@ -104,6 +104,34 @@ function toggleClass(selector, className, callback) {
     };
 })(jQuery);
 
+// form tabs Plugin
+(function ($) {
+    $.fn.formTabs = function () {
+
+        $(this).each(function () {
+            var $this = $(this),
+                $btns = $this.find('.js-form-tabs-btn'),
+                $tabs = $this.find('.js-form-tabs-tab');
+
+            function tabSwitch(numb) {
+                $tabs.removeClass('_active')
+                    .eq(numb).addClass('_active');
+
+                $btns.removeClass('_active')
+                    .eq(numb).addClass('_active');
+            }
+
+            $btns.bind('click', function () {
+                var index = $(this).index($btns);
+                console.log($(this).index($btns))
+                tabSwitch(index);
+            });
+
+        })
+
+    };
+})(jQuery);
+
 //popup
 (function ($) {
     $.fn.popup = function () {
@@ -138,6 +166,30 @@ function toggleClass(selector, className, callback) {
 })(jQuery);
 
 
+// tabs Plugin
+(function ($) {
+    $.fn.select = function () {
+
+        $(this).each(function () {
+            var $this = $(this),
+                $placeholder = $this.data('placeholder');
+
+                console.log($placeholder);
+
+                if($placeholder===undefined){
+                    $placeholder = "";
+                }
+
+                $this.select2({
+                    minimumResultsForSearch: Infinity,
+                    placeholder: $placeholder
+                })
+
+        })
+
+    };
+})(jQuery);
+
 /* -- Применение общих плагинов и функций --- */
 
 // Scroll trigger
@@ -162,6 +214,21 @@ $(function () {
 
     $tabs.tabs({});
 });
+
+$(function () {
+    var $formTabs = $('.js-form-tabs');
+    if (!$formTabs.length) return;
+
+    $formTabs.formTabs({});
+});
+
+$(function () {
+    var $select = $('.js-select');
+    if (!$select.length) return;
+
+    $select.select({});
+});
+
 
 $(function () {
     var $search = $('.js-search');
@@ -197,9 +264,15 @@ $(function () {
 });
 
 $(function () {
-    var $activeDropdown = $('*[data-dropdown="active"]');
 
-    //todo
+    $('.js-file').click(function(){
+        $(this).next('input[type="file"]').click(); 
+    });
+
+});
+
+$(function () {
+    var $activeDropdown = $('*[data-dropdown="active"]')
 
     $activeDropdown.click(function(e){
         var $this = $(this),
@@ -236,3 +309,5 @@ $(function () {
     });
 
 });
+
+

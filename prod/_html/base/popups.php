@@ -25,7 +25,7 @@
                         <div class="form-row__col">
                             <button type="submit" class="btn btn--red btn--form">Sign in</button>
                         </div>
-                        <div class="form-row__col">
+                        <div class="form-row__col form-row__col--right">
                             <a href="#remind" class="link link--red link--form js-popup">Forgot password?</a>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                         <div class="form-row__col">
                             <button type="submit" class="btn btn--red btn--form">Sign in</button>
                         </div>
-                        <div class="form-row__col">
+                        <div class="form-row__col form-row__col--right">
                             <a href="#remind" class="link link--red link--form js-popup">Forgot password?</a>
                         </div>
                     </div>

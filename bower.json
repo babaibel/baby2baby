@@ -16,6 +16,7 @@
     "modernizr": "~2.8.3",
     "normalize.css": "~3.0.3",
     "slick-carousel": "~1.5.9",
-    "magnific-popup": "~1.1.0"
+    "magnific-popup": "~1.1.0",
+    "select2": "~4.0.3"
   }
 }

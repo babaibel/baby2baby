@@ -28,65 +28,80 @@
 @function iconic-char($filename) {
     $char: "";
 
-    @if $filename == baby {
+    @if $filename == add {
     $char: "\E001";
 }
-    @if $filename == cake {
+    @if $filename == baby {
     $char: "\E002";
 }
-    @if $filename == cancel {
+    @if $filename == box {
     $char: "\E003";
 }
-    @if $filename == comment {
+    @if $filename == cake {
     $char: "\E004";
 }
-    @if $filename == cross {
+    @if $filename == cancel {
     $char: "\E005";
 }
-    @if $filename == down-arrow {
+    @if $filename == comment {
     $char: "\E006";
 }
-    @if $filename == download-box {
+    @if $filename == cross {
     $char: "\E007";
 }
-    @if $filename == eye {
+    @if $filename == down-arrow {
     $char: "\E008";
 }
-    @if $filename == gender {
+    @if $filename == download-box {
     $char: "\E009";
 }
-    @if $filename == language {
+    @if $filename == eye {
     $char: "\E00A";
 }
-    @if $filename == like {
+    @if $filename == gender {
     $char: "\E00B";
 }
-    @if $filename == location {
+    @if $filename == language {
     $char: "\E00C";
 }
-    @if $filename == man {
+    @if $filename == like {
     $char: "\E00D";
 }
-    @if $filename == message {
+    @if $filename == location {
     $char: "\E00E";
 }
-    @if $filename == search {
+    @if $filename == man {
     $char: "\E00F";
 }
-    @if $filename == soc-fb {
+    @if $filename == message {
     $char: "\E010";
 }
-    @if $filename == soc-inst {
+    @if $filename == one {
     $char: "\E011";
 }
-    @if $filename == soc-tw {
+    @if $filename == photo {
     $char: "\E012";
 }
-    @if $filename == star {
+    @if $filename == search {
     $char: "\E013";
 }
-    @if $filename == tick {
+    @if $filename == search2 {
     $char: "\E014";
+}
+    @if $filename == soc-fb {
+    $char: "\E015";
+}
+    @if $filename == soc-inst {
+    $char: "\E016";
+}
+    @if $filename == soc-tw {
+    $char: "\E017";
+}
+    @if $filename == star {
+    $char: "\E018";
+}
+    @if $filename == tick {
+    $char: "\E019";
 }
 
 @return $char;
@@ -99,8 +114,14 @@
 }
 }
 
+.iconic--add {
+    @include iconic(add);
+}
 .iconic--baby {
     @include iconic(baby);
+}
+.iconic--box {
+    @include iconic(box);
 }
 .iconic--cake {
     @include iconic(cake);
@@ -141,8 +162,17 @@
 .iconic--message {
     @include iconic(message);
 }
+.iconic--one {
+    @include iconic(one);
+}
+.iconic--photo {
+    @include iconic(photo);
+}
 .iconic--search {
     @include iconic(search);
+}
+.iconic--search2 {
+    @include iconic(search2);
 }
 .iconic--soc-fb {
     @include iconic(soc-fb);

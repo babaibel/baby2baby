@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../bower_components/slick-carousel/slick/slick.css" />
     <link rel="stylesheet" href="../../bower_components/slick-carousel/slick/slick-theme.css" />
     <link rel="stylesheet" href="../../bower_components/magnific-popup/dist/magnific-popup.css" />
+    <link rel="stylesheet" href="../../bower_components/select2/dist/css/select2.min.css" />
     <!-- endbower-->
     <!-- endbuild -->
 
