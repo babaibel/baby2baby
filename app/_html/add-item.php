@@ -19,9 +19,9 @@
                                     <div class="additem__col">
                                         <span class="iconic iconic--one"></span>
                                         <div class="additem__header-radio">
-                                            <label class="radio-label js-form-tabs-btn _active">
+                                            <label class="radio-label">
                                                 <span class="radio">
-                                                    <input type="radio" name="additem" checked>
+                                                    <input type="radio" name="additem" checked class="js-form-tabs-btn" data-id="1">
                                                     <span class="radio__view"></span>
                                                 </span>
                                                 <span class="radio-label__txt">
@@ -30,9 +30,9 @@
                                             </label>
                                         </div>
                                         <div class="additem__header-radio">
-                                            <label class="radio-label js-form-tabs-btn">
+                                            <label class="radio-label">
                                                 <span class="radio">
-                                                    <input type="radio" name="additem">
+                                                    <input type="radio" name="additem" class="js-form-tabs-btn" data-id="2">
                                                     <span class="radio__view"></span>
                                                 </span>
                                                 <span class="radio-label__txt">
@@ -44,9 +44,9 @@
                                     <div class="additem__col">
                                         <span class="iconic iconic--box"></span>
                                         <div class="additem__header-radio">
-                                            <label class="radio-label js-form-tabs-btn">
+                                            <label class="radio-label">
                                                 <span class="radio">
-                                                    <input type="radio" name="additem">
+                                                    <input type="radio" name="additem" class="js-form-tabs-btn" data-id="3">
                                                     <span class="radio__view"></span>
                                                 </span>
                                                 <span class="radio-label__txt">
@@ -55,9 +55,9 @@
                                             </label>
                                         </div>
                                         <div class="additem__header-radio">
-                                            <label class="radio-label js-form-tabs-btn">
+                                            <label class="radio-label">
                                                 <span class="radio">
-                                                    <input type="radio" name="additem">
+                                                    <input type="radio" name="additem" class="js-form-tabs-btn" data-id="4">
                                                     <span class="radio__view"></span>
                                                 </span>
                                                 <span class="radio-label__txt">
@@ -216,7 +216,7 @@
                                         </div>
                                         <div class="additem__row">
                                             <div class="form">
-                                                <div class="form-row">
+                                                <div class="form-row form-row--nomrg">
                                                     <div class="form-row__name">Item photo (max 5 photo)</div>
                                                     <div class="form-photo">
                                                         <div class="form-photo__item form-photo__item--btn js-file">
@@ -243,6 +243,10 @@
                                                             <a href="#!" class="form-photo__item-del"><span class="iconic iconic--add"></span></a>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="form-row text-center">
+                                                    <button type="clear" class="btn btn--gray-l btn--s">cancel</button>
+                                                    <button type="submit" class="btn btn--green btn--s">publish an ad</button>
                                                 </div>
                                             </div>
                                         </div>

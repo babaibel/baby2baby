@@ -114,17 +114,12 @@ function toggleClass(selector, className, callback) {
                 $tabs = $this.find('.js-form-tabs-tab');
 
             function tabSwitch(numb) {
-                $tabs.removeClass('_active')
-                    .eq(numb).addClass('_active');
-
-                $btns.removeClass('_active')
-                    .eq(numb).addClass('_active');
+                $tabs.removeClass('_active').eq(numb-1).addClass('_active');
             }
 
-            $btns.bind('click', function () {
-                var index = $(this).index($btns);
-                console.log($(this).index($btns))
-                tabSwitch(index);
+            $btns.bind('change', function () {
+                var idName = $(this).data("id");
+                tabSwitch(idName);
             });
 
         })
@@ -173,8 +168,6 @@ function toggleClass(selector, className, callback) {
         $(this).each(function () {
             var $this = $(this),
                 $placeholder = $this.data('placeholder');
-
-                console.log($placeholder);
 
                 if($placeholder===undefined){
                     $placeholder = "";
