@@ -167,15 +167,21 @@ function toggleClass(selector, className, callback) {
 
         $(this).each(function () {
             var $this = $(this),
-                $placeholder = $this.data('placeholder');
+                placeholder = $this.data('placeholder'),
+                multiple = $this.data('multiple');
 
-                if($placeholder===undefined){
-                    $placeholder = "";
+                if(placeholder===undefined){
+                    placeholder = "";
+                }
+
+                if(multiple===undefined){
+                    multiple = Infinity;
                 }
 
                 $this.select2({
                     minimumResultsForSearch: Infinity,
-                    placeholder: $placeholder
+                    maximumSelectionLength: multiple,
+                    placeholder: placeholder
                 })
 
         })
