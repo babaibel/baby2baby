@@ -114,7 +114,7 @@ function toggleClass(selector, className, callback) {
                 $tabs = $this.find('.js-form-tabs-tab');
 
             function tabSwitch(numb) {
-                $tabs.removeClass('_active').eq(numb-1).addClass('_active');
+                $tabs.removeClass('_active1 _active2 _active3 _active4').addClass('_active'+numb);
             }
 
             $btns.bind('change', function () {

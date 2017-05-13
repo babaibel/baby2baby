@@ -55,11 +55,56 @@
 		padding: 0 15px
 
 .additem-form
-	display: none
+	display: flex
 	flex-wrap: wrap
 
-	&._active
-		display: flex
+	&._active1
+		._form2,
+		._form3,
+		._form4
+			display: none
+
+		._form1
+			display: block
+			&.form-row--cols3,
+			&.form-row--cols2
+				display: flex
+
+	&._active2
+		._form1,
+		._form3,
+		._form4
+			display: none
+
+		._form2
+			display: block
+			&.form-row--cols3,
+			&.form-row--cols2
+				display: flex
+
+	&._active3
+		._form1,
+		._form2,
+		._form4
+			display: none
+
+		._form3
+			display: block
+			&.form-row--cols3,
+			&.form-row--cols2
+				display: flex
+
+	&._active4
+		._form1,
+		._form2,
+		._form3
+			display: none
+
+		._form4
+			display: block
+			&.form-row--cols3,
+			&.form-row--cols2
+				display: flex
 
 .form-photo
 	margin: 10px -15px 0

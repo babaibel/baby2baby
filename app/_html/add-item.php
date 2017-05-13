@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="additem__body">
-                                    <div class="additem-form _active js-form-tabs-tab">
+                                    <div class="additem-form js-form-tabs-tab _active1">
                                         <div class="additem__col">
                                             <div class="form">
                                                 <div class="form-row">
@@ -83,21 +83,32 @@
                                                         <textarea placeholder="Enter name" class="textarea textarea--gray"></textarea> 
                                                     </div>
                                                 </div>
-                                                <div class="form-row form-row--cols3">
-                                                    <div class="form-row__col">
+                                                <div class="form-row form-row--cols3 _form1 _form2">
+                                                    <div class="form-row__col _form1">
                                                         <div class="form-row__name">Sale price</div>
                                                         <div class="form-row__input form-row__input--cols">
                                                             <input type="text" placeholder="0" class="input-text input-text--gray">
                                                             <span class="form-row__input-label">€</span>
                                                         </div>
                                                     </div>
-                                                    <div class="form-row__col">
+                                                    <div class="form-row__col _form1 _form2">
                                                         <div class="form-row__name">Quantity</div>
                                                         <div class="form-row__input">
-                                                            <input type="text" placeholder="1" class="input-text input-text--gray">
+                                                            <select class="select select--search js-select">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="1">3</option>
+                                                                <option value="2">4</option>
+                                                                <option value="1">5</option>
+                                                                <option value="2">6</option>
+                                                                <option value="1">7</option>
+                                                                <option value="2">8</option>
+                                                                <option value="1">9</option>
+                                                                <option value="2">10</option>
+                                                            </select>
                                                         </div>
                                                     </div>
-                                                    <div class="form-row__col">
+                                                    <div class="form-row__col _form1 _form2">
                                                         <div class="form-row__name">Item or service?</div>
                                                         <div class="form-row__input">
                                                             <select class="select select--search js-select">
@@ -107,7 +118,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="form-row form-row--cols2">
+                                                <div class="form-row form-row--cols2 _form1 _form2">
                                                     <div class="form-row__col">
                                                         <div class="form-row__name">Shipping size</div>
                                                         <div class="form-row__input">
@@ -125,7 +136,7 @@
                                             </div>
                                         </div>
                                         <div class="additem__col">
-                                            <div class="form">
+                                            <div class="form _form1 _form2">
                                                 <div class="form-row">
                                                     <div class="form-row__name">Parameters</div>
                                                     <div class="form-row__input">
@@ -211,6 +222,130 @@
                                                             </select>
                                                         </div>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="form _form3 _form4">
+                                                <div class="form-row form-row--cols3">
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">Group ad</div>
+                                                        <div class="form-row__input">
+                                                            <select class="select select--search js-select" data-placeholder="Age">
+                                                                <option></option>
+                                                                <option value="1">Item</option>
+                                                                <option value="2">Service</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">&nbsp;</div>
+                                                        <div class="form-row__input">
+                                                            <select class="select select--search js-select" data-placeholder="Size">
+                                                                <option></option>
+                                                                <option value="1">Item</option>
+                                                                <option value="2">Service</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">&nbsp;</div>
+                                                        <div class="form-row__input">
+                                                            <select class="select select--search js-select" data-placeholder="Gender">
+                                                                <option></option>
+                                                                <option value="1">Item</option>
+                                                                <option value="2">Service</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row form-row--cols2">
+                                                    <div class="form-row__col _form3">
+                                                        <div class="form-row__name">Sale price</div>
+                                                        <div class="form-row__input form-row__input--cols">
+                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
+                                                            <span class="form-row__input-label">€</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col _form3 _form4">
+                                                        <div class="form-row__name">Quantity</div>
+                                                        <div class="form-row__input">
+                                                            <select class="select select--search js-select">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="1">3</option>
+                                                                <option value="2">4</option>
+                                                                <option value="1">5</option>
+                                                                <option value="2">6</option>
+                                                                <option value="1">7</option>
+                                                                <option value="2">8</option>
+                                                                <option value="1">9</option>
+                                                                <option value="2">10</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="additem__row _form3 _form4">
+                                            <div class="form form--newitem">
+                                                <div class="form-row form-row--cols2">
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">Item 1</div>
+                                                        <div class="form-row__input">
+                                                            <input type="text" placeholder="Item name" class="input-text input-text--gray">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">&nbsp;</div>
+                                                        <div class="form-row__input">
+                                                            &nbsp;
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row form-row--cols2">
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">&nbsp;</div>
+                                                        <div class="form-row__input">
+                                                            <select class="select select--search js-select" data-placeholder="Enter brand name" multiple>
+                                                                <option></option>
+                                                                <option value="1">Item 1 select</option>
+                                                                <option value="2">Item 2 select</option>
+                                                                <option value="3">Item 3 select</option>
+                                                                <option value="4">Item 4 select</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col">
+                                                        <div class="form-row form-row--cols2">
+                                                            <div class="form-row__col">
+                                                                <div class="form-row__name">&nbsp;</div>
+                                                                <div class="form-row__input">
+                                                                    <select class="select select--search js-select" data-placeholder="Choose color">
+                                                                        <option></option>
+                                                                        <option value="1">Item</option>
+                                                                        <option value="2">Service</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-row__col">
+                                                                <div class="form-row__name">&nbsp;</div>
+                                                                <div class="form-row__input">
+                                                                    <select class="select select--search js-select" data-placeholder="Item condition">
+                                                                        <option></option>
+                                                                        <option value="1">Item</option>
+                                                                        <option value="2">Service</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form">
+                                                <div class="form-row text-center">
+                                                    <a href="#!" class="btn btn-icon btn--red btn--s">
+                                                        <span class="btn-icon__ico iconic iconic--add"></span>
+                                                        <span class="btn-icon__text">Add one more item</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -247,447 +382,6 @@
                                                 <div class="form-row text-center">
                                                     <button type="clear" class="btn btn--gray-l btn--s">cancel</button>
                                                     <button type="submit" class="btn btn--green btn--s">publish an ad</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="additem-form js-form-tabs-tab">
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Name2</div>
-                                                    <div class="form-row__input">
-                                                        <input type="text" placeholder="Enter name" class="input-text input-text--gray">
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Description (max 1500 symbol)</div>
-                                                    <div class="form-row__input">
-                                                        <textarea placeholder="Enter name" class="textarea textarea--gray"></textarea> 
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols3">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Sale price</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">€</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Quantity</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="1" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Item or service?</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select">
-                                                                <option value="1" selected>Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Shipping size</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="Width / height / depth" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Weight</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">kg.</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Parameters</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item category" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                            <option value="5">Item 5 select</option>
-                                                            <option value="6">Item 6 select</option>
-                                                            <option value="7">Item 7 select</option>
-                                                            <option value="8">Item 8 select</option>
-                                                            <option value="9">Item 9 select</option>
-                                                            <option value="10">Item 10 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item subcategory" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter brand name" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Choose color">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Item condition">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Age">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Gender">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="additem-form js-form-tabs-tab">
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Name3</div>
-                                                    <div class="form-row__input">
-                                                        <input type="text" placeholder="Enter name" class="input-text input-text--gray">
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Description (max 1500 symbol)</div>
-                                                    <div class="form-row__input">
-                                                        <textarea placeholder="Enter name" class="textarea textarea--gray"></textarea> 
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols3">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Sale price</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">€</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Quantity</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="1" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Item or service?</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select">
-                                                                <option value="1" selected>Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Shipping size</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="Width / height / depth" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Weight</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">kg.</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Parameters</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item category" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                            <option value="5">Item 5 select</option>
-                                                            <option value="6">Item 6 select</option>
-                                                            <option value="7">Item 7 select</option>
-                                                            <option value="8">Item 8 select</option>
-                                                            <option value="9">Item 9 select</option>
-                                                            <option value="10">Item 10 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item subcategory" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter brand name" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Choose color">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Item condition">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Age">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Gender">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="additem-form js-form-tabs-tab">
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Name4</div>
-                                                    <div class="form-row__input">
-                                                        <input type="text" placeholder="Enter name" class="input-text input-text--gray">
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Description (max 1500 symbol)</div>
-                                                    <div class="form-row__input">
-                                                        <textarea placeholder="Enter name" class="textarea textarea--gray"></textarea> 
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols3">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Sale price</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">€</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Quantity</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="1" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Item or service?</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select">
-                                                                <option value="1" selected>Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Shipping size</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="Width / height / depth" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Weight</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">kg.</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="additem__col">
-                                            <div class="form">
-                                                <div class="form-row">
-                                                    <div class="form-row__name">Parameters</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item category" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                            <option value="5">Item 5 select</option>
-                                                            <option value="6">Item 6 select</option>
-                                                            <option value="7">Item 7 select</option>
-                                                            <option value="8">Item 8 select</option>
-                                                            <option value="9">Item 9 select</option>
-                                                            <option value="10">Item 10 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter item subcategory" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
-                                                    <div class="form-row__input">
-                                                        <select class="select select--search js-select" data-placeholder="Enter brand name" multiple>
-                                                            <option></option>
-                                                            <option value="1">Item 1 select</option>
-                                                            <option value="2">Item 2 select</option>
-                                                            <option value="3">Item 3 select</option>
-                                                            <option value="4">Item 4 select</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Choose color">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Item condition">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Age">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">&nbsp;</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select" data-placeholder="Gender">
-                                                                <option></option>
-                                                                <option value="1">Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
