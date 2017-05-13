@@ -228,6 +228,19 @@ $(function () {
     $select.select({});
 });
 
+$(function () {
+    var $itemGall = $('.js-item-gall');
+    if (!$itemGall.length) return;
+
+    $itemGall.magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled:true
+      }
+    });
+});
+
 
 $(function () {
     var $search = $('.js-search');
