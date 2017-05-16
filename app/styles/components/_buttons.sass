@@ -162,6 +162,20 @@
     user-select: none
     transition: $t300
 
+    &__newmess
+        position: absolute
+        width: 16px
+        height: 16px
+        background-color: $cRed
+        font-size: 12px
+        border-radius: 50%
+        color: #fff
+        text-align: center
+        line-height: 16px
+        right: -6px
+        top: -4px
+        font-family: $titleFont
+
 .btn-fav
     display: block
     width: 27px
@@ -183,3 +197,13 @@
     &._active
         color: #6c851f
 
+.form-close-btn
+    color: $cRed
+    text-decoration: none
+    font-size: 18px
+    position: absolute
+    right: 10px
+    top: 10px
+    transition: $t300
+    &:hover
+        color: $cRedL

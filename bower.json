@@ -17,6 +17,7 @@
     "normalize.css": "~3.0.3",
     "slick-carousel": "~1.5.9",
     "magnific-popup": "~1.1.0",
-    "select2": "~4.0.3"
+    "select2": "~4.0.3",
+    "passtrength": "latest"
   }
 }

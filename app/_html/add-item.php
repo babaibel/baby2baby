@@ -345,6 +345,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <a href="#!" class="form-close-btn iconic iconic--cross"></a>
                                             </div>
                                             <div class="form">
                                                 <div class="form-row text-center">

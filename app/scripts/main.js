@@ -122,6 +122,8 @@ function toggleClass(selector, className, callback) {
                 tabSwitch(idName);
             });
 
+            tabSwitch($this.find('input.js-form-tabs-btn:checked').data("id"));
+
         })
 
     };
@@ -241,6 +243,14 @@ $(function () {
     });
 });
 
+$(function () {
+    var $pasStrength = $('.js-pass-stregth');
+    if (!$pasStrength.length) return;
+
+    $pasStrength.passtrength({
+        passwordToggle: false
+    });
+});
 
 $(function () {
     var $search = $('.js-search');

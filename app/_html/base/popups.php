@@ -118,10 +118,13 @@
                     <input type="text" class="input-text" placeholder="E-mail">
                 </div>
                 <div class="form-row">
-                    <input type="password" class="input-text" placeholder="Password">
+                    <input type="password" class="input-text js-pass-stregth" placeholder="Password">
                 </div>
                 <div class="form-row">
-                    <input type="password" class="input-text" placeholder="One more password">
+                    <input type="password" class="input-text js-pass-stregth" placeholder="One more password">
+                </div>
+                <div class="form-row">
+                    <div class="g-recaptcha" data-sitekey="6LeUnSEUAAAAABT-aXHLYKzUS-w7nZFDtP_WSSVg"></div>
                 </div>
                 <div class="form-row">
                     <button type="submit" class="btn btn--red btn--form">Registration</button>

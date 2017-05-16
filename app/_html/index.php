@@ -21,72 +21,18 @@
                         <form>
                             <div class="main-filter">
                                 <div class="main-filter__items">
-                                    <div class="main-filter__item" data-dropdown="active">
+                                    <div class="main-filter__item main-filter__item--location">
                                         <div class="main-filter__item-icon"><span class="iconic iconic--location"></span></div>
                                         <div class="main-filter__item-inner">
                                             <div class="main-filter__item-subtitle">Location</div>
                                             <div class="main-filter__item-title">
-                                                <span>Choose city</span>
-                                            </div>
-                                            <div class="dropdown dropdown--cols js-dropdown">
-                                                <div class="dropdown__col">
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 1
-                                                        </span>
-                                                    </label>
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 2
-                                                        </span>
-                                                    </label>
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 3
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                                <div class="dropdown__col">
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 4
-                                                        </span>
-                                                    </label>
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 5
-                                                        </span>
-                                                    </label>
-                                                    <label class="checkbox-label">
-                                                        <span class="checkbox">
-                                                            <input type="checkbox">
-                                                            <span class="checkbox__view"></span>
-                                                        </span>
-                                                        <span class="checkbox-label__txt">
-                                                            City name 6
-                                                        </span>
-                                                    </label>
-                                                </div>
+                                                <select class="select select--city js-select" data-placeholder="Choose city" data-multiple="1" multiple>
+                                                    <option></option>
+                                                    <option value="1">Item 1 select</option>
+                                                    <option value="2">Item 2 select</option>
+                                                    <option value="3">Item 3 select</option>
+                                                    <option value="4">Item 4 select</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
@@ -601,9 +547,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="catalog-more">
-                                        <a href="#!" class="btn btn--red btn--showmore"><span class="iconic iconic--eye"></span>show more</a>
-                                    </div>
                                 </div>
                             </div>
                             <div class="main-catalog__sidebar">
@@ -702,30 +645,13 @@
                                                     <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
                                                 </div>
                                             </div>
-                                            <div class="community-post">
-                                                <div class="community-post__date">11.03.2017</div>
-                                                <div class="community-post__text">
-                                                    <a href="#!" class="link link--black">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                                                </div>
-                                                <div class="community-post__links">
-                                                    <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                    <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                </div>
-                                            </div>
-                                            <div class="community-post">
-                                                <div class="community-post__date">11.03.2017</div>
-                                                <div class="community-post__text">
-                                                    <a href="#!" class="link link--black">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                                                </div>
-                                                <div class="community-post__links">
-                                                    <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                    <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="catalog-more">
+                            <a href="#!" class="btn btn--red btn--showmore"><span class="iconic iconic--eye"></span>show more</a>
                         </div>
                     </div>
                 </section>

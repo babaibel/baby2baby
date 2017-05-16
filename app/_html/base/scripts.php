@@ -4,6 +4,7 @@
 <script src="../../bower_components/slick-carousel/slick/slick.min.js"></script>
 <script src="../../bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="../../bower_components/select2/dist/js/select2.js"></script>
+<script src="../../bower_components/passtrength/src/jquery.passtrength.js"></script>
 <!-- endbower -->
 
 <!-- endbuild -->

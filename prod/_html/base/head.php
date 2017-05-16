@@ -10,4 +10,5 @@
     <link rel="stylesheet" href="../styles/app.css">
 
     <script src="../scripts/vendor/modernizr.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>

@@ -15,15 +15,24 @@
 		padding: 30px 30px 15px
 		background-color: #fdfdfd
 		box-shadow: 0 1px 3px rgba(80,72,68,0.17)
+		position: relative
 
 .form-row
 	margin: 0 0 30px
+
+	&__error
+		font-size: 14px
+		color: $cRed
+		margin-top: 5px
 
 	&--nomrg
 		margin-bottom: 0
 
 	.popup &
 		margin: 0 0 18px
+
+	.g-recaptcha > div
+		width: 100%!important
 
 	&--cols
 		display: flex
@@ -86,3 +95,6 @@
 
 			.form-row__input-label
 				flex-shrink: 0
+
+		.select2.select2-container
+			width: 100%!important
