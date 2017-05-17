@@ -28,10 +28,15 @@
                                                 <div class="main-filter__item-subtitle">Location</div>
                                                 <div class="main-filter__item-title">
                                                     <select class="select select--city js-select-clear" data-placeholder="Choose city">
+                                                        <option></option>
                                                         <option value="1">City1</option>
                                                         <option value="2">City2</option>
                                                         <option value="3">City3434</option>
-                                                        <option value="4">City1131231</option>
+                                                        <option value="5">City1131</option>
+                                                        <option value="6">City12323</option>
+                                                        <option value="7">City21312</option>
+                                                        <option value="8">City3424434</option>
+                                                        <option value="9">City11312123</option>
                                                     </select>
                                                 </div>
                                             </div>
