@@ -25,6 +25,25 @@
         &:hover
             background-color: $cRedL
 
+        &.btn--arr-t
+            margin-top: 7px
+            position: relative
+            &:after
+                content: ""
+                position: absolute
+                left: 15px
+                top: -14px
+                border-width: 7px
+                border-color: transparent transparent $cRed transparent
+                border-style: solid
+                width: 0
+                height: 0
+                transition: $t300
+
+            &:hover
+                &:after
+                    border-color: transparent transparent $cRedL transparent
+
     &--red-l
         background-color: $cRedL
         color: #fff
@@ -60,9 +79,17 @@
     &--o-green
         color: $cGreen
         border: 2px solid $cGreen
+        background-color: #fff
+        .btn-icon__ico.iconic
+            color: $cGreen!important
+
         &:hover
             color: $cGreen
             border-color: $cGreenL
+            .btn-icon__ico.iconic
+                color: $cGreenL!important
+
+
 
     &--showmore
         height: 42px
@@ -104,6 +131,9 @@
         font-weight: bold
         margin: 0 10px
 
+        &.btn--o-green
+            line-height: 40px
+
     &--xs
         height: 36px
         line-height: 36px
@@ -114,6 +144,16 @@
         font-weight: bold
         border-radius: 5px
 
+    &--mrgr
+        margin-left: 0
+        margin-right: 10px
+
+    &--stretch
+        width: 100%
+        text-align: center
+        margin-left: 0
+        margin-right: 0
+
     /* colors */
 
 .btn-icon
@@ -121,10 +161,12 @@
         display: inline-block
         vertical-align: middle
         margin-right: 5px
+        transition: $t300
 
     &__text
         display: inline-block
         vertical-align: middle
+        transition: $t300
 
     &.btn--s
         font-size: 0
@@ -134,6 +176,11 @@
         .iconic
             color: #fff
             font-size: 14px
+
+    &--fav
+        .iconic
+            font-size: 20px!important
+            margin-right: 10px
 
     &--add
         height: 38px
@@ -181,9 +228,10 @@
     width: 27px
     height: 27px
     line-height: 27px
+    text-align: center
     background-color: $cGreen
     color: #fff
-    font-size: 27px
+    font-size: 16px
     border-radius: 0 0 3px 3px
     transition: $t150
 

@@ -50,8 +50,114 @@
                                     </div>
                                 </div>
                                 <div class="item__body-right">
-                                    <div class="item-price"></div>
-                                    <div class="item-info"></div>
+                                    <div class="item-sidebar">
+                                        <div class="item-sidebar__item">
+                                            <div class="item-sidebar__price">Price: <b>52 €</b></div>
+                                        </div>
+                                        <div class="item-sidebar__item">
+                                            <div class="item-info">
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">City:</div>
+                                                    <div class="item-info__text">
+                                                        Amsterdam Center
+                                                        <a class="link-ico link-ico--red link-ico--s" href="#!"><span class="iconic iconic--location"></span>Map</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Category: </div>
+                                                    <div class="item-info__text">Women clothes</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Gender:</div>
+                                                    <div class="item-info__text">Women</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Age:</div>
+                                                    <div class="item-info__text">5-6 years</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Size:</div>
+                                                    <div class="item-info__text">132</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Brand:</div>
+                                                    <div class="item-info__text">Dolche &amp; Gabbana</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Color:</div>
+                                                    <div class="item-info__text">Silver</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Condition:</div>
+                                                    <div class="item-info__text">Second-hand</div>
+                                                </div>
+                                                <div class="item-info__row">
+                                                    <div class="item-info__title">Delivery costs:</div>
+                                                    <div class="item-info__text">To pay the seller</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-sidebar__item">
+                                            <a href="#!" class="btn btn--red btn--s btn--mrgr">Buy item now</a>
+                                            <a href="#!" class="btn btn-icon btn-icon--fav btn--o-green btn--s btn--mrgr">
+                                                <span class="btn-icon__ico iconic iconic--star"></span>
+                                                <span class="btn-icon__text">add to favorites</span>
+                                            </a>
+                                        </div>
+                                        <div class="item-sidebar__item item-sidebar__item--gray">
+                                            <div class="item-seller">
+                                                <div class="item-seller__ava">
+                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                </div>
+                                                <div class="item-seller__info">
+                                                    <div class="item-seller__info-name">Julie Parini</div>
+                                                    <div class="item-seller__info-like">
+                                                        <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
+                                                    </div>
+                                                    <div class="item-seller__info-btn">
+                                                        <a href="#!" class="btn btn--red btn--s btn--mrgr btn--arr-t">SEND MESSAGE to seller</a>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-sidebar__item item-sidebar__item--white">
+                                            <h3 class="h3">Comments</h3>
+                                            <div class="comment">
+                                                <div class="comment__ava">
+                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                </div>
+                                                <div class="comment__info">
+                                                    <div class="comment__header">
+                                                        <div class="comment__header-name">Andrey Ivanov</div>
+                                                        <div class="comment__header-time">30 min ago</div>
+                                                    </div>
+                                                    <div class="comment__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <div class="comment__ava">
+                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                </div>
+                                                <div class="comment__info">
+                                                    <div class="comment__header">
+                                                        <div class="comment__header-name">Andrey Ivanov</div>
+                                                        <div class="comment__header-time">30 min ago</div>
+                                                    </div>
+                                                    <div class="comment__info-text">Lorem ipsum dolor sit amet, consectetng elit Lorem ipsum dolor sit em ipsum dolor sit amet, consectetur adipiscing elit </div>
+                                                </div>
+                                            </div>
+                                            <div class="comment-add">
+                                                <form>
+                                                    <div class="comment-add__textarea">
+                                                        <textarea class="textarea textarea--gray" placeholder="Write a coment"></textarea>
+                                                    </div>
+                                                    <div class="comment-add__btn">
+                                                        <input class="btn btn--red btn--s btn--stretch" type="submit" value="leave a comment">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
