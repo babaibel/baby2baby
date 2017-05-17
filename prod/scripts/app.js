@@ -227,7 +227,17 @@ $(function () {
     var $select = $('.js-select');
     if (!$select.length) return;
 
-    $select.select({});
+    $select.select({
+        create: true,
+        sortField: 'text'
+    });
+});
+
+$(function () {
+    var $selectClear = $('.js-select-clear');
+    if (!$selectClear.length) return;
+
+    $selectClear.selectize();
 });
 
 $(function () {

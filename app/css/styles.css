@@ -1383,6 +1383,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 120, ../styles/components/_formElements.sass */
+.selectize-dropdown {
+  border: 0;
+  border-radius: 7px !important;
+  background-color: #fff;
+  box-shadow: 0 2px 7px rgba(80, 72, 68, 0.6);
+  padding: 8px 0;
+  margin-top: 8px;
+}
+/* line 127, ../styles/components/_formElements.sass */
+.selectize-dropdown:before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: -16px;
+  width: 0;
+  height: 0;
+  opacity: 0.05;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #000 transparent;
+}
+/* line 139, ../styles/components/_formElements.sass */
+.selectize-dropdown:after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: -13px;
+  width: 0;
+  height: 0;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+/* line 150, ../styles/components/_formElements.sass */
+.selectize-dropdown .active {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 154, ../styles/components/_formElements.sass */
+.selectize-dropdown [data-selectable] {
+  padding: 6px 17px;
+  color: #4b4b4b;
+  font-size: 16px;
+}
+/* line 158, ../styles/components/_formElements.sass */
+.selectize-dropdown [data-selectable] .highlight {
+  background-color: rgba(155, 188, 51, 0.3);
+  color: #000;
+}
+
+/* line 162, ../styles/components/_formElements.sass */
 .select2-dropdown {
   border: 0;
   border-radius: 7px !important;
@@ -1392,7 +1443,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 0;
   margin-top: 8px;
 }
-/* line 128, ../styles/components/_formElements.sass */
+/* line 170, ../styles/components/_formElements.sass */
 .select2-dropdown:before {
   content: "";
   position: absolute;
@@ -1405,7 +1456,7 @@ h1, h2, h3, h4, h5, h6 {
   border-style: solid;
   border-color: transparent transparent #000 transparent;
 }
-/* line 140, ../styles/components/_formElements.sass */
+/* line 182, ../styles/components/_formElements.sass */
 .select2-dropdown:after {
   content: "";
   position: absolute;
@@ -1417,13 +1468,13 @@ h1, h2, h3, h4, h5, h6 {
   border-style: solid;
   border-color: transparent transparent #fff transparent;
 }
-/* line 151, ../styles/components/_formElements.sass */
+/* line 193, ../styles/components/_formElements.sass */
 .select2-dropdown.select2-dropdown--above {
   margin-top: 0;
   -webkit-transform: translateY(-8px);
           transform: translateY(-8px);
 }
-/* line 155, ../styles/components/_formElements.sass */
+/* line 197, ../styles/components/_formElements.sass */
 .select2-dropdown.select2-dropdown--above:before {
   content: "";
   position: absolute;
@@ -1437,7 +1488,7 @@ h1, h2, h3, h4, h5, h6 {
   border-style: solid;
   border-color: #000 transparent transparent transparent;
 }
-/* line 168, ../styles/components/_formElements.sass */
+/* line 210, ../styles/components/_formElements.sass */
 .select2-dropdown.select2-dropdown--above:after {
   content: "";
   position: absolute;
@@ -1450,32 +1501,33 @@ h1, h2, h3, h4, h5, h6 {
   border-style: solid;
   border-color: #fff transparent transparent transparent;
 }
-/* line 180, ../styles/components/_formElements.sass */
+/* line 222, ../styles/components/_formElements.sass */
 .select2-dropdown .select2-results__option {
   color: #4b4b4b;
   padding: 9px 10px 9px 20px;
 }
 
-/* line 184, ../styles/components/_formElements.sass */
+/* line 226, ../styles/components/_formElements.sass */
 .select2-results__options::-webkit-scrollbar {
   width: 6px;
 }
 
-/* line 187, ../styles/components/_formElements.sass */
+/* line 229, ../styles/components/_formElements.sass */
 .select2-results__options::-webkit-scrollbar-thumb {
   background-color: #777777;
 }
 
-/* line 190, ../styles/components/_formElements.sass */
-.select {
+/* line 232, ../styles/components/_formElements.sass */
+select.select {
   width: 100%;
   opacity: 0;
 }
-/* line 196, ../styles/components/_formElements.sass */
+
+/* line 240, ../styles/components/_formElements.sass */
 .select--search + .select2.select2-container .select2-selection--multiple {
   position: relative;
 }
-/* line 201, ../styles/components/_formElements.sass */
+/* line 245, ../styles/components/_formElements.sass */
 .select--search + .select2.select2-container .select2-selection--multiple:after {
   color: #6e6e6e;
   font-size: 22px;
@@ -1485,48 +1537,54 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   margin-top: -12px;
 }
-/* line 210, ../styles/components/_formElements.sass */
+/* line 254, ../styles/components/_formElements.sass */
 .select--search + .select2.select2-container .select2-selection--multiple .select2-selection__rendered {
   padding-right: 50px;
 }
-/* line 215, ../styles/components/_formElements.sass */
-.select--city + .select2.select2-container .select2-selection--multiple {
+/* line 258, ../styles/components/_formElements.sass */
+.select--city .selectize-input {
   width: auto;
   background: none;
   box-shadow: none;
   border-radius: 0;
   cursor: pointer;
   border: 0;
-}
-/* line 222, ../styles/components/_formElements.sass */
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered {
   padding: 0;
+  display: block !important;
+  line-height: 27px;
   height: 27px;
-  overflow: hidden;
 }
-/* line 229, ../styles/components/_formElements.sass */
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered .select2-search__field {
-  margin-top: 0;
-  margin-bottom: 0;
+/* line 269, ../styles/components/_formElements.sass */
+.select--city .selectize-input:after {
+  display: none !important;
+}
+/* line 272, ../styles/components/_formElements.sass */
+.select--city .selectize-input > input,
+.select--city .selectize-input > .item {
   font-size: 22px;
   color: #000;
+  margin-bottom: 0;
 }
-/* line 234, ../styles/components/_formElements.sass */
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered .select2-search__field::-webkit-placeholder {
+/* line 278, ../styles/components/_formElements.sass */
+.select--city .selectize-input > input::-webkit-placeholder,
+.select--city .selectize-input > .item::-webkit-placeholder {
   color: #000;
 }
-/* line 236, ../styles/components/_formElements.sass */
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered .select2-search__field::-webkit-input-placeholder {
+/* line 280, ../styles/components/_formElements.sass */
+.select--city .selectize-input > input::-webkit-input-placeholder,
+.select--city .selectize-input > .item::-webkit-input-placeholder {
   color: #000;
 }
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered .select2-search__field:-ms-input-placeholder {
+.select--city .selectize-input > input:-ms-input-placeholder,
+.select--city .selectize-input > .item:-ms-input-placeholder {
   color: #000;
 }
-.select--city + .select2.select2-container .select2-selection--multiple .select2-selection__rendered .select2-search__field::placeholder {
+.select--city .selectize-input > input::placeholder,
+.select--city .selectize-input > .item::placeholder {
   color: #000;
 }
 
-/* line 239, ../styles/components/_formElements.sass */
+/* line 283, ../styles/components/_formElements.sass */
 .passtrengthMeter > input {
   width: 100%;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3) !important;
@@ -1535,42 +1593,42 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/* line 246, ../styles/components/_formElements.sass */
+/* line 290, ../styles/components/_formElements.sass */
 .passtrengthMeter::after {
   height: 5px;
 }
 
-/* line 249, ../styles/components/_formElements.sass */
+/* line 293, ../styles/components/_formElements.sass */
 .passtrengthMeter .tooltip {
   margin-left: 0 !important;
   -webkit-transform: translate(-50%, 5px);
           transform: translate(-50%, 5px);
 }
 
-/* line 253, ../styles/components/_formElements.sass */
+/* line 297, ../styles/components/_formElements.sass */
 .passtrengthMeter:hover .tooltip {
   -webkit-transform: translate(-50%, 10px);
           transform: translate(-50%, 10px);
 }
 
-/* line 266, ../styles/components/_formElements.sass */
+/* line 310, ../styles/components/_formElements.sass */
 .checkbox-label {
   display: table;
   white-space: nowrap;
   margin: 0 0 15px;
   line-height: 23px;
 }
-/* line 272, ../styles/components/_formElements.sass */
+/* line 316, ../styles/components/_formElements.sass */
 .checkbox-label .checkbox, .checkbox-label__txt {
   display: inline-block;
   vertical-align: top;
   cursor: pointer;
 }
-/* line 277, ../styles/components/_formElements.sass */
+/* line 321, ../styles/components/_formElements.sass */
 .checkbox-label .checkbox {
   margin-right: -23px;
 }
-/* line 281, ../styles/components/_formElements.sass */
+/* line 325, ../styles/components/_formElements.sass */
 .checkbox-label__txt {
   font-size: 17px;
   line-height: 26px;
@@ -1580,23 +1638,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #777777;
   font-family: "Lato", sans-serif;
 }
-/* line 291, ../styles/components/_formElements.sass */
+/* line 335, ../styles/components/_formElements.sass */
 .checkbox-label._disabled .checkbox-label__txt {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-/* line 295, ../styles/components/_formElements.sass */
+/* line 339, ../styles/components/_formElements.sass */
 .checkbox {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
 }
-/* line 299, ../styles/components/_formElements.sass */
+/* line 343, ../styles/components/_formElements.sass */
 .checkbox INPUT {
   display: none;
 }
-/* line 302, ../styles/components/_formElements.sass */
+/* line 346, ../styles/components/_formElements.sass */
 .checkbox__view {
   display: block;
   width: 23px;
@@ -1606,7 +1664,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 150ms;
   position: relative;
 }
-/* line 313, ../styles/components/_formElements.sass */
+/* line 357, ../styles/components/_formElements.sass */
 .checkbox__view:after {
   color: #fff;
   font-size: 17px;
@@ -1619,42 +1677,42 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   transition: 150ms;
 }
-/* line 324, ../styles/components/_formElements.sass */
+/* line 368, ../styles/components/_formElements.sass */
 .checkbox__view:hover, .checkbox__view._active, .checkbox-label:hover .checkbox__view, .checkbox__view._active, input:checked + .checkbox__view {
   background-color: #c11718;
   border-color: #c11718;
 }
-/* line 334, ../styles/components/_formElements.sass */
+/* line 378, ../styles/components/_formElements.sass */
 .checkbox__view._active:after, input:checked + .checkbox__view:after {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
 }
-/* line 338, ../styles/components/_formElements.sass */
+/* line 382, ../styles/components/_formElements.sass */
 input:disabled + .checkbox__view {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-/* line 344, ../styles/components/_formElements.sass */
+/* line 388, ../styles/components/_formElements.sass */
 .radio-label {
   display: table;
   white-space: nowrap;
   margin: 0 0 15px;
   line-height: 22px;
 }
-/* line 350, ../styles/components/_formElements.sass */
+/* line 394, ../styles/components/_formElements.sass */
 .radio-label .radio, .radio-label__txt {
   display: inline-block;
   vertical-align: top;
   cursor: pointer;
 }
-/* line 355, ../styles/components/_formElements.sass */
+/* line 399, ../styles/components/_formElements.sass */
 .radio-label .radio {
   margin-top: 2px;
   margin-right: -18px;
 }
-/* line 359, ../styles/components/_formElements.sass */
+/* line 403, ../styles/components/_formElements.sass */
 .radio-label__txt {
   font-size: 18px;
   line-height: 22px;
@@ -1665,23 +1723,23 @@ input:disabled + .checkbox__view {
   color: #000;
   font-family: "Lato", sans-serif;
 }
-/* line 370, ../styles/components/_formElements.sass */
+/* line 414, ../styles/components/_formElements.sass */
 .radio-label._disabled .radio-label__txt {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-/* line 374, ../styles/components/_formElements.sass */
+/* line 418, ../styles/components/_formElements.sass */
 .radio {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
 }
-/* line 378, ../styles/components/_formElements.sass */
+/* line 422, ../styles/components/_formElements.sass */
 .radio INPUT {
   display: none;
 }
-/* line 381, ../styles/components/_formElements.sass */
+/* line 425, ../styles/components/_formElements.sass */
 .radio__view {
   display: block;
   width: 18px;
@@ -1693,7 +1751,7 @@ input:disabled + .checkbox__view {
   transition: 150ms;
   position: relative;
 }
-/* line 392, ../styles/components/_formElements.sass */
+/* line 436, ../styles/components/_formElements.sass */
 .radio__view:after {
   color: #fff;
   line-height: normal;
@@ -1708,11 +1766,11 @@ input:disabled + .checkbox__view {
   transition: 150ms;
   content: "";
 }
-/* line 409, ../styles/components/_formElements.sass */
+/* line 453, ../styles/components/_formElements.sass */
 .radio__view._active:after, input:checked + .radio__view:after {
   opacity: 1;
 }
-/* line 412, ../styles/components/_formElements.sass */
+/* line 456, ../styles/components/_formElements.sass */
 input:disabled + .radio__view {
   opacity: 0.6;
   cursor: not-allowed;
@@ -2606,45 +2664,59 @@ input:disabled + .radio__view {
           flex-grow: 1;
 }
 /* line 75, ../styles/pages/_index.sass */
+.main-filter__col {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 25px 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 80, ../styles/pages/_index.sass */
 .main-filter__item {
-  margin: 0 25px 10px 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
-/* line 84, ../styles/pages/_index.sass */
+/* line 86, ../styles/pages/_index.sass */
+.main-filter__item--location .main-filter__item-inner {
+  width: 100%;
+}
+/* line 88, ../styles/pages/_index.sass */
+.main-filter__item--location .main-filter__item-title {
+  width: 150px;
+}
+/* line 90, ../styles/pages/_index.sass */
 .main-filter__item--location .main-filter__item-title:after {
   display: none !important;
 }
-/* line 89, ../styles/pages/_index.sass */
+/* line 95, ../styles/pages/_index.sass */
 .main-filter__item._active .main-filter__item-icon .iconic, .main-filter__item._active .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item._active .main-filter__item-icon .header-nav__link:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-real:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-close:after, .main-filter__item._active .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item._active .main-filter__item-icon .select2-selection__arrow, .main-filter__item._active .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item._active .main-filter__item-icon .select2-selection--multiple, .main-filter__item._active .main-filter__item-icon .checkbox__view, .main-filter__item._active .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item._active .main-filter__item-icon .main-filter__item-title:after {
   color: #cc4040;
 }
-/* line 91, ../styles/pages/_index.sass */
+/* line 97, ../styles/pages/_index.sass */
 .main-filter__item._active .main-filter__item-title {
   color: #cc4040;
 }
-/* line 93, ../styles/pages/_index.sass */
+/* line 99, ../styles/pages/_index.sass */
 .main-filter__item._active .main-filter__item-title:after {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-/* line 97, ../styles/pages/_index.sass */
+/* line 103, ../styles/pages/_index.sass */
 .main-filter__item-icon .iconic, .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item-icon .header-nav__link:after, .main-filter__item-icon .header-search__btn-real:after, .main-filter__item-icon .header-search__btn-close:after, .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item-icon .select2-selection__arrow, .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item-icon .select2-selection--multiple, .main-filter__item-icon .checkbox__view, .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item-icon .main-filter__item-title:after {
   color: #b4b4b4;
   font-size: 45px;
   transition: 300ms;
 }
-/* line 102, ../styles/pages/_index.sass */
+/* line 108, ../styles/pages/_index.sass */
 .main-filter__item-inner {
   padding: 15px 0 0 10px;
 }
-/* line 105, ../styles/pages/_index.sass */
+/* line 111, ../styles/pages/_index.sass */
 .main-filter__item-subtitle {
   font-size: 16px;
   font-weight: 500;
@@ -2652,15 +2724,17 @@ input:disabled + .radio__view {
   font-family: "Lato", sans-serif;
   white-space: nowrap;
 }
-/* line 112, ../styles/pages/_index.sass */
+/* line 118, ../styles/pages/_index.sass */
 .main-filter__item-title {
   font-size: 22px;
+  line-height: 27px;
+  height: 27px;
   color: #000;
   font-family: "Lato", sans-serif;
   white-space: nowrap;
   transition: 300ms;
 }
-/* line 120, ../styles/pages/_index.sass */
+/* line 128, ../styles/pages/_index.sass */
 .main-filter__item-title:after {
   font-size: 13px;
   margin-left: 5px;
@@ -2671,27 +2745,27 @@ input:disabled + .radio__view {
           transform: rotate(0deg);
   transition: 300ms;
 }
-/* line 131, ../styles/pages/_index.sass */
+/* line 139, ../styles/pages/_index.sass */
 .main-filter__item-title._active:after {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-/* line 134, ../styles/pages/_index.sass */
+/* line 142, ../styles/pages/_index.sass */
 .main-filter__item .dropdown--cols {
   padding-top: 20px;
   padding-bottom: 4px;
   min-width: 320px;
 }
-/* line 139, ../styles/pages/_index.sass */
+/* line 147, ../styles/pages/_index.sass */
 .main-filter__item .dropdown--cols .checkbox-label__txt {
   white-space: nowrap;
 }
-/* line 142, ../styles/pages/_index.sass */
+/* line 150, ../styles/pages/_index.sass */
 .main-filter__btn {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-/* line 145, ../styles/pages/_index.sass */
+/* line 153, ../styles/pages/_index.sass */
 .main-filter__btn .btn {
   width: 120px;
   height: 52px;

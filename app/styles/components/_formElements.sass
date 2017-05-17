@@ -117,6 +117,48 @@
     background-color: rgba(0, 0, 0, 0.05)
     color: $cGrayDText
 
+.selectize-dropdown
+    border: 0
+    border-radius: 7px!important
+    background-color: #fff
+    box-shadow: 0 2px 7px rgba(80, 72, 68, 0.6)
+    padding: 8px 0
+    margin-top: 8px
+    &:before
+        content: ""
+        position: absolute
+        left: 13px
+        top: -16px
+        width: 0
+        height: 0
+        opacity: 0.05
+        border-width: 8px
+        border-style: solid
+        border-color: transparent transparent #000 transparent
+
+    &:after
+        content: ""
+        position: absolute
+        left: 14px
+        top: -13px
+        width: 0
+        height: 0
+        border-width: 7px
+        border-style: solid
+        border-color: transparent transparent #fff transparent
+
+    .active
+        color: #000
+        background-color: rgba(0, 0, 0, 0.05)
+
+    [data-selectable]
+        padding: 6px 17px
+        color: $cGrayDText
+        font-size: 16px
+        .highlight
+            background-color: rgba(155,188,51,0.3)
+            color: #000
+
 .select2-dropdown
     border: 0
     border-radius: 7px!important
@@ -187,9 +229,11 @@
 .select2-results__options::-webkit-scrollbar-thumb
     background-color: $cGrayD
 
-.select
+select.select
     width: 100%
     opacity: 0
+
+.select
 
     &--search
         & + .select2.select2-container 
@@ -211,30 +255,30 @@
                     padding-right: 50px
 
     &--city
-        & + .select2.select2-container 
-            .select2-selection--multiple
-                width: auto
-                background: none
-                box-shadow: none
-                border-radius: 0
-                cursor: pointer
-                border: 0
-                .select2-selection__rendered
-                    padding: 0
-                    height: 27px
-                    overflow: hidden
-                    .select2-search--inline
-                        // position: absolute
-                        // display: none
-                    .select2-search__field
-                        margin-top: 0
-                        margin-bottom: 0
-                        font-size: 22px
-                        color: #000
-                        &::-webkit-placeholder
-                            color: #000
-                        &::placeholder
-                            color: #000
+        .selectize-input
+            width: auto
+            background: none
+            box-shadow: none
+            border-radius: 0
+            cursor: pointer
+            border: 0
+            padding: 0
+            display: block!important
+            line-height: 27px
+            height: 27px
+            &:after
+                display: none!important
+
+            > input,
+            > .item
+                font-size: 22px
+                color: #000
+                margin-bottom: 0
+
+                &::-webkit-placeholder
+                    color: #000
+                &::placeholder
+                    color: #000
 
 .passtrengthMeter > input
     width: 100%

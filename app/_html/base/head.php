@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../bower_components/magnific-popup/dist/magnific-popup.css" />
     <link rel="stylesheet" href="../../bower_components/select2/dist/css/select2.min.css" />
     <link rel="stylesheet" href="../../bower_components/passtrength/src/passtrength.css" />
+    <link rel="stylesheet" href="../../bower_components/selectize/dist/css/selectize.css" />
     <!-- endbower-->
     <!-- endbuild -->
 

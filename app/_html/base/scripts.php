@@ -5,6 +5,9 @@
 <script src="../../bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="../../bower_components/select2/dist/js/select2.js"></script>
 <script src="../../bower_components/passtrength/src/jquery.passtrength.js"></script>
+<script src="../../bower_components/sifter/sifter.js"></script>
+<script src="../../bower_components/microplugin/src/microplugin.js"></script>
+<script src="../../bower_components/selectize/dist/js/selectize.js"></script>
 <!-- endbower -->
 
 <!-- endbuild -->

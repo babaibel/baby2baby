@@ -72,15 +72,21 @@
 		flex-wrap: wrap
 		flex-grow: 1
 
+	&__col
+		flex-grow: 1
+		padding: 0 25px 10px 0
+		display: flex
+
 	&__item
-		margin: 0 25px 10px 0
 		position: relative
 		display: flex
 		cursor: pointer
-		flex-grow: 1
 
 		&--location
+			.main-filter__item-inner
+				width: 100%
 			.main-filter__item-title
+				width: 150px
 				&:after
 					display: none!important
 
@@ -111,6 +117,8 @@
 
 		&-title
 			font-size: 22px
+			line-height: 27px
+			height: 27px
 			color: #000
 			font-family: $titleFont
 			white-space: nowrap
