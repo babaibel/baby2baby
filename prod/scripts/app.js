@@ -234,6 +234,22 @@ $(function () {
 });
 
 $(function () {
+    var $like = $('.js-like');
+    if (!$like.length) return;
+
+    $like.click(function(){
+        $(this).toggleClass('_active');
+        if($(this).hasClass('_active')){
+            $(this).removeClass('btn--red').addClass('btn--gray-d');
+            $(this).find('.btn-icon__text').text('Dislike')
+        } else{
+            $(this).removeClass('btn--gray-d').addClass('btn--red');
+            $(this).find('.btn-icon__text').text('I Like')
+        }
+    });
+});
+
+$(function () {
     var $selectClear = $('.js-select-clear');
     if (!$selectClear.length) return;
 

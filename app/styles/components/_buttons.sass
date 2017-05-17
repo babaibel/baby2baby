@@ -68,6 +68,12 @@
         &:hover
             background-color: $cGrayD
 
+    &--gray-d
+        background-color: $cGrayD
+        color: #fff
+        &:hover
+            background-color: $cGrayDText
+
     &--green-l
         background-color: $cGreenL
         color: #fff
@@ -135,12 +141,11 @@
             line-height: 40px
 
     &--xs
-        height: 36px
-        line-height: 36px
-        padding: 0 20px
-        text-transform: uppercase
+        height: 32px
+        line-height: 32px
+        padding: 0 16px
         font-family: $titleFont
-        font-size: 15px
+        font-size: 13px
         font-weight: bold
         border-radius: 5px
 
@@ -159,13 +164,13 @@
 .btn-icon
     &__ico
         display: inline-block
-        vertical-align: middle
+        vertical-align: top
         margin-right: 5px
         transition: $t300
 
     &__text
         display: inline-block
-        vertical-align: middle
+        vertical-align: top
         transition: $t300
 
     &.btn--s
@@ -181,6 +186,13 @@
         .iconic
             font-size: 20px!important
             margin-right: 10px
+
+    &--like
+        .iconic
+            font-size: 16px!important
+            margin-right: 0
+            color: #fff
+            opacity: 0.95
 
     &--add
         height: 38px

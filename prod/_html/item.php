@@ -21,14 +21,17 @@
                                     <span class="stat-label">
                                         <span class="stat-label__icon iconic iconic--eye"></span>
                                         <span class="stat-label__number">207</span>
-                                        <span class="stat-label__text">просмотров</span>
+                                        <span class="stat-label__text">views</span>
                                     </span>
                                     <span class="stat-label">
                                         <span class="stat-label__icon iconic iconic--like"></span>
                                         <span class="stat-label__number">511</span>
-                                        <span class="stat-label__text">понравилось</span>
+                                        <span class="stat-label__text">likes</span>
                                     </span>
-                                    <a href="#!" class="btn btn--red btn--xs">I like!</a>
+                                    <a href="#!" class="btn btn-icon btn-icon--like btn--red btn--xs js-like">
+                                        <span class="btn-icon__ico iconic iconic--like"></span>
+                                        <span class="btn-icon__text">I Like!</span>
+                                    </a>
                                 </div>
                             </div>
                             <div class="item__body">
@@ -98,11 +101,13 @@
                                             </div>
                                         </div>
                                         <div class="item-sidebar__item">
-                                            <a href="#!" class="btn btn--red btn--s btn--mrgr">Buy item now</a>
-                                            <a href="#!" class="btn btn-icon btn-icon--fav btn--o-green btn--s btn--mrgr">
-                                                <span class="btn-icon__ico iconic iconic--star"></span>
-                                                <span class="btn-icon__text">add to favorites</span>
-                                            </a>
+                                            <div class="item-sidebar__btns">
+                                                <a href="#!" class="btn btn--red btn--s btn--mrgr">Buy item now</a>
+                                                <a href="#!" class="btn btn-icon btn-icon--fav btn--o-green btn--s btn--mrgr">
+                                                    <span class="btn-icon__ico iconic iconic--star"></span>
+                                                    <span class="btn-icon__text">add to favorites</span>
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="item-sidebar__item item-sidebar__item--gray">
                                             <div class="item-seller">
