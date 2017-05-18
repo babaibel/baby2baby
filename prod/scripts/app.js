@@ -272,6 +272,33 @@ $(function () {
 });
 
 $(function () {
+    var $rating = $('.js-rating');
+    if (!$rating.length) return;
+
+    $rating.each(function(){
+        var $this = $(this),
+            currentRating = $this.data('current-rating'),
+            readonly = $this.data('readonly');
+
+        if(currentRating===undefined){
+            currentRating = "1";
+        }
+
+        if(readonly===undefined){
+            readonly = false;
+        }
+
+        $this.barrating({
+            theme: 'fontawesome-stars-o',
+            readonly: readonly,
+            initialRating: currentRating
+        });
+    });
+});
+
+
+
+$(function () {
     var $itemGall = $('.js-item-gall');
     if (!$itemGall.length) return;
 

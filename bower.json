@@ -19,6 +19,7 @@
     "magnific-popup": "~1.1.0",
     "select2": "~4.0.3",
     "passtrength": "latest",
-    "selectize": "0.12.4"
+    "selectize": "~0.12.4",
+    "jquery-bar-rating": "~1.2.2"
   }
 }

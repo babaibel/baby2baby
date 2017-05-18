@@ -8,6 +8,7 @@
 <script src="../../bower_components/sifter/sifter.js"></script>
 <script src="../../bower_components/microplugin/src/microplugin.js"></script>
 <script src="../../bower_components/selectize/dist/js/selectize.js"></script>
+<script src="../../bower_components/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
 <!-- endbower -->
 
 <!-- endbuild -->

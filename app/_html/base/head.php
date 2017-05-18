@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../../bower_components/select2/dist/css/select2.min.css" />
     <link rel="stylesheet" href="../../bower_components/passtrength/src/passtrength.css" />
     <link rel="stylesheet" href="../../bower_components/selectize/dist/css/selectize.css" />
+    <link rel="stylesheet" href="../../bower_components/jquery-bar-rating/dist/themes/fontawesome-stars-o.css" />
     <!-- endbower-->
     <!-- endbuild -->
 

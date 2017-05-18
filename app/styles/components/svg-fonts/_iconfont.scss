@@ -37,71 +37,80 @@
     @if $filename == box {
     $char: "\E003";
 }
-    @if $filename == cake {
+    @if $filename == boy {
     $char: "\E004";
 }
-    @if $filename == cancel {
+    @if $filename == cake {
     $char: "\E005";
 }
-    @if $filename == comment {
+    @if $filename == cancel {
     $char: "\E006";
 }
-    @if $filename == cross {
+    @if $filename == comment {
     $char: "\E007";
 }
-    @if $filename == down-arrow {
+    @if $filename == cross {
     $char: "\E008";
 }
-    @if $filename == download-box {
+    @if $filename == down-arrow {
     $char: "\E009";
 }
-    @if $filename == eye {
+    @if $filename == download-box {
     $char: "\E00A";
 }
-    @if $filename == gender {
+    @if $filename == eye {
     $char: "\E00B";
 }
-    @if $filename == language {
+    @if $filename == gender {
     $char: "\E00C";
 }
-    @if $filename == like {
+    @if $filename == girl {
     $char: "\E00D";
 }
-    @if $filename == location {
+    @if $filename == language {
     $char: "\E00E";
 }
-    @if $filename == man {
+    @if $filename == like {
     $char: "\E00F";
 }
-    @if $filename == message {
+    @if $filename == location {
     $char: "\E010";
 }
-    @if $filename == one {
+    @if $filename == man {
     $char: "\E011";
 }
-    @if $filename == photo {
+    @if $filename == message {
     $char: "\E012";
 }
-    @if $filename == search {
+    @if $filename == one {
     $char: "\E013";
 }
-    @if $filename == search2 {
+    @if $filename == photo {
     $char: "\E014";
 }
-    @if $filename == soc-fb {
+    @if $filename == search {
     $char: "\E015";
 }
-    @if $filename == soc-inst {
+    @if $filename == search2 {
     $char: "\E016";
 }
-    @if $filename == soc-tw {
+    @if $filename == soc-fb {
     $char: "\E017";
 }
-    @if $filename == star {
+    @if $filename == soc-inst {
     $char: "\E018";
 }
-    @if $filename == tick {
+    @if $filename == soc-tw {
     $char: "\E019";
+}
+    @if $filename == star {
+    $char: "\E01A";
+}
+    @if $filename == tick {
+    $char: "\E01B";
+}
+    @if $filename == verified {
+    $char: "\E01C";
 }
 
 @return $char;
@@ -122,6 +131,9 @@
 }
 .iconic--box {
     @include iconic(box);
+}
+.iconic--boy {
+    @include iconic(boy);
 }
 .iconic--cake {
     @include iconic(cake);
@@ -146,6 +158,9 @@
 }
 .iconic--gender {
     @include iconic(gender);
+}
+.iconic--girl {
+    @include iconic(girl);
 }
 .iconic--language {
     @include iconic(language);
@@ -188,4 +203,7 @@
 }
 .iconic--tick {
     @include iconic(tick);
+}
+.iconic--verified {
+    @include iconic(verified);
 }

@@ -307,6 +307,22 @@ select.select
 //         .input-text
 //             border-radius: 7px 7px 0 0
 
+.br-theme-fontawesome-stars-o 
+    .br-widget
+        height: 17px
+        A
+            margin-right: 3px
+            font-size: 15px
+            @extend .iconic
+            @extend .iconic--star
+
+            &.br-selected
+                @extend .iconic
+                @extend .iconic--star
+                &:after
+                    color: $cRed!important
+
+
 $checkbox-size: 23px
 
 .checkbox-label
