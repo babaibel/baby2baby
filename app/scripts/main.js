@@ -250,6 +250,21 @@ $(function () {
 });
 
 $(function () {
+    var $sidebarDropdown = $('.js-sidebar-dropdown');
+    if (!$sidebarDropdown.length) return;
+
+    $sidebarDropdown.click(function(){
+        $(this).toggleClass('_open');
+        if($(this).hasClass('_open')){
+            $(this).next('.sidebar-nav-sub').slideDown();
+        } else{
+            $(this).next('.sidebar-nav-sub').slideUp();
+        }
+    });
+});
+
+
+$(function () {
     var $selectClear = $('.js-select-clear');
     if (!$selectClear.length) return;
 

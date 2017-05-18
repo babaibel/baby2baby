@@ -36,9 +36,25 @@
 		.catalog-wr
 			padding-right: 20px
 
+			.h2
+				margin-top: -5px
+				margin-bottom: 20px
+
 	&__sidebar
 		width: 25%
 		max-width: 300px
+
+		&-item
+			background-color: #fff
+			margin-bottom: 20px
+			box-shadow: 0 1px 5px rgba(80,72,68,0.23)
+			border-radius: 7px
+
+	&--leftbar
+		.main-catalog__content
+			.catalog-wr
+				padding-right: 0
+				padding-left: 20px
 
 .catalog
 	display: flex
@@ -157,3 +173,36 @@
 			font-size: 22px
 			text-align: center
 			font-family: $titleFont
+
+.page-catalog
+
+	.main-filter
+		margin: 30px 0 10px
+
+		&__col
+			width: 25%
+
+			+max-screen($screenM)
+				width: (100%/3)
+
+		&__item-title
+			font-size: 18px
+			font-weight: 500
+
+		&__item-icon
+			width: 55px
+			flex-shrink: 0
+			text-align: center
+			padding-top: 15px
+			.iconic
+				font-size: 35px
+
+				&--cake
+					font-size: 40px
+
+				&--location
+					font-size: 38px
+
+	.select--city .selectize-input > input,
+	.select--city .selectize-input > .item
+		font-size: 18px

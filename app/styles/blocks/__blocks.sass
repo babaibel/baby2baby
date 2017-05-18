@@ -388,3 +388,116 @@
 		margin-bottom: 10px
 		.textarea
 			font-size: 14px
+
+.sidebar-nav
+	padding: 25px 0
+
+	&__item
+		margin-bottom: 10px
+
+	&__link
+		padding: 10px 30px
+		text-decoration: none
+		display: block
+		position: relative
+		transition: $t300
+
+		&.active
+			background-color: $cGreen!important
+			SPAN
+				color: #fff!important
+
+		&--dropdown
+			padding-right: 40px
+			@extend .iconic--down-arrow
+			&:after
+				font-size: 14px
+				position: absolute
+				right: 20px
+				top: 50%
+				margin-top: -7px
+				display: inline-block
+				transform: rotate(0)
+				color: $cGrayDText
+				transition: $t300
+				@extend .iconic
+
+			&._open
+				&:after
+					transform: rotate(180deg)
+
+		&:hover
+			background-color: rgba(0,0,0,0.05)
+			SPAN
+				border-color: transparent
+
+		SPAN
+			font-size: 18px
+			font-weight: 500
+			color: #000
+			font-family: $titleFont
+			border-bottom: 1px dashed $cGray
+			padding-bottom: 1px
+			transition: $t300
+
+.sidebar-nav-sub
+	margin: 5px 0 0
+	display: none
+
+	&__item
+		margin-bottom: 5px
+
+	&__link
+		padding: 8px 30px 8px 45px
+		text-decoration: none
+		display: block
+		position: relative
+		transition: $t300
+		font-size: 18px
+		font-weight: 500
+		color: #000
+		font-family: $titleFont
+
+		&:hover
+			background-color: rgba(0,0,0,0.05)
+
+		&.active
+			background-color: $cGreen!important
+			color: #fff!important
+
+.pagination
+	display: block
+	text-align: center
+
+	&__item
+		display: inline-block
+		vertical-align: middle
+		margin: 0 3px
+
+		> SPAN
+			font-weight: bold
+			font-size: 18px
+			color: $cGrayD
+
+	&__link
+		display: block
+		width: 30px
+		height: 30px
+		border: 2px solid $cGreen
+		border-radius: 4px
+		line-height: 26px
+		font-family: $titleFont
+		font-size: 18px
+		color: $cGreen
+		text-align: center
+		text-decoration: none
+		font-weight: bold
+		transition: $t300
+
+		&:hover
+			color: $cGreenL
+			border-color: $cGreenL
+
+		&.active
+			color: $cGrayD
+			border-color: $cGrayD
