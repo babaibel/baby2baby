@@ -67,3 +67,64 @@
 			color: $cGrayDText
 			font-weight: bold
 			margin-left: 5px
+
+.profile-menu
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	background-color: #fff
+	border-radius: 7px
+	padding: 35px 15px
+	display: flex
+	align-items: center
+
+	&__nav
+		flex-grow: 1
+
+	&__exit
+		flex-shrink: 0
+		padding: 0 15px
+
+.profile-nav
+	display: flex
+
+	&__item
+		flex-grow: 1
+		padding-right: 5px
+
+	&__link
+		font-size: 18px
+		font-weight: 300
+		display: inline-block
+		text-decoration: none
+		color: $cGreen
+		padding: 8px 16px
+		border: 2px solid transparent
+		font-family: $titleFont
+		border-radius: 11px
+		transition: $t300
+
+		+max-screen($screenM)
+			padding: 8px
+
+		&:hover
+			color: $cGreenL
+
+		&._active
+			font-weight: 600
+			border-color: $cGreen
+
+.profile-setting
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	background-color: #fff
+	border-radius: 7px
+	padding: 60px 50px
+	margin-top: 20px
+
+	&__row
+		margin-bottom: 28px
+		&:last-child
+			margin-bottom: 0
+
+		.btn
+			margin-left: 0
+			min-width: 100px
+			border-radius: 4px!important

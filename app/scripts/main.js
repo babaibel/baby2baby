@@ -170,7 +170,8 @@ function toggleClass(selector, className, callback) {
         $(this).each(function () {
             var $this = $(this),
                 placeholder = $this.data('placeholder'),
-                multiple = $this.data('multiple');
+                multiple = $this.data('multiple'),
+                $parent = $this.parent();
 
                 if(placeholder===undefined){
                     placeholder = "";
@@ -183,7 +184,8 @@ function toggleClass(selector, className, callback) {
                 $this.select2({
                     minimumResultsForSearch: Infinity,
                     maximumSelectionLength: multiple,
-                    placeholder: placeholder
+                    placeholder: placeholder,
+                    dropdownParent: $parent
                 })
 
         })
@@ -248,6 +250,19 @@ $(function () {
         }
     });
 });
+
+$(function () {
+    var $topAlert = $('.js-top-alert');
+    if (!$topAlert.length) return;
+
+    var $topAlertClose = $topAlert.find('.js-top-alert-close');
+
+    $topAlertClose.click(function(){
+        $topAlert.slideUp();
+    });
+});
+
+
 
 $(function () {
     var $sidebarDropdown = $('.js-sidebar-dropdown');

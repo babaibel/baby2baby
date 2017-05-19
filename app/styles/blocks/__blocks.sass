@@ -163,6 +163,11 @@
 	overflow: hidden
 	height: 100%
 
+	&--edit
+		.product__header-label
+			right: auto
+			left: 15px
+
 	&__header
 		flex-grow: 1
 		padding: 32px 15px 10px
@@ -172,6 +177,30 @@
 			position: absolute
 			left: 15px
 			top: 0
+
+		&-del
+			position: absolute
+			right: 15px
+			top: 0
+			width: 20px
+			height: 20px
+			border-radius: 50%
+			background-color: #c11718
+			position: absolute
+			top: 8px
+			right: 15px
+			text-decoration: none
+			text-align: center
+			line-height: 20px
+			transform: rotate(45deg)
+			transition: 300ms
+
+			&:hover
+				transform: rotate(135deg)
+
+			&.iconic
+				font-size: 10px
+				color: #fff
 
 		&-label
 			position: absolute
@@ -225,6 +254,22 @@
 		padding: 13px 15px
 		position: relative
 
+		.link
+			font-size: 14px
+
+		.btn--xs
+			font-size: 14px
+
+			+max-screen($screenM)
+				font-size: 13px
+				padding-left: 8px
+				padding-right: 8px
+
+		&--cols
+			display: flex
+			justify-content: space-between
+			align-items: center
+
 		&-user
 			position: absolute
 			right: 15px
@@ -239,6 +284,21 @@
 					display: block
 					width: 35px
 
+.product-status
+	display: flex
+	align-items: center
+	background-color: #f8f8f8
+	padding: 6px 15px
+	margin: 8px -15px
+
+	&__text
+		flex-grow: 1
+		color: $cGrayD
+		font-size: 13px
+
+	&__select
+		flex-shrink: 0
+		width: 100px
 
 .dropdown-menu
 	display: flex
@@ -539,3 +599,32 @@
 		&.active
 			color: $cGrayD
 			border-color: $cGrayD
+
+.top-alert
+	&-wr
+		&--green
+			background-color: $cGreen
+			color: #fff
+
+	display: flex
+	align-items: center
+	padding: 8px 0 10px
+
+	&__text
+		flex-grow: 1
+		font-size: 15px
+		font-family: $titleFont
+
+		P
+			margin-bottom: 0
+			B
+				font-size: 16px
+
+	&__close
+		flex-shrink: 0
+		padding-left: 20px
+		.iconic
+			font-size: 30px
+			color: #fff
+			&:hover
+				opacity: 0.9

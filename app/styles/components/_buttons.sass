@@ -210,6 +210,23 @@
             color: #fff
             font-size: 14px
 
+    &--logout
+
+        .btn-icon__text
+            font-size: 18px
+            font-weight: 300
+            color: $cGrayD
+            font-family: $titleFont
+
+        .iconic
+            color: $cGrayD
+            margin-top: 2px
+            font-size: 18px
+
+        &:hover
+            .btn-icon__text,
+            .iconic
+                color: $cRed
 
 .ico-btn
     display: inline-block
@@ -234,6 +251,11 @@
         right: -6px
         top: -4px
         font-family: $titleFont
+
+        &._long
+            width: 22px
+            border-radius: 10px
+            font-size: 10px
 
 .btn-fav
     display: block

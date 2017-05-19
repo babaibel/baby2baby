@@ -408,7 +408,7 @@
                                                 </div>
                                                 <a href="#!" class="product__body">
                                                     <div class="product__body-img">
-                                                        <img src="../images/userfiles/product-img.jpg" alt="">
+                                                        <img src="../images/product-no-photo-img.jpg" alt="">
                                                     </div>
                                                     <div class="product__body-price"><b>22</b> €</div>
                                                 </a>

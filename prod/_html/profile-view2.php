@@ -45,7 +45,7 @@
                                             <p>Registered: 1 year and 2 months</p>
                                         </div>
                                         <div class="profile-card__btns">
-                                            <a href="#!" class="btn btn--red btn--s btn--stretch">Buy item now</a>
+                                            <a href="#!" class="btn btn--red btn--s btn--stretch">Send message</a>
                                             <a href="#!" class="btn btn-icon btn-icon--fav btn--green btn--s btn--stretch">
                                                 <span class="btn-icon__ico iconic iconic--star"></span>
                                                 <span class="btn-icon__text">add to favorites</span>

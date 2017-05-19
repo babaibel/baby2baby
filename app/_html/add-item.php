@@ -83,7 +83,7 @@
                                                         <textarea placeholder="Enter name" class="textarea textarea--gray"></textarea> 
                                                     </div>
                                                 </div>
-                                                <div class="form-row form-row--cols3 _form1 _form2">
+                                                <div class="form-row form-row--cols2 _form1 _form2">
                                                     <div class="form-row__col _form1">
                                                         <div class="form-row__name">Sale price</div>
                                                         <div class="form-row__input form-row__input--cols">
@@ -106,30 +106,6 @@
                                                                 <option value="1">9</option>
                                                                 <option value="2">10</option>
                                                             </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col _form1 _form2">
-                                                        <div class="form-row__name">Item or service?</div>
-                                                        <div class="form-row__input">
-                                                            <select class="select select--search js-select">
-                                                                <option value="1" selected>Item</option>
-                                                                <option value="2">Service</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row form-row--cols2 _form1 _form2">
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Shipping size</div>
-                                                        <div class="form-row__input">
-                                                            <input type="text" placeholder="Width / height / depth" class="input-text input-text--gray">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row__col">
-                                                        <div class="form-row__name">Weight</div>
-                                                        <div class="form-row__input form-row__input--cols">
-                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
-                                                            <span class="form-row__input-label">kg.</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -280,6 +256,21 @@
                                                                 <option value="1">9</option>
                                                                 <option value="2">10</option>
                                                             </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row form-row--cols2 _form3 _form4">
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">Shipping size</div>
+                                                        <div class="form-row__input">
+                                                            <input type="text" placeholder="Width / height / depth" class="input-text input-text--gray">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row__col">
+                                                        <div class="form-row__name">Weight</div>
+                                                        <div class="form-row__input form-row__input--cols">
+                                                            <input type="text" placeholder="0" class="input-text input-text--gray">
+                                                            <span class="form-row__input-label">kg.</span>
                                                         </div>
                                                     </div>
                                                 </div>
