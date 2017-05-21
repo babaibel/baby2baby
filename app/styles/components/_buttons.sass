@@ -162,6 +162,7 @@
     /* colors */
 
 .btn-icon
+    white-space: nowrap
     &__ico
         display: inline-block
         vertical-align: top
@@ -289,3 +290,22 @@
     transition: $t300
     &:hover
         color: $cRedL
+
+.btn-del
+    display: inline-block
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    background-color: $cRed
+    text-decoration: none
+    text-align: center
+    line-height: 20px
+    transform: rotate(45deg)
+    transition: 300ms
+
+    &:hover
+        transform: rotate(135deg)
+
+    &.iconic
+        font-size: 10px
+        color: #fff

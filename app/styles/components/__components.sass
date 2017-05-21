@@ -12,7 +12,7 @@
 // ----------------------------------------------------------------------
 .label
 	display: inline-block
-	width: 60px
+	width: 62px
 	height: 21px
 	line-height: 17px
 	border: 2px solid $cGrayD
@@ -94,3 +94,38 @@
 
 ._no-photo
 	background: url(../images/no-photo-img.png) no-repeat 50% 50% #f0f0f0!important
+
+.children
+	display: inline-block
+	margin-right: 25px
+	margin-top: 20px
+
+	&__text
+		display: inline-block
+		vertical-align: middle
+		font-size: 16px
+		font-family: $titleFont
+		color: $cGreen
+		font-weight: 300
+		border-bottom: 1px solid $cGreenL
+
+	&__del
+		display: inline-block
+		vertical-align: middle
+		border-radius: 4px
+		background-color: $cGreen
+		width: 20px
+		height: 20px
+		line-height: 20px
+		text-align: center
+		position: relative
+		top: 2px
+		cursor: pointer
+		margin-left: 3px
+
+		&.iconic
+			font-size: 10px
+			color: #fff
+			&:after
+				display: inline-block
+				transform: rotate(45deg)

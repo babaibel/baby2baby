@@ -181,26 +181,7 @@
 		&-del
 			position: absolute
 			right: 15px
-			top: 0
-			width: 20px
-			height: 20px
-			border-radius: 50%
-			background-color: #c11718
-			position: absolute
 			top: 8px
-			right: 15px
-			text-decoration: none
-			text-align: center
-			line-height: 20px
-			transform: rotate(45deg)
-			transition: 300ms
-
-			&:hover
-				transform: rotate(135deg)
-
-			&.iconic
-				font-size: 10px
-				color: #fff
 
 		&-label
 			position: absolute
@@ -628,3 +609,106 @@
 			color: #fff
 			&:hover
 				opacity: 0.9
+
+.favorite-tabs
+
+	&__btns
+		margin-bottom: 15px
+
+	&__tab
+		display: none
+
+		&._active
+			display: block
+
+	&__btn
+		display: inline-block
+		vertical-align: middle
+		margin-right: 15px
+
+		A
+			display: block
+			font-size: 19px
+			color: #fff
+			color: $cGrayD
+			text-decoration: none
+			transition: $t300
+			font-family: $titleFont
+			font-weight: 500
+			padding: 5px 8px
+			border: 2px solid transparent
+			border-radius: 5px
+
+			&:hover
+				color: $cGrayDText
+				SPAN
+					border-color: $cGrayDText
+
+			SPAN
+				border-bottom: 1px dashed $cGrayD
+
+		&._active
+			A
+				border-color: $cRed
+				color: $cRed
+				box-shadow: none
+
+				SPAN
+					border-color: transparent
+
+.user
+	display: flex
+	border-radius: 7px
+	background-color: #fff
+	padding: 20px
+	border: 1px solid rgba(0,0,0,0.1)
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+
+	+max-screen($screenM)
+		padding: 10px
+
+	&__ava
+		flex-shrink: 0
+		width: 70px
+		height: 70px
+		overflow: hidden
+		border-radius: 5px
+		IMG
+			display: block
+			width: 100%
+
+	&__info
+		padding-left: 20px
+		flex-grow: 1
+		min-width: 0
+
+		&-btn
+			.btn
+				height: 36px
+				line-height: 36px
+
+	&__header
+		display: flex
+		align-items: center
+		margin-bottom: 12px
+
+		&-name
+			font-size: 16px
+			font-weight: bold
+			padding-right: 10px
+			color: $cGrayDText
+			flex-grow: 1
+			min-width: 0
+
+			SPAN
+				display: block
+				white-space: nowrap
+				overflow: hidden
+				text-overflow: ellipsis
+
+		&-status
+			text-align: right
+			flex-shrink: 0
+
+			.label
+				margin-right: 6px

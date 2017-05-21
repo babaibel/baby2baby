@@ -128,3 +128,93 @@
 			margin-left: 0
 			min-width: 100px
 			border-radius: 4px!important
+
+.profile-edit
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	background-color: #fff
+	border-radius: 7px
+	padding: 30px
+	margin-top: 20px
+
+	.form-row
+		margin-bottom: 0
+		.btn--s
+			min-width: 100px
+
+	&__ava
+		&-img
+			width: 72px
+			height: 72px
+			border-radius: 4px
+			overflow: hidden
+			IMG
+				display: block
+				width: 100%
+
+		.profile-edit__row-btn
+			padding-left: 0!important
+			padding-right: 25px!important
+
+		.profile-edit__row--cols
+			align-items: center
+
+			+max-screen($screenM)
+				align-items: flex-start
+
+			.profile-edit__row-input
+				font-size: 14px
+
+		+max-screen($screenM)
+			.form-row
+				.form-row.profile-edit__row--cols
+					display: block
+					.profile-edit__row-btn
+						padding-right: 0!important
+						margin-bottom: 10px
+
+					.profile-edit__row-input
+						min-height: 32px
+
+	&__row
+		margin-bottom: 30px
+		padding: 30px
+		background-color: #f9f9f9
+		border-radius: 4px
+
+		.h3
+			margin-top: -5px
+			margin-bottom: 20px
+
+		&--cols
+			display: flex
+
+			.profile-edit__row-input
+				flex-grow: 1
+
+			.profile-edit__row-btn
+				flex-shrink: 0
+				padding-left: 30px
+
+				.btn
+					text-transform: none
+					font-weight: 600
+					min-width: 160px
+					margin: 0
+					display: block
+					margin-top: 1px
+
+					&--mrgt
+						margin-top: 25px
+
+
+		&--inf
+			.profile-edit__row-input
+				.textarea
+					height: 226px
+
+			.profile-edit__row-btn
+				width: 350px
+				.form-row
+					margin-bottom: 20px
+					&:last-child
+						margin-bottom: 0
