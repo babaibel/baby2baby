@@ -83,7 +83,7 @@
                                             <div class="form-row__input">
                                                 <div class="form-row profile-edit__row--cols">
                                                     <div class="profile-edit__row-btn">
-                                                        <a href="#!" class="btn btn-icon btn--gray-l btn--s">
+                                                        <a href="#newpassword" class="btn btn-icon btn--gray-l btn--s js-popup">
                                                             <span class="btn-icon__ico iconic iconic--lock"></span>
                                                             <span class="btn-icon__text">Add new password</span>
                                                         </a>

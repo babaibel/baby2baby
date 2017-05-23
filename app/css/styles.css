@@ -625,7 +625,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1px;
 }
 /* line 72, ../styles/layout/_footer.sass */
-.footer-lng .ico-btn-wr .iconic, .footer-lng .ico-btn-wr .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .footer-lng .ico-btn-wr .header-nav__link:after, .footer-lng .ico-btn-wr .header-search__btn-real:after, .footer-lng .ico-btn-wr .header-search__btn-close:after, .footer-lng .ico-btn-wr .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .footer-lng .ico-btn-wr .select2-selection__arrow, .footer-lng .ico-btn-wr .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .footer-lng .ico-btn-wr .select2-selection--multiple, .footer-lng .ico-btn-wr .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .footer-lng .ico-btn-wr A, .footer-lng .ico-btn-wr .checkbox__view, .footer-lng .ico-btn-wr .dropdown-menu-nav__item._active:after, .footer-lng .ico-btn-wr .sidebar-nav__link--dropdown:after, .footer-lng .ico-btn-wr .main-filter__item-title:after {
+.footer-lng .ico-btn-wr .iconic, .footer-lng .ico-btn-wr .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .footer-lng .ico-btn-wr .header-nav__link:after, .footer-lng .ico-btn-wr .header-search__btn-real:after, .footer-lng .ico-btn-wr .header-search__btn-close:after, .footer-lng .ico-btn-wr .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .footer-lng .ico-btn-wr .select2-selection__arrow, .footer-lng .ico-btn-wr .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .footer-lng .ico-btn-wr .select2-selection--multiple, .footer-lng .ico-btn-wr .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .footer-lng .ico-btn-wr A, .footer-lng .ico-btn-wr .checkbox__view, .footer-lng .ico-btn-wr .dropdown-menu-nav__item._active:after, .footer-lng .ico-btn-wr .sidebar-nav__link--dropdown:after, .footer-lng .ico-btn-wr .open-info__btn:after, .footer-lng .ico-btn-wr .main-filter__item-title:after {
   font-size: 24px;
   color: #575757;
 }
@@ -637,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 2px;
 }
 /* line 82, ../styles/layout/_footer.sass */
-.footer-soc .iconic, .footer-soc .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .footer-soc .header-nav__link:after, .footer-soc .header-search__btn-real:after, .footer-soc .header-search__btn-close:after, .footer-soc .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .footer-soc .select2-selection__arrow, .footer-soc .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .footer-soc .select2-selection--multiple, .footer-soc .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .footer-soc A, .footer-soc .checkbox__view, .footer-soc .dropdown-menu-nav__item._active:after, .footer-soc .sidebar-nav__link--dropdown:after, .footer-soc .main-filter__item-title:after {
+.footer-soc .iconic, .footer-soc .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .footer-soc .header-nav__link:after, .footer-soc .header-search__btn-real:after, .footer-soc .header-search__btn-close:after, .footer-soc .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .footer-soc .select2-selection__arrow, .footer-soc .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .footer-soc .select2-selection--multiple, .footer-soc .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .footer-soc A, .footer-soc .checkbox__view, .footer-soc .dropdown-menu-nav__item._active:after, .footer-soc .sidebar-nav__link--dropdown:after, .footer-soc .open-info__btn:after, .footer-soc .main-filter__item-title:after {
   font-size: 14px !important;
 }
 
@@ -693,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/iconic.eot?#iefix") format("eot"), url("../fonts/iconic.woff") format("woff"), url("../fonts/iconic.ttf") format("truetype"), url("../fonts/iconic.svg#iconic") format("svg");
 }
 /* line 24, ../styles/components/svg-fonts/_iconfont.scss */
-.iconic, .header-nav__item--dropdown .header-nav__link:after, .header-search__btn-real:after, .header-search__btn-close:after, .select2.select2-container .select2-selection--single .select2-selection__arrow, .select--search + .select2.select2-container .select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget A.br-selected, .checkbox__view, .dropdown-menu-nav__item._active:after, .sidebar-nav__link--dropdown:after, .main-filter__item-title:after {
+.iconic, .header-nav__item--dropdown .header-nav__link:after, .header-search__btn-real:after, .header-search__btn-close:after, .select2.select2-container .select2-selection--single .select2-selection__arrow, .select--search + .select2.select2-container .select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget A.br-selected, .checkbox__view, .dropdown-menu-nav__item._active:after, .sidebar-nav__link--dropdown:after, .open-info__btn:after, .main-filter__item-title:after {
   font-family: "iconic";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -746,7 +746,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 126, ../styles/components/svg-fonts/_iconfont.scss */
-.iconic--down-arrow:after, .header-nav__item--dropdown .header-nav__link:after, .select2.select2-container .select2-selection--single .select2-selection__arrow:after, .dropdown-menu-nav__item._active:after, .sidebar-nav__link--dropdown:after, .main-filter__item-title:after {
+.iconic--down-arrow:after, .header-nav__item--dropdown .header-nav__link:after, .select2.select2-container .select2-selection--single .select2-selection__arrow:after, .dropdown-menu-nav__item._active:after, .sidebar-nav__link--dropdown:after, .open-info__btn:after, .main-filter__item-title:after {
   content: "";
 }
 
@@ -987,7 +987,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 /* line 89, ../styles/components/_buttons.sass */
-.btn--o-green .btn-icon__ico.iconic, .btn--o-green .header-nav__item--dropdown .btn-icon__ico.header-nav__link:after, .header-nav__item--dropdown .btn--o-green .btn-icon__ico.header-nav__link:after, .btn--o-green .btn-icon__ico.header-search__btn-real:after, .btn--o-green .btn-icon__ico.header-search__btn-close:after, .btn--o-green .select2.select2-container .select2-selection--single .btn-icon__ico.select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--o-green .btn-icon__ico.select2-selection__arrow, .btn--o-green .select--search + .select2.select2-container .btn-icon__ico.select2-selection--multiple, .select--search + .select2.select2-container .btn--o-green .btn-icon__ico.select2-selection--multiple, .btn--o-green .br-theme-fontawesome-stars-o .br-widget A.btn-icon__ico, .br-theme-fontawesome-stars-o .br-widget .btn--o-green A.btn-icon__ico, .btn--o-green .btn-icon__ico.checkbox__view, .btn--o-green .btn-icon__ico.dropdown-menu-nav__item._active:after, .btn--o-green .btn-icon__ico.sidebar-nav__link--dropdown:after, .btn--o-green .btn-icon__ico.main-filter__item-title:after {
+.btn--o-green .btn-icon__ico.iconic, .btn--o-green .header-nav__item--dropdown .btn-icon__ico.header-nav__link:after, .header-nav__item--dropdown .btn--o-green .btn-icon__ico.header-nav__link:after, .btn--o-green .btn-icon__ico.header-search__btn-real:after, .btn--o-green .btn-icon__ico.header-search__btn-close:after, .btn--o-green .select2.select2-container .select2-selection--single .btn-icon__ico.select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--o-green .btn-icon__ico.select2-selection__arrow, .btn--o-green .select--search + .select2.select2-container .btn-icon__ico.select2-selection--multiple, .select--search + .select2.select2-container .btn--o-green .btn-icon__ico.select2-selection--multiple, .btn--o-green .br-theme-fontawesome-stars-o .br-widget A.btn-icon__ico, .br-theme-fontawesome-stars-o .br-widget .btn--o-green A.btn-icon__ico, .btn--o-green .btn-icon__ico.checkbox__view, .btn--o-green .btn-icon__ico.dropdown-menu-nav__item._active:after, .btn--o-green .btn-icon__ico.sidebar-nav__link--dropdown:after, .btn--o-green .btn-icon__ico.open-info__btn:after, .btn--o-green .btn-icon__ico.main-filter__item-title:after {
   color: #9bbc33 !important;
 }
 /* line 92, ../styles/components/_buttons.sass */
@@ -996,7 +996,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #b6cd6a;
 }
 /* line 95, ../styles/components/_buttons.sass */
-.btn--o-green:hover .btn-icon__ico.iconic, .btn--o-green:hover .header-nav__item--dropdown .btn-icon__ico.header-nav__link:after, .header-nav__item--dropdown .btn--o-green:hover .btn-icon__ico.header-nav__link:after, .btn--o-green:hover .btn-icon__ico.header-search__btn-real:after, .btn--o-green:hover .btn-icon__ico.header-search__btn-close:after, .btn--o-green:hover .select2.select2-container .select2-selection--single .btn-icon__ico.select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--o-green:hover .btn-icon__ico.select2-selection__arrow, .btn--o-green:hover .select--search + .select2.select2-container .btn-icon__ico.select2-selection--multiple, .select--search + .select2.select2-container .btn--o-green:hover .btn-icon__ico.select2-selection--multiple, .btn--o-green:hover .br-theme-fontawesome-stars-o .br-widget A.btn-icon__ico, .br-theme-fontawesome-stars-o .br-widget .btn--o-green:hover A.btn-icon__ico, .btn--o-green:hover .btn-icon__ico.checkbox__view, .btn--o-green:hover .btn-icon__ico.dropdown-menu-nav__item._active:after, .btn--o-green:hover .btn-icon__ico.sidebar-nav__link--dropdown:after, .btn--o-green:hover .btn-icon__ico.main-filter__item-title:after {
+.btn--o-green:hover .btn-icon__ico.iconic, .btn--o-green:hover .header-nav__item--dropdown .btn-icon__ico.header-nav__link:after, .header-nav__item--dropdown .btn--o-green:hover .btn-icon__ico.header-nav__link:after, .btn--o-green:hover .btn-icon__ico.header-search__btn-real:after, .btn--o-green:hover .btn-icon__ico.header-search__btn-close:after, .btn--o-green:hover .select2.select2-container .select2-selection--single .btn-icon__ico.select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--o-green:hover .btn-icon__ico.select2-selection__arrow, .btn--o-green:hover .select--search + .select2.select2-container .btn-icon__ico.select2-selection--multiple, .select--search + .select2.select2-container .btn--o-green:hover .btn-icon__ico.select2-selection--multiple, .btn--o-green:hover .br-theme-fontawesome-stars-o .br-widget A.btn-icon__ico, .br-theme-fontawesome-stars-o .br-widget .btn--o-green:hover A.btn-icon__ico, .btn--o-green:hover .btn-icon__ico.checkbox__view, .btn--o-green:hover .btn-icon__ico.dropdown-menu-nav__item._active:after, .btn--o-green:hover .btn-icon__ico.sidebar-nav__link--dropdown:after, .btn--o-green:hover .btn-icon__ico.open-info__btn:after, .btn--o-green:hover .btn-icon__ico.main-filter__item-title:after {
   color: #b6cd6a !important;
 }
 /* line 100, ../styles/components/_buttons.sass */
@@ -1010,7 +1010,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 /* line 109, ../styles/components/_buttons.sass */
-.btn--showmore .iconic, .btn--showmore .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn--showmore .header-nav__link:after, .btn--showmore .header-search__btn-real:after, .btn--showmore .header-search__btn-close:after, .btn--showmore .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--showmore .select2-selection__arrow, .btn--showmore .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn--showmore .select2-selection--multiple, .btn--showmore .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn--showmore A, .btn--showmore .checkbox__view, .btn--showmore .dropdown-menu-nav__item._active:after, .btn--showmore .sidebar-nav__link--dropdown:after, .btn--showmore .main-filter__item-title:after {
+.btn--showmore .iconic, .btn--showmore .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn--showmore .header-nav__link:after, .btn--showmore .header-search__btn-real:after, .btn--showmore .header-search__btn-close:after, .btn--showmore .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn--showmore .select2-selection__arrow, .btn--showmore .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn--showmore .select2-selection--multiple, .btn--showmore .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn--showmore A, .btn--showmore .checkbox__view, .btn--showmore .dropdown-menu-nav__item._active:after, .btn--showmore .sidebar-nav__link--dropdown:after, .btn--showmore .open-info__btn:after, .btn--showmore .main-filter__item-title:after {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
@@ -1048,6 +1048,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
 }
 /* line 143, ../styles/components/_buttons.sass */
+.btn--xss {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+/* line 153, ../styles/components/_buttons.sass */
 .btn--xs {
   height: 32px;
   line-height: 32px;
@@ -1057,12 +1068,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   border-radius: 5px;
 }
-/* line 152, ../styles/components/_buttons.sass */
+/* line 162, ../styles/components/_buttons.sass */
+.btn--xs.btn--o-green {
+  line-height: 28px;
+}
+/* line 165, ../styles/components/_buttons.sass */
 .btn--mrgr {
   margin-left: 0;
   margin-right: 10px;
 }
-/* line 156, ../styles/components/_buttons.sass */
+/* line 169, ../styles/components/_buttons.sass */
 .btn--stretch {
   width: 100%;
   text-align: center;
@@ -1070,49 +1085,49 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 
-/* line 164, ../styles/components/_buttons.sass */
+/* line 177, ../styles/components/_buttons.sass */
 .btn-icon {
   white-space: nowrap;
 }
-/* line 166, ../styles/components/_buttons.sass */
+/* line 179, ../styles/components/_buttons.sass */
 .btn-icon__ico {
   display: inline-block;
   vertical-align: top;
   margin-right: 5px;
   transition: 300ms;
 }
-/* line 172, ../styles/components/_buttons.sass */
+/* line 185, ../styles/components/_buttons.sass */
 .btn-icon__text {
   display: inline-block;
   vertical-align: top;
   transition: 300ms;
 }
-/* line 177, ../styles/components/_buttons.sass */
+/* line 190, ../styles/components/_buttons.sass */
 .btn-icon.btn--s {
   font-size: 0;
 }
-/* line 179, ../styles/components/_buttons.sass */
+/* line 192, ../styles/components/_buttons.sass */
 .btn-icon.btn--s .btn-icon__text {
   font-size: 15px;
 }
-/* line 182, ../styles/components/_buttons.sass */
-.btn-icon.btn--s .iconic, .btn-icon.btn--s .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--s .header-nav__link:after, .btn-icon.btn--s .header-search__btn-real:after, .btn-icon.btn--s .header-search__btn-close:after, .btn-icon.btn--s .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--s .select2-selection__arrow, .btn-icon.btn--s .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--s .select2-selection--multiple, .btn-icon.btn--s .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--s A, .btn-icon.btn--s .checkbox__view, .btn-icon.btn--s .dropdown-menu-nav__item._active:after, .btn-icon.btn--s .sidebar-nav__link--dropdown:after, .btn-icon.btn--s .main-filter__item-title:after {
+/* line 195, ../styles/components/_buttons.sass */
+.btn-icon.btn--s .iconic, .btn-icon.btn--s .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--s .header-nav__link:after, .btn-icon.btn--s .header-search__btn-real:after, .btn-icon.btn--s .header-search__btn-close:after, .btn-icon.btn--s .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--s .select2-selection__arrow, .btn-icon.btn--s .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--s .select2-selection--multiple, .btn-icon.btn--s .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--s A, .btn-icon.btn--s .checkbox__view, .btn-icon.btn--s .dropdown-menu-nav__item._active:after, .btn-icon.btn--s .sidebar-nav__link--dropdown:after, .btn-icon.btn--s .open-info__btn:after, .btn-icon.btn--s .main-filter__item-title:after {
   color: #fff;
   font-size: 14px;
 }
-/* line 187, ../styles/components/_buttons.sass */
-.btn-icon--fav .iconic, .btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--fav .header-nav__link:after, .btn-icon--fav .header-search__btn-real:after, .btn-icon--fav .header-search__btn-close:after, .btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--fav .select2-selection__arrow, .btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--fav .select2-selection--multiple, .btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--fav A, .btn-icon--fav .checkbox__view, .btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon--fav .main-filter__item-title:after {
+/* line 200, ../styles/components/_buttons.sass */
+.btn-icon--fav .iconic, .btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--fav .header-nav__link:after, .btn-icon--fav .header-search__btn-real:after, .btn-icon--fav .header-search__btn-close:after, .btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--fav .select2-selection__arrow, .btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--fav .select2-selection--multiple, .btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--fav A, .btn-icon--fav .checkbox__view, .btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon--fav .open-info__btn:after, .btn-icon--fav .main-filter__item-title:after {
   font-size: 20px !important;
   margin-right: 10px;
 }
-/* line 192, ../styles/components/_buttons.sass */
-.btn-icon--like .iconic, .btn-icon--like .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--like .header-nav__link:after, .btn-icon--like .header-search__btn-real:after, .btn-icon--like .header-search__btn-close:after, .btn-icon--like .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--like .select2-selection__arrow, .btn-icon--like .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--like .select2-selection--multiple, .btn-icon--like .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--like A, .btn-icon--like .checkbox__view, .btn-icon--like .dropdown-menu-nav__item._active:after, .btn-icon--like .sidebar-nav__link--dropdown:after, .btn-icon--like .main-filter__item-title:after {
+/* line 205, ../styles/components/_buttons.sass */
+.btn-icon--like .iconic, .btn-icon--like .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--like .header-nav__link:after, .btn-icon--like .header-search__btn-real:after, .btn-icon--like .header-search__btn-close:after, .btn-icon--like .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--like .select2-selection__arrow, .btn-icon--like .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--like .select2-selection--multiple, .btn-icon--like .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--like A, .btn-icon--like .checkbox__view, .btn-icon--like .dropdown-menu-nav__item._active:after, .btn-icon--like .sidebar-nav__link--dropdown:after, .btn-icon--like .open-info__btn:after, .btn-icon--like .main-filter__item-title:after {
   font-size: 16px !important;
   margin-right: 0;
   color: #fff;
   opacity: 0.95;
 }
-/* line 198, ../styles/components/_buttons.sass */
+/* line 211, ../styles/components/_buttons.sass */
 .btn-icon--add {
   height: 38px;
   line-height: 38px;
@@ -1121,30 +1136,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0;
   font-family: "Lato", sans-serif;
 }
-/* line 206, ../styles/components/_buttons.sass */
+/* line 219, ../styles/components/_buttons.sass */
 .btn-icon--add .btn-icon__text {
   font-size: 16px;
   font-weight: 300;
 }
-/* line 210, ../styles/components/_buttons.sass */
-.btn-icon--add .iconic, .btn-icon--add .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--add .header-nav__link:after, .btn-icon--add .header-search__btn-real:after, .btn-icon--add .header-search__btn-close:after, .btn-icon--add .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--add .select2-selection__arrow, .btn-icon--add .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--add .select2-selection--multiple, .btn-icon--add .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--add A, .btn-icon--add .checkbox__view, .btn-icon--add .dropdown-menu-nav__item._active:after, .btn-icon--add .sidebar-nav__link--dropdown:after, .btn-icon--add .main-filter__item-title:after {
+/* line 223, ../styles/components/_buttons.sass */
+.btn-icon--add .iconic, .btn-icon--add .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--add .header-nav__link:after, .btn-icon--add .header-search__btn-real:after, .btn-icon--add .header-search__btn-close:after, .btn-icon--add .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--add .select2-selection__arrow, .btn-icon--add .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--add .select2-selection--multiple, .btn-icon--add .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--add A, .btn-icon--add .checkbox__view, .btn-icon--add .dropdown-menu-nav__item._active:after, .btn-icon--add .sidebar-nav__link--dropdown:after, .btn-icon--add .open-info__btn:after, .btn-icon--add .main-filter__item-title:after {
   color: #fff;
   font-size: 14px;
 }
-/* line 216, ../styles/components/_buttons.sass */
+/* line 229, ../styles/components/_buttons.sass */
 .btn-icon--logout .btn-icon__text {
   font-size: 18px;
   font-weight: 300;
   color: #777777;
   font-family: "Lato", sans-serif;
 }
-/* line 222, ../styles/components/_buttons.sass */
-.btn-icon--logout .iconic, .btn-icon--logout .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--logout .header-nav__link:after, .btn-icon--logout .header-search__btn-real:after, .btn-icon--logout .header-search__btn-close:after, .btn-icon--logout .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--logout .select2-selection__arrow, .btn-icon--logout .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--logout .select2-selection--multiple, .btn-icon--logout .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--logout A, .btn-icon--logout .checkbox__view, .btn-icon--logout .dropdown-menu-nav__item._active:after, .btn-icon--logout .sidebar-nav__link--dropdown:after, .btn-icon--logout .main-filter__item-title:after {
+/* line 235, ../styles/components/_buttons.sass */
+.btn-icon--logout .iconic, .btn-icon--logout .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--logout .header-nav__link:after, .btn-icon--logout .header-search__btn-real:after, .btn-icon--logout .header-search__btn-close:after, .btn-icon--logout .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--logout .select2-selection__arrow, .btn-icon--logout .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--logout .select2-selection--multiple, .btn-icon--logout .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--logout A, .btn-icon--logout .checkbox__view, .btn-icon--logout .dropdown-menu-nav__item._active:after, .btn-icon--logout .sidebar-nav__link--dropdown:after, .btn-icon--logout .open-info__btn:after, .btn-icon--logout .main-filter__item-title:after {
   color: #777777;
   margin-top: 2px;
   font-size: 18px;
 }
-/* line 228, ../styles/components/_buttons.sass */
+/* line 241, ../styles/components/_buttons.sass */
 .btn-icon--logout:hover .btn-icon__text,
 .btn-icon--logout:hover .iconic,
 .btn-icon--logout:hover .header-nav__item--dropdown .header-nav__link:after,
@@ -1160,11 +1175,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn-icon--logout:hover .checkbox__view,
 .btn-icon--logout:hover .dropdown-menu-nav__item._active:after,
 .btn-icon--logout:hover .sidebar-nav__link--dropdown:after,
+.btn-icon--logout:hover .open-info__btn:after,
 .btn-icon--logout:hover .main-filter__item-title:after {
   color: #c11718;
 }
 
-/* line 232, ../styles/components/_buttons.sass */
+/* line 245, ../styles/components/_buttons.sass */
 .ico-btn {
   display: inline-block;
   vertical-align: middle;
@@ -1178,7 +1194,7 @@ h1, h2, h3, h4, h5, h6 {
           user-select: none;
   transition: 300ms;
 }
-/* line 242, ../styles/components/_buttons.sass */
+/* line 255, ../styles/components/_buttons.sass */
 .ico-btn__newmess {
   position: absolute;
   width: 16px;
@@ -1193,14 +1209,14 @@ h1, h2, h3, h4, h5, h6 {
   top: -4px;
   font-family: "Lato", sans-serif;
 }
-/* line 256, ../styles/components/_buttons.sass */
+/* line 269, ../styles/components/_buttons.sass */
 .ico-btn__newmess._long {
   width: 22px;
   border-radius: 10px;
   font-size: 10px;
 }
 
-/* line 261, ../styles/components/_buttons.sass */
+/* line 274, ../styles/components/_buttons.sass */
 .btn-fav {
   display: block;
   width: 27px;
@@ -1213,21 +1229,21 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0 0 3px 3px;
   transition: 150ms;
 }
-/* line 273, ../styles/components/_buttons.sass */
+/* line 286, ../styles/components/_buttons.sass */
 .btn-fav:after {
   display: inline-block;
 }
-/* line 277, ../styles/components/_buttons.sass */
+/* line 290, ../styles/components/_buttons.sass */
 .btn-fav:active:after {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-/* line 280, ../styles/components/_buttons.sass */
+/* line 293, ../styles/components/_buttons.sass */
 .btn-fav._active {
   color: #6c851f;
 }
 
-/* line 283, ../styles/components/_buttons.sass */
+/* line 296, ../styles/components/_buttons.sass */
 .form-close-btn {
   color: #c11718;
   text-decoration: none;
@@ -1237,12 +1253,12 @@ h1, h2, h3, h4, h5, h6 {
   top: 10px;
   transition: 300ms;
 }
-/* line 291, ../styles/components/_buttons.sass */
+/* line 304, ../styles/components/_buttons.sass */
 .form-close-btn:hover {
   color: #cc4040;
 }
 
-/* line 294, ../styles/components/_buttons.sass */
+/* line 307, ../styles/components/_buttons.sass */
 .btn-del {
   display: inline-block;
   width: 20px;
@@ -1256,13 +1272,13 @@ h1, h2, h3, h4, h5, h6 {
           transform: rotate(45deg);
   transition: 300ms;
 }
-/* line 306, ../styles/components/_buttons.sass */
+/* line 319, ../styles/components/_buttons.sass */
 .btn-del:hover {
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
 }
-/* line 309, ../styles/components/_buttons.sass */
-.btn-del.iconic, .header-nav__item--dropdown .btn-del.header-nav__link:after, .btn-del.header-search__btn-real:after, .btn-del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .btn-del.select2-selection__arrow, .select--search + .select2.select2-container .btn-del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.btn-del, .btn-del.checkbox__view, .btn-del.dropdown-menu-nav__item._active:after, .btn-del.sidebar-nav__link--dropdown:after, .btn-del.main-filter__item-title:after {
+/* line 322, ../styles/components/_buttons.sass */
+.btn-del.iconic, .header-nav__item--dropdown .btn-del.header-nav__link:after, .btn-del.header-search__btn-real:after, .btn-del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .btn-del.select2-selection__arrow, .select--search + .select2.select2-container .btn-del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.btn-del, .btn-del.checkbox__view, .btn-del.dropdown-menu-nav__item._active:after, .btn-del.sidebar-nav__link--dropdown:after, .btn-del.open-info__btn:after, .btn-del.main-filter__item-title:after {
   font-size: 10px;
   color: #fff;
 }
@@ -1355,7 +1371,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
 }
 /* line 75, ../styles/components/_links.sass */
-.link-ico:hover .iconic, .link-ico:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico:hover .header-nav__link:after, .link-ico:hover .header-search__btn-real:after, .link-ico:hover .header-search__btn-close:after, .link-ico:hover .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico:hover .select2-selection__arrow, .link-ico:hover .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico:hover .select2-selection--multiple, .link-ico:hover .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico:hover A, .link-ico:hover .checkbox__view, .link-ico:hover .dropdown-menu-nav__item._active:after, .link-ico:hover .sidebar-nav__link--dropdown:after, .link-ico:hover .main-filter__item-title:after {
+.link-ico:hover .iconic, .link-ico:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico:hover .header-nav__link:after, .link-ico:hover .header-search__btn-real:after, .link-ico:hover .header-search__btn-close:after, .link-ico:hover .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico:hover .select2-selection__arrow, .link-ico:hover .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico:hover .select2-selection--multiple, .link-ico:hover .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico:hover A, .link-ico:hover .checkbox__view, .link-ico:hover .dropdown-menu-nav__item._active:after, .link-ico:hover .sidebar-nav__link--dropdown:after, .link-ico:hover .open-info__btn:after, .link-ico:hover .main-filter__item-title:after {
   color: #777777;
 }
 /* line 78, ../styles/components/_links.sass */
@@ -1364,7 +1380,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 /* line 82, ../styles/components/_links.sass */
-.link-ico .iconic, .link-ico .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico .header-nav__link:after, .link-ico .header-search__btn-real:after, .link-ico .header-search__btn-close:after, .link-ico .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico .select2-selection__arrow, .link-ico .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico .select2-selection--multiple, .link-ico .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico A, .link-ico .checkbox__view, .link-ico .dropdown-menu-nav__item._active:after, .link-ico .sidebar-nav__link--dropdown:after, .link-ico .main-filter__item-title:after {
+.link-ico .iconic, .link-ico .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico .header-nav__link:after, .link-ico .header-search__btn-real:after, .link-ico .header-search__btn-close:after, .link-ico .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico .select2-selection__arrow, .link-ico .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico .select2-selection--multiple, .link-ico .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico A, .link-ico .checkbox__view, .link-ico .dropdown-menu-nav__item._active:after, .link-ico .sidebar-nav__link--dropdown:after, .link-ico .open-info__btn:after, .link-ico .main-filter__item-title:after {
   display: inline-block;
   vertical-align: middle;
   color: #b4b4b4;
@@ -1382,7 +1398,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #c11718;
 }
 /* line 96, ../styles/components/_links.sass */
-.link-ico--red .iconic, .link-ico--red .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico--red .header-nav__link:after, .link-ico--red .header-search__btn-real:after, .link-ico--red .header-search__btn-close:after, .link-ico--red .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico--red .select2-selection__arrow, .link-ico--red .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico--red .select2-selection--multiple, .link-ico--red .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico--red A, .link-ico--red .checkbox__view, .link-ico--red .dropdown-menu-nav__item._active:after, .link-ico--red .sidebar-nav__link--dropdown:after, .link-ico--red .main-filter__item-title:after {
+.link-ico--red .iconic, .link-ico--red .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico--red .header-nav__link:after, .link-ico--red .header-search__btn-real:after, .link-ico--red .header-search__btn-close:after, .link-ico--red .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico--red .select2-selection__arrow, .link-ico--red .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico--red .select2-selection--multiple, .link-ico--red .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico--red A, .link-ico--red .checkbox__view, .link-ico--red .dropdown-menu-nav__item._active:after, .link-ico--red .sidebar-nav__link--dropdown:after, .link-ico--red .open-info__btn:after, .link-ico--red .main-filter__item-title:after {
   color: #c11718;
 }
 /* line 99, ../styles/components/_links.sass */
@@ -1390,7 +1406,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #cc4040;
 }
 /* line 101, ../styles/components/_links.sass */
-.link-ico--red:hover .iconic, .link-ico--red:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico--red:hover .header-nav__link:after, .link-ico--red:hover .header-search__btn-real:after, .link-ico--red:hover .header-search__btn-close:after, .link-ico--red:hover .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico--red:hover .select2-selection__arrow, .link-ico--red:hover .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico--red:hover .select2-selection--multiple, .link-ico--red:hover .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico--red:hover A, .link-ico--red:hover .checkbox__view, .link-ico--red:hover .dropdown-menu-nav__item._active:after, .link-ico--red:hover .sidebar-nav__link--dropdown:after, .link-ico--red:hover .main-filter__item-title:after {
+.link-ico--red:hover .iconic, .link-ico--red:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .link-ico--red:hover .header-nav__link:after, .link-ico--red:hover .header-search__btn-real:after, .link-ico--red:hover .header-search__btn-close:after, .link-ico--red:hover .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .link-ico--red:hover .select2-selection__arrow, .link-ico--red:hover .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .link-ico--red:hover .select2-selection--multiple, .link-ico--red:hover .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .link-ico--red:hover A, .link-ico--red:hover .checkbox__view, .link-ico--red:hover .dropdown-menu-nav__item._active:after, .link-ico--red:hover .sidebar-nav__link--dropdown:after, .link-ico--red:hover .open-info__btn:after, .link-ico--red:hover .main-filter__item-title:after {
   color: #cc4040;
 }
 
@@ -1432,6 +1448,39 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   color: #000;
   margin-top: 0;
+}
+
+/* line 37, ../styles/components/_typography.sass */
+.h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4b4b4b;
+  margin-top: 0;
+}
+
+/* line 49, ../styles/components/_typography.sass */
+.list-def {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+/* line 54, ../styles/components/_typography.sass */
+.list-def LI {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 15px;
+}
+/* line 58, ../styles/components/_typography.sass */
+.list-def LI:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 /* line 1, ../styles/components/_formElements.sass */
@@ -2124,14 +2173,19 @@ input:disabled + .radio__view {
   margin-bottom: 0;
 }
 /* line 31, ../styles/components/_formLayout.sass */
+.form-row__btn {
+  margin-top: 15px;
+  text-align: right;
+}
+/* line 35, ../styles/components/_formLayout.sass */
 .popup .form-row {
   margin: 0 0 18px;
 }
-/* line 34, ../styles/components/_formLayout.sass */
+/* line 38, ../styles/components/_formLayout.sass */
 .form-row .g-recaptcha > div {
   width: 100% !important;
 }
-/* line 37, ../styles/components/_formLayout.sass */
+/* line 41, ../styles/components/_formLayout.sass */
 .form-row--cols {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2140,7 +2194,7 @@ input:disabled + .radio__view {
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 41, ../styles/components/_formLayout.sass */
+/* line 45, ../styles/components/_formLayout.sass */
 .form-row--cols3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2148,23 +2202,23 @@ input:disabled + .radio__view {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 45, ../styles/components/_formLayout.sass */
+/* line 49, ../styles/components/_formLayout.sass */
 .form-row--cols3 .form-row__col {
   width: 33.33333%;
   padding: 0 15px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 41, ../styles/components/_formLayout.sass */
+  /* line 45, ../styles/components/_formLayout.sass */
   .form-row--cols3 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  /* line 53, ../styles/components/_formLayout.sass */
+  /* line 57, ../styles/components/_formLayout.sass */
   .form-row--cols3 .form-row__col {
     padding: 0 10px;
   }
 }
-/* line 56, ../styles/components/_formLayout.sass */
+/* line 60, ../styles/components/_formLayout.sass */
 .form-row--cols2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2172,38 +2226,38 @@ input:disabled + .radio__view {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 60, ../styles/components/_formLayout.sass */
+/* line 64, ../styles/components/_formLayout.sass */
 .form-row--cols2 .form-row__col {
   width: 50%;
   padding: 0 15px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 56, ../styles/components/_formLayout.sass */
+  /* line 60, ../styles/components/_formLayout.sass */
   .form-row--cols2 {
     margin-left: -10px;
     margin-right: -10px;
   }
-  /* line 68, ../styles/components/_formLayout.sass */
+  /* line 72, ../styles/components/_formLayout.sass */
   .form-row--cols2 .form-row__col {
     padding: 0 10px;
   }
 }
-/* line 72, ../styles/components/_formLayout.sass */
+/* line 76, ../styles/components/_formLayout.sass */
 .form-row__col {
   width: 50%;
 }
-/* line 75, ../styles/components/_formLayout.sass */
+/* line 79, ../styles/components/_formLayout.sass */
 .form-row__col--right {
   text-align: right;
 }
-/* line 78, ../styles/components/_formLayout.sass */
+/* line 82, ../styles/components/_formLayout.sass */
 .form-row__name {
   font-size: 16px;
   font-weight: bold;
   color: #000;
   margin-bottom: 6px;
 }
-/* line 85, ../styles/components/_formLayout.sass */
+/* line 89, ../styles/components/_formLayout.sass */
 .form-row__input-label {
   font-size: 18px;
   line-height: 46px;
@@ -2212,18 +2266,18 @@ input:disabled + .radio__view {
   padding-left: 5px;
   font-family: "Lato", sans-serif;
 }
-/* line 93, ../styles/components/_formLayout.sass */
+/* line 97, ../styles/components/_formLayout.sass */
 .form-row__input--cols {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-/* line 96, ../styles/components/_formLayout.sass */
+/* line 100, ../styles/components/_formLayout.sass */
 .form-row__input--cols .form-row__input-label {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-/* line 99, ../styles/components/_formLayout.sass */
+/* line 103, ../styles/components/_formLayout.sass */
 .form-row__input .select2.select2-container {
   width: 100% !important;
 }
@@ -2272,8 +2326,33 @@ input:disabled + .radio__view {
   max-width: 280px;
   margin: 0 auto;
 }
-
 /* line 42, ../styles/components/_popups.sass */
+.popup--status .form {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+/* line 46, ../styles/components/_popups.sass */
+.popup--status .form .select2,
+.popup--status .form .select2-container {
+  text-align: left;
+}
+/* line 50, ../styles/components/_popups.sass */
+.popup--newpassword {
+  max-width: 900px;
+}
+/* line 53, ../styles/components/_popups.sass */
+.popup--newpassword .form-row + .form-row {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+/* line 58, ../styles/components/_popups.sass */
+.popup--newpassword .form-row + .form-row .btn {
+  min-width: 100px;
+}
+
+/* line 62, ../styles/components/_popups.sass */
 .mfp-close {
   width: 60px;
   height: 60px;
@@ -2282,7 +2361,7 @@ input:disabled + .radio__view {
 }
 
 /* overlay at start */
-/* line 50, ../styles/components/_popups.sass */
+/* line 70, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg {
   opacity: 0;
   background-color: #000;
@@ -2291,19 +2370,19 @@ input:disabled + .radio__view {
   /* overlay animate in */
 }
 
-/* line 57, ../styles/components/_popups.sass */
+/* line 77, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.3;
 }
 
 /* overlay animate out */
-/* line 61, ../styles/components/_popups.sass */
+/* line 81, ../styles/components/_popups.sass */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0;
 }
 
 /* content at start */
-/* line 65, ../styles/components/_popups.sass */
+/* line 85, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
   -webkit-transform: scale(0.8);
@@ -2312,7 +2391,7 @@ input:disabled + .radio__view {
 }
 
 /* content animate it */
-/* line 71, ../styles/components/_popups.sass */
+/* line 91, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -2320,7 +2399,7 @@ input:disabled + .radio__view {
 }
 
 /* content animate out */
-/* line 76, ../styles/components/_popups.sass */
+/* line 96, ../styles/components/_popups.sass */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
   -webkit-transform: scale(0.7);
@@ -2343,7 +2422,7 @@ input:disabled + .radio__view {
   font-family: "Lato", sans-serif;
 }
 /* line 27, ../styles/components/__components.sass */
-.label .iconic, .label .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label .header-nav__link:after, .label .header-search__btn-real:after, .label .header-search__btn-close:after, .label .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label .select2-selection__arrow, .label .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label .select2-selection--multiple, .label .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label A, .label .checkbox__view, .label .dropdown-menu-nav__item._active:after, .label .sidebar-nav__link--dropdown:after, .label .main-filter__item-title:after {
+.label .iconic, .label .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label .header-nav__link:after, .label .header-search__btn-real:after, .label .header-search__btn-close:after, .label .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label .select2-selection__arrow, .label .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label .select2-selection--multiple, .label .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label A, .label .checkbox__view, .label .dropdown-menu-nav__item._active:after, .label .sidebar-nav__link--dropdown:after, .label .open-info__btn:after, .label .main-filter__item-title:after {
   display: inline-block;
   vertical-align: middle;
   line-height: 13px;
@@ -2357,7 +2436,7 @@ input:disabled + .radio__view {
   border-color: #b02e2e;
 }
 /* line 39, ../styles/components/__components.sass */
-.label--red .iconic, .label--red .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label--red .header-nav__link:after, .label--red .header-search__btn-real:after, .label--red .header-search__btn-close:after, .label--red .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label--red .select2-selection__arrow, .label--red .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label--red .select2-selection--multiple, .label--red .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label--red A, .label--red .checkbox__view, .label--red .dropdown-menu-nav__item._active:after, .label--red .sidebar-nav__link--dropdown:after, .label--red .main-filter__item-title:after {
+.label--red .iconic, .label--red .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label--red .header-nav__link:after, .label--red .header-search__btn-real:after, .label--red .header-search__btn-close:after, .label--red .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label--red .select2-selection__arrow, .label--red .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label--red .select2-selection--multiple, .label--red .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label--red A, .label--red .checkbox__view, .label--red .dropdown-menu-nav__item._active:after, .label--red .sidebar-nav__link--dropdown:after, .label--red .open-info__btn:after, .label--red .main-filter__item-title:after {
   color: #b02e2e;
 }
 /* line 42, ../styles/components/__components.sass */
@@ -2366,7 +2445,7 @@ input:disabled + .radio__view {
   border-color: #9bbc33;
 }
 /* line 46, ../styles/components/__components.sass */
-.label--green .iconic, .label--green .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label--green .header-nav__link:after, .label--green .header-search__btn-real:after, .label--green .header-search__btn-close:after, .label--green .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label--green .select2-selection__arrow, .label--green .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label--green .select2-selection--multiple, .label--green .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label--green A, .label--green .checkbox__view, .label--green .dropdown-menu-nav__item._active:after, .label--green .sidebar-nav__link--dropdown:after, .label--green .main-filter__item-title:after {
+.label--green .iconic, .label--green .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label--green .header-nav__link:after, .label--green .header-search__btn-real:after, .label--green .header-search__btn-close:after, .label--green .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label--green .select2-selection__arrow, .label--green .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label--green .select2-selection--multiple, .label--green .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label--green A, .label--green .checkbox__view, .label--green .dropdown-menu-nav__item._active:after, .label--green .sidebar-nav__link--dropdown:after, .label--green .open-info__btn:after, .label--green .main-filter__item-title:after {
   color: #9bbc33;
 }
 
@@ -2378,7 +2457,7 @@ input:disabled + .radio__view {
   margin-bottom: 10px;
 }
 /* line 54, ../styles/components/__components.sass */
-.label-verified .iconic, .label-verified .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label-verified .header-nav__link:after, .label-verified .header-search__btn-real:after, .label-verified .header-search__btn-close:after, .label-verified .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label-verified .select2-selection__arrow, .label-verified .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label-verified .select2-selection--multiple, .label-verified .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label-verified A, .label-verified .checkbox__view, .label-verified .dropdown-menu-nav__item._active:after, .label-verified .sidebar-nav__link--dropdown:after, .label-verified .main-filter__item-title:after {
+.label-verified .iconic, .label-verified .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .label-verified .header-nav__link:after, .label-verified .header-search__btn-real:after, .label-verified .header-search__btn-close:after, .label-verified .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .label-verified .select2-selection__arrow, .label-verified .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .label-verified .select2-selection--multiple, .label-verified .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .label-verified A, .label-verified .checkbox__view, .label-verified .dropdown-menu-nav__item._active:after, .label-verified .sidebar-nav__link--dropdown:after, .label-verified .open-info__btn:after, .label-verified .main-filter__item-title:after {
   font-size: 25px;
   color: #9bbc33;
   margin-right: 5px;
@@ -2465,12 +2544,12 @@ input:disabled + .radio__view {
   margin-left: 3px;
 }
 /* line 126, ../styles/components/__components.sass */
-.children__del.iconic, .header-nav__item--dropdown .children__del.header-nav__link:after, .children__del.header-search__btn-real:after, .children__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .children__del.select2-selection__arrow, .select--search + .select2.select2-container .children__del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.children__del, .children__del.checkbox__view, .children__del.dropdown-menu-nav__item._active:after, .children__del.sidebar-nav__link--dropdown:after, .children__del.main-filter__item-title:after {
+.children__del.iconic, .header-nav__item--dropdown .children__del.header-nav__link:after, .children__del.header-search__btn-real:after, .children__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .children__del.select2-selection__arrow, .select--search + .select2.select2-container .children__del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.children__del, .children__del.checkbox__view, .children__del.dropdown-menu-nav__item._active:after, .children__del.sidebar-nav__link--dropdown:after, .children__del.open-info__btn:after, .children__del.main-filter__item-title:after {
   font-size: 10px;
   color: #fff;
 }
 /* line 129, ../styles/components/__components.sass */
-.children__del.iconic:after, .header-nav__item--dropdown .children__del.header-nav__link:after, .children__del.header-search__btn-real:after, .children__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .children__del.select2-selection__arrow:after, .select--search + .select2.select2-container .children__del.select2-selection--multiple:after, .br-theme-fontawesome-stars-o .br-widget A.children__del:after, .children__del.checkbox__view:after, .children__del.dropdown-menu-nav__item._active:after, .children__del.sidebar-nav__link--dropdown:after, .children__del.main-filter__item-title:after {
+.children__del.iconic:after, .header-nav__item--dropdown .children__del.header-nav__link:after, .children__del.header-search__btn-real:after, .children__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .children__del.select2-selection__arrow:after, .select--search + .select2.select2-container .children__del.select2-selection--multiple:after, .br-theme-fontawesome-stars-o .br-widget A.children__del:after, .children__del.checkbox__view:after, .children__del.dropdown-menu-nav__item._active:after, .children__del.sidebar-nav__link--dropdown:after, .children__del.open-info__btn:after, .children__del.main-filter__item-title:after {
   display: inline-block;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -2911,7 +2990,7 @@ input:disabled + .radio__view {
   color: #fefefe;
 }
 /* line 336, ../styles/blocks/__blocks.sass */
-.dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .iconic, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-nav__link:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-search__btn-real:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-search__btn-close:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2-selection__arrow, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2-selection--multiple, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon A, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .checkbox__view, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .dropdown-menu-nav__item._active:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .sidebar-nav__link--dropdown:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .main-filter__item-title:after {
+.dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .iconic, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-nav__link:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-search__btn-real:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .header-search__btn-close:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2-selection__arrow, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .select2-selection--multiple, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon A, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .checkbox__view, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .dropdown-menu-nav__item._active:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .sidebar-nav__link--dropdown:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .open-info__btn:after, .dropdown-menu-nav__item._active .dropdown-menu-nav__item-icon .main-filter__item-title:after {
   color: #fff;
 }
 /* line 339, ../styles/blocks/__blocks.sass */
@@ -3211,18 +3290,22 @@ input:disabled + .radio__view {
   text-align: center;
 }
 /* line 551, ../styles/blocks/__blocks.sass */
+.pagination-wr {
+  margin: 35px 0;
+}
+/* line 554, ../styles/blocks/__blocks.sass */
 .pagination__item {
   display: inline-block;
   vertical-align: middle;
   margin: 0 3px;
 }
-/* line 556, ../styles/blocks/__blocks.sass */
+/* line 559, ../styles/blocks/__blocks.sass */
 .pagination__item > SPAN {
   font-weight: bold;
   font-size: 18px;
   color: #777777;
 }
-/* line 561, ../styles/blocks/__blocks.sass */
+/* line 564, ../styles/blocks/__blocks.sass */
 .pagination__link {
   display: block;
   width: 30px;
@@ -3238,18 +3321,22 @@ input:disabled + .radio__view {
   font-weight: bold;
   transition: 300ms;
 }
-/* line 576, ../styles/blocks/__blocks.sass */
+/* line 579, ../styles/blocks/__blocks.sass */
+.pagination__link--big {
+  width: 60px;
+}
+/* line 582, ../styles/blocks/__blocks.sass */
 .pagination__link:hover {
   color: #b6cd6a;
   border-color: #b6cd6a;
 }
-/* line 580, ../styles/blocks/__blocks.sass */
+/* line 586, ../styles/blocks/__blocks.sass */
 .pagination__link.active {
   color: #777777;
   border-color: #777777;
 }
 
-/* line 584, ../styles/blocks/__blocks.sass */
+/* line 590, ../styles/blocks/__blocks.sass */
 .top-alert {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3259,12 +3346,12 @@ input:disabled + .radio__view {
           align-items: center;
   padding: 8px 0 10px;
 }
-/* line 586, ../styles/blocks/__blocks.sass */
+/* line 592, ../styles/blocks/__blocks.sass */
 .top-alert-wr--green {
   background-color: #9bbc33;
   color: #fff;
 }
-/* line 594, ../styles/blocks/__blocks.sass */
+/* line 600, ../styles/blocks/__blocks.sass */
 .top-alert__text {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -3272,49 +3359,49 @@ input:disabled + .radio__view {
   font-size: 15px;
   font-family: "Lato", sans-serif;
 }
-/* line 599, ../styles/blocks/__blocks.sass */
+/* line 605, ../styles/blocks/__blocks.sass */
 .top-alert__text P {
   margin-bottom: 0;
 }
-/* line 601, ../styles/blocks/__blocks.sass */
+/* line 607, ../styles/blocks/__blocks.sass */
 .top-alert__text P B {
   font-size: 16px;
 }
-/* line 604, ../styles/blocks/__blocks.sass */
+/* line 610, ../styles/blocks/__blocks.sass */
 .top-alert__close {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   padding-left: 20px;
 }
-/* line 607, ../styles/blocks/__blocks.sass */
-.top-alert__close .iconic, .top-alert__close .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .top-alert__close .header-nav__link:after, .top-alert__close .header-search__btn-real:after, .top-alert__close .header-search__btn-close:after, .top-alert__close .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .top-alert__close .select2-selection__arrow, .top-alert__close .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .top-alert__close .select2-selection--multiple, .top-alert__close .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .top-alert__close A, .top-alert__close .checkbox__view, .top-alert__close .dropdown-menu-nav__item._active:after, .top-alert__close .sidebar-nav__link--dropdown:after, .top-alert__close .main-filter__item-title:after {
+/* line 613, ../styles/blocks/__blocks.sass */
+.top-alert__close .iconic, .top-alert__close .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .top-alert__close .header-nav__link:after, .top-alert__close .header-search__btn-real:after, .top-alert__close .header-search__btn-close:after, .top-alert__close .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .top-alert__close .select2-selection__arrow, .top-alert__close .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .top-alert__close .select2-selection--multiple, .top-alert__close .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .top-alert__close A, .top-alert__close .checkbox__view, .top-alert__close .dropdown-menu-nav__item._active:after, .top-alert__close .sidebar-nav__link--dropdown:after, .top-alert__close .open-info__btn:after, .top-alert__close .main-filter__item-title:after {
   font-size: 30px;
   color: #fff;
 }
-/* line 610, ../styles/blocks/__blocks.sass */
-.top-alert__close .iconic:hover, .top-alert__close .header-nav__item--dropdown .header-nav__link:hover:after, .header-nav__item--dropdown .top-alert__close .header-nav__link:hover:after, .top-alert__close .header-search__btn-real:hover:after, .top-alert__close .header-search__btn-close:hover:after, .top-alert__close .select2.select2-container .select2-selection--single .select2-selection__arrow:hover, .select2.select2-container .select2-selection--single .top-alert__close .select2-selection__arrow:hover, .top-alert__close .select--search + .select2.select2-container .select2-selection--multiple:hover, .select--search + .select2.select2-container .top-alert__close .select2-selection--multiple:hover, .top-alert__close .br-theme-fontawesome-stars-o .br-widget A:hover, .br-theme-fontawesome-stars-o .br-widget .top-alert__close A:hover, .top-alert__close .checkbox__view:hover, .top-alert__close .dropdown-menu-nav__item._active:hover:after, .top-alert__close .sidebar-nav__link--dropdown:hover:after, .top-alert__close .main-filter__item-title:hover:after {
+/* line 616, ../styles/blocks/__blocks.sass */
+.top-alert__close .iconic:hover, .top-alert__close .header-nav__item--dropdown .header-nav__link:hover:after, .header-nav__item--dropdown .top-alert__close .header-nav__link:hover:after, .top-alert__close .header-search__btn-real:hover:after, .top-alert__close .header-search__btn-close:hover:after, .top-alert__close .select2.select2-container .select2-selection--single .select2-selection__arrow:hover, .select2.select2-container .select2-selection--single .top-alert__close .select2-selection__arrow:hover, .top-alert__close .select--search + .select2.select2-container .select2-selection--multiple:hover, .select--search + .select2.select2-container .top-alert__close .select2-selection--multiple:hover, .top-alert__close .br-theme-fontawesome-stars-o .br-widget A:hover, .br-theme-fontawesome-stars-o .br-widget .top-alert__close A:hover, .top-alert__close .checkbox__view:hover, .top-alert__close .dropdown-menu-nav__item._active:hover:after, .top-alert__close .sidebar-nav__link--dropdown:hover:after, .top-alert__close .open-info__btn:hover:after, .top-alert__close .main-filter__item-title:hover:after {
   opacity: 0.9;
 }
 
-/* line 615, ../styles/blocks/__blocks.sass */
+/* line 621, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btns {
   margin-bottom: 15px;
 }
-/* line 618, ../styles/blocks/__blocks.sass */
+/* line 624, ../styles/blocks/__blocks.sass */
 .favorite-tabs__tab {
   display: none;
 }
-/* line 621, ../styles/blocks/__blocks.sass */
+/* line 627, ../styles/blocks/__blocks.sass */
 .favorite-tabs__tab._active {
   display: block;
 }
-/* line 624, ../styles/blocks/__blocks.sass */
+/* line 630, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
 }
-/* line 629, ../styles/blocks/__blocks.sass */
+/* line 635, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn A {
   display: block;
   font-size: 19px;
@@ -3328,30 +3415,30 @@ input:disabled + .radio__view {
   border: 2px solid transparent;
   border-radius: 5px;
 }
-/* line 642, ../styles/blocks/__blocks.sass */
+/* line 648, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn A:hover {
   color: #4b4b4b;
 }
-/* line 644, ../styles/blocks/__blocks.sass */
+/* line 650, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn A:hover SPAN {
   border-color: #4b4b4b;
 }
-/* line 647, ../styles/blocks/__blocks.sass */
+/* line 653, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn A SPAN {
   border-bottom: 1px dashed #777777;
 }
-/* line 651, ../styles/blocks/__blocks.sass */
+/* line 657, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn._active A {
   border-color: #c11718;
   color: #c11718;
   box-shadow: none;
 }
-/* line 656, ../styles/blocks/__blocks.sass */
+/* line 662, ../styles/blocks/__blocks.sass */
 .favorite-tabs__btn._active A SPAN {
   border-color: transparent;
 }
 
-/* line 659, ../styles/blocks/__blocks.sass */
+/* line 665, ../styles/blocks/__blocks.sass */
 .user {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3363,12 +3450,12 @@ input:disabled + .radio__view {
   box-shadow: 0 2px 4px rgba(80, 72, 68, 0.18);
 }
 @media screen and (max-width: 1200px) {
-  /* line 659, ../styles/blocks/__blocks.sass */
+  /* line 665, ../styles/blocks/__blocks.sass */
   .user {
     padding: 10px;
   }
 }
-/* line 670, ../styles/blocks/__blocks.sass */
+/* line 676, ../styles/blocks/__blocks.sass */
 .user__ava {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -3377,12 +3464,12 @@ input:disabled + .radio__view {
   overflow: hidden;
   border-radius: 5px;
 }
-/* line 676, ../styles/blocks/__blocks.sass */
+/* line 682, ../styles/blocks/__blocks.sass */
 .user__ava IMG {
   display: block;
   width: 100%;
 }
-/* line 680, ../styles/blocks/__blocks.sass */
+/* line 686, ../styles/blocks/__blocks.sass */
 .user__info {
   padding-left: 20px;
   -webkit-box-flex: 1;
@@ -3390,12 +3477,12 @@ input:disabled + .radio__view {
           flex-grow: 1;
   min-width: 0;
 }
-/* line 686, ../styles/blocks/__blocks.sass */
+/* line 692, ../styles/blocks/__blocks.sass */
 .user__info-btn .btn {
   height: 36px;
   line-height: 36px;
 }
-/* line 690, ../styles/blocks/__blocks.sass */
+/* line 696, ../styles/blocks/__blocks.sass */
 .user__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3405,7 +3492,7 @@ input:disabled + .radio__view {
           align-items: center;
   margin-bottom: 12px;
 }
-/* line 695, ../styles/blocks/__blocks.sass */
+/* line 701, ../styles/blocks/__blocks.sass */
 .user__header-name {
   font-size: 16px;
   font-weight: bold;
@@ -3416,22 +3503,316 @@ input:disabled + .radio__view {
           flex-grow: 1;
   min-width: 0;
 }
-/* line 703, ../styles/blocks/__blocks.sass */
+/* line 709, ../styles/blocks/__blocks.sass */
 .user__header-name SPAN {
   display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 709, ../styles/blocks/__blocks.sass */
+/* line 715, ../styles/blocks/__blocks.sass */
 .user__header-status {
   text-align: right;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-/* line 713, ../styles/blocks/__blocks.sass */
+/* line 719, ../styles/blocks/__blocks.sass */
 .user__header-status .label {
   margin-right: 6px;
+}
+
+/* line 722, ../styles/blocks/__blocks.sass */
+.float-img {
+  float: left;
+  margin: 0 25px 20px 0;
+}
+/* line 726, ../styles/blocks/__blocks.sass */
+.float-img--right {
+  float: right;
+  margin: 0 0 20px 25px;
+}
+
+/* line 730, ../styles/blocks/__blocks.sass */
+.text-page {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(80, 72, 68, 0.18);
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 30px;
+}
+/* line 737, ../styles/blocks/__blocks.sass */
+.text-page P {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+/* line 744, ../styles/blocks/__blocks.sass */
+.text-page blockquote {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 18px 20px;
+  margin: 0 0 20px;
+  color: #777777;
+  background-color: #efefef;
+  border-radius: 7px;
+}
+
+/* line 753, ../styles/blocks/__blocks.sass */
+.open-info {
+  margin-bottom: 20px;
+}
+/* line 756, ../styles/blocks/__blocks.sass */
+.open-info__btn {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 50px 7px 20px;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  background-color: #9bbc33;
+  border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+/* line 769, ../styles/blocks/__blocks.sass */
+.open-info__btn:after {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -11px;
+  color: #fff;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+/* line 787, ../styles/blocks/__blocks.sass */
+.open-info__btn._open:after {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+/* line 790, ../styles/blocks/__blocks.sass */
+.open-info__text {
+  background-color: #efefef;
+  padding: 23px 20px 18px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  margin-top: -7px;
+  border-radius: 0 0 7px 7px;
+  display: none;
+}
+
+/* line 801, ../styles/blocks/__blocks.sass */
+.blog {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(80, 72, 68, 0.18);
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 810, ../styles/blocks/__blocks.sass */
+.blog__ava {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/* line 816, ../styles/blocks/__blocks.sass */
+.blog__ava IMG {
+  width: 100%;
+}
+/* line 819, ../styles/blocks/__blocks.sass */
+.blog__content {
+  padding-left: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/* line 823, ../styles/blocks/__blocks.sass */
+.blog__content .h4 {
+  font-weight: normal;
+}
+/* line 826, ../styles/blocks/__blocks.sass */
+.blog__label {
+  margin-bottom: 5px;
+}
+/* line 828, ../styles/blocks/__blocks.sass */
+.blog__label SPAN {
+  font-size: 13px;
+  color: #9bbc33;
+  padding: 5px 9px;
+  background-color: #efefef;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* line 836, ../styles/blocks/__blocks.sass */
+.blog__date {
+  font-size: 13px;
+  color: #b4b4b4;
+  margin-bottom: 3px;
+}
+/* line 841, ../styles/blocks/__blocks.sass */
+.blog__username {
+  font-size: 16px;
+  color: #4b4b4b;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* line 848, ../styles/blocks/__blocks.sass */
+.blog__text P {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 853, ../styles/blocks/__blocks.sass */
+.blog-comments {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(80, 72, 68, 0.18);
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/* line 861, ../styles/blocks/__blocks.sass */
+.blog-comments .h3 {
+  font-weight: 300;
+}
+
+/* line 864, ../styles/blocks/__blocks.sass */
+.blog-comment {
+  background-color: #f9f9f9;
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 866, ../styles/blocks/__blocks.sass */
+.blog-comment-wr .blog-comment-wr {
+  margin-left: 30px;
+}
+/* line 869, ../styles/blocks/__blocks.sass */
+.blog-comment-wr .blog-comment-wr .blog-comment-wr {
+  margin-left: 60px;
+}
+/* line 872, ../styles/blocks/__blocks.sass */
+.blog-comment-wr .blog-comment-wr .blog-comment-wr .blog-comment-wr {
+  margin-left: 90px;
+}
+/* line 875, ../styles/blocks/__blocks.sass */
+.blog-comment-wr .blog-comment-wr .blog-comment-wr .blog-comment-wr .blog-comment-wr {
+  margin-left: 120px;
+}
+/* line 884, ../styles/blocks/__blocks.sass */
+.blog-comment__ava {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/* line 890, ../styles/blocks/__blocks.sass */
+.blog-comment__ava IMG {
+  width: 100%;
+}
+/* line 893, ../styles/blocks/__blocks.sass */
+.blog-comment__content {
+  padding-left: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/* line 897, ../styles/blocks/__blocks.sass */
+.blog-comment__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4b4b4b;
+  margin-bottom: 5px;
+}
+/* line 903, ../styles/blocks/__blocks.sass */
+.blog-comment__title .label {
+  margin-left: 10px;
+}
+/* line 906, ../styles/blocks/__blocks.sass */
+.blog-comment__date {
+  font-size: 13px;
+  color: #b4b4b4;
+  margin-bottom: 8px;
+}
+/* line 911, ../styles/blocks/__blocks.sass */
+.blog-comment__text {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+/* line 917, ../styles/blocks/__blocks.sass */
+.blog-comment__btns .link {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+/* line 922, ../styles/blocks/__blocks.sass */
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 30px;
+}
+/* line 926, ../styles/blocks/__blocks.sass */
+.content__body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-right: 20px;
+}
+/* line 930, ../styles/blocks/__blocks.sass */
+.content__sidebar {
+  width: 300px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+}
+/* line 935, ../styles/blocks/__blocks.sass */
+.content__sidebar-item {
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px rgba(80, 72, 68, 0.23);
+  border-radius: 7px;
+}
+/* line 941, ../styles/blocks/__blocks.sass */
+.content__sidebar-item--padd {
+  padding: 20px;
+}
+/* line 945, ../styles/blocks/__blocks.sass */
+.content--leftbar .main-catalog__body {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+/* line 951, ../styles/blocks/__blocks.sass */
+.sticky-sidebar._scroll {
+  position: absolute;
+  top: 20px;
+  width: 300px;
 }
 
 /* line 1, ../styles/pages/_index.sass */
@@ -3606,7 +3987,7 @@ input:disabled + .radio__view {
   display: none !important;
 }
 /* line 114, ../styles/pages/_index.sass */
-.main-filter__item._active .main-filter__item-icon .iconic, .main-filter__item._active .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item._active .main-filter__item-icon .header-nav__link:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-real:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-close:after, .main-filter__item._active .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item._active .main-filter__item-icon .select2-selection__arrow, .main-filter__item._active .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item._active .main-filter__item-icon .select2-selection--multiple, .main-filter__item._active .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .main-filter__item._active .main-filter__item-icon A, .main-filter__item._active .main-filter__item-icon .checkbox__view, .main-filter__item._active .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item._active .main-filter__item-icon .sidebar-nav__link--dropdown:after, .main-filter__item._active .main-filter__item-icon .main-filter__item-title:after {
+.main-filter__item._active .main-filter__item-icon .iconic, .main-filter__item._active .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item._active .main-filter__item-icon .header-nav__link:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-real:after, .main-filter__item._active .main-filter__item-icon .header-search__btn-close:after, .main-filter__item._active .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item._active .main-filter__item-icon .select2-selection__arrow, .main-filter__item._active .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item._active .main-filter__item-icon .select2-selection--multiple, .main-filter__item._active .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .main-filter__item._active .main-filter__item-icon A, .main-filter__item._active .main-filter__item-icon .checkbox__view, .main-filter__item._active .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item._active .main-filter__item-icon .sidebar-nav__link--dropdown:after, .main-filter__item._active .main-filter__item-icon .open-info__btn:after, .main-filter__item._active .main-filter__item-icon .main-filter__item-title:after {
   color: #cc4040;
 }
 /* line 116, ../styles/pages/_index.sass */
@@ -3619,7 +4000,7 @@ input:disabled + .radio__view {
           transform: rotate(180deg);
 }
 /* line 122, ../styles/pages/_index.sass */
-.main-filter__item-icon .iconic, .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item-icon .header-nav__link:after, .main-filter__item-icon .header-search__btn-real:after, .main-filter__item-icon .header-search__btn-close:after, .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item-icon .select2-selection__arrow, .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item-icon .select2-selection--multiple, .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .main-filter__item-icon A, .main-filter__item-icon .checkbox__view, .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item-icon .sidebar-nav__link--dropdown:after, .main-filter__item-icon .main-filter__item-title:after {
+.main-filter__item-icon .iconic, .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .main-filter__item-icon .header-nav__link:after, .main-filter__item-icon .header-search__btn-real:after, .main-filter__item-icon .header-search__btn-close:after, .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .main-filter__item-icon .select2-selection__arrow, .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .main-filter__item-icon .select2-selection--multiple, .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .main-filter__item-icon A, .main-filter__item-icon .checkbox__view, .main-filter__item-icon .dropdown-menu-nav__item._active:after, .main-filter__item-icon .sidebar-nav__link--dropdown:after, .main-filter__item-icon .open-info__btn:after, .main-filter__item-icon .main-filter__item-title:after {
   color: #b4b4b4;
   font-size: 45px;
   transition: 300ms;
@@ -3710,7 +4091,7 @@ input:disabled + .radio__view {
   padding-top: 15px;
 }
 /* line 201, ../styles/pages/_index.sass */
-.page-catalog .main-filter__item-icon .iconic, .page-catalog .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .page-catalog .main-filter__item-icon .header-nav__link:after, .page-catalog .main-filter__item-icon .header-search__btn-real:after, .page-catalog .main-filter__item-icon .header-search__btn-close:after, .page-catalog .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .page-catalog .main-filter__item-icon .select2-selection__arrow, .page-catalog .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .page-catalog .main-filter__item-icon .select2-selection--multiple, .page-catalog .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .page-catalog .main-filter__item-icon A, .page-catalog .main-filter__item-icon .checkbox__view, .page-catalog .main-filter__item-icon .dropdown-menu-nav__item._active:after, .page-catalog .main-filter__item-icon .sidebar-nav__link--dropdown:after, .page-catalog .main-filter__item-icon .main-filter__item-title:after {
+.page-catalog .main-filter__item-icon .iconic, .page-catalog .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .page-catalog .main-filter__item-icon .header-nav__link:after, .page-catalog .main-filter__item-icon .header-search__btn-real:after, .page-catalog .main-filter__item-icon .header-search__btn-close:after, .page-catalog .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .page-catalog .main-filter__item-icon .select2-selection__arrow, .page-catalog .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .page-catalog .main-filter__item-icon .select2-selection--multiple, .page-catalog .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .page-catalog .main-filter__item-icon A, .page-catalog .main-filter__item-icon .checkbox__view, .page-catalog .main-filter__item-icon .dropdown-menu-nav__item._active:after, .page-catalog .main-filter__item-icon .sidebar-nav__link--dropdown:after, .page-catalog .main-filter__item-icon .open-info__btn:after, .page-catalog .main-filter__item-icon .main-filter__item-title:after {
   font-size: 35px;
 }
 /* line 204, ../styles/pages/_index.sass */
@@ -3758,7 +4139,7 @@ input:disabled + .radio__view {
           justify-content: center;
 }
 /* line 19, ../styles/pages/_add-item.sass */
-.additem__header .additem__col .iconic, .additem__header .additem__col .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .additem__header .additem__col .header-nav__link:after, .additem__header .additem__col .header-search__btn-real:after, .additem__header .additem__col .header-search__btn-close:after, .additem__header .additem__col .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .additem__header .additem__col .select2-selection__arrow, .additem__header .additem__col .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .additem__header .additem__col .select2-selection--multiple, .additem__header .additem__col .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .additem__header .additem__col A, .additem__header .additem__col .checkbox__view, .additem__header .additem__col .dropdown-menu-nav__item._active:after, .additem__header .additem__col .sidebar-nav__link--dropdown:after, .additem__header .additem__col .main-filter__item-title:after {
+.additem__header .additem__col .iconic, .additem__header .additem__col .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .additem__header .additem__col .header-nav__link:after, .additem__header .additem__col .header-search__btn-real:after, .additem__header .additem__col .header-search__btn-close:after, .additem__header .additem__col .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .additem__header .additem__col .select2-selection__arrow, .additem__header .additem__col .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .additem__header .additem__col .select2-selection--multiple, .additem__header .additem__col .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .additem__header .additem__col A, .additem__header .additem__col .checkbox__view, .additem__header .additem__col .dropdown-menu-nav__item._active:after, .additem__header .additem__col .sidebar-nav__link--dropdown:after, .additem__header .additem__col .open-info__btn:after, .additem__header .additem__col .main-filter__item-title:after {
   color: #bababa;
   font-size: 42px;
   line-height: 1;
@@ -3929,7 +4310,7 @@ input:disabled + .radio__view {
           transform: rotate(135deg);
 }
 /* line 143, ../styles/pages/_add-item.sass */
-.form-photo__item-del .iconic, .form-photo__item-del .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .form-photo__item-del .header-nav__link:after, .form-photo__item-del .header-search__btn-real:after, .form-photo__item-del .header-search__btn-close:after, .form-photo__item-del .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .form-photo__item-del .select2-selection__arrow, .form-photo__item-del .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .form-photo__item-del .select2-selection--multiple, .form-photo__item-del .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .form-photo__item-del A, .form-photo__item-del .checkbox__view, .form-photo__item-del .dropdown-menu-nav__item._active:after, .form-photo__item-del .sidebar-nav__link--dropdown:after, .form-photo__item-del .main-filter__item-title:after {
+.form-photo__item-del .iconic, .form-photo__item-del .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .form-photo__item-del .header-nav__link:after, .form-photo__item-del .header-search__btn-real:after, .form-photo__item-del .header-search__btn-close:after, .form-photo__item-del .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .form-photo__item-del .select2-selection__arrow, .form-photo__item-del .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .form-photo__item-del .select2-selection--multiple, .form-photo__item-del .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .form-photo__item-del A, .form-photo__item-del .checkbox__view, .form-photo__item-del .dropdown-menu-nav__item._active:after, .form-photo__item-del .sidebar-nav__link--dropdown:after, .form-photo__item-del .open-info__btn:after, .form-photo__item-del .main-filter__item-title:after {
   color: #fff;
   font-size: 14px;
 }

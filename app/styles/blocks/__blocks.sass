@@ -548,6 +548,9 @@
 	display: block
 	text-align: center
 
+	&-wr
+		margin: 35px 0
+
 	&__item
 		display: inline-block
 		vertical-align: middle
@@ -572,6 +575,9 @@
 		text-decoration: none
 		font-weight: bold
 		transition: $t300
+
+		&--big
+			width: 60px
 
 		&:hover
 			color: $cGreenL
@@ -712,3 +718,237 @@
 
 			.label
 				margin-right: 6px
+
+.float-img
+	float: left
+	margin: 0 25px 20px 0
+
+	&--right
+		float: right
+		margin: 0 0 20px 25px
+
+.text-page
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px
+
+	P
+		font-size: 18px
+		font-weight: 300
+		font-family: $titleFont
+		margin-bottom: 20px
+		line-height: 24px
+
+	blockquote
+		font-size: 14px
+		line-height: 18px
+		padding: 18px 20px
+		margin: 0 0 20px
+		color: $cGrayD
+		background-color: #efefef
+		border-radius: 7px
+
+.open-info
+	margin-bottom: 20px
+
+	&__btn
+		font-size: 16px
+		color: #fff
+		font-weight: bold
+		padding: 7px 50px 7px 20px
+		line-height: 22px
+		font-family: $titleFont
+		background-color: $cGreen
+		border-radius: 7px
+		position: relative
+		z-index: 1
+		cursor: pointer
+		@extend .iconic--down-arrow
+		&:after
+			@extend .iconic
+			position: absolute
+			right: 20px
+			top: 50%
+			margin-top: -11px
+			color: #fff
+			display: block
+			width: 22px
+			height: 22px
+			border: 2px solid #fff
+			text-align: center
+			line-height: 18px
+			font-size: 12px
+			border-radius: 50%
+			transition: 0.3s
+
+		&._open
+			&:after
+				transform: rotate(-180deg)
+
+	&__text
+		background-color: #efefef
+		padding: 23px 20px 18px
+		font-size: 16px
+		font-weight: 300
+		line-height: 22px
+		font-family: $titleFont
+		margin-top: -7px
+		border-radius: 0 0 7px 7px
+		display: none
+
+.blog
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px
+	margin-bottom: 30px
+	display: flex
+
+	&__ava
+		width: 100px
+		height: 100px
+		border-radius: 5px
+		overflow: hidden
+		flex-shrink: 0
+		IMG
+			width: 100%
+
+	&__content
+		padding-left: 20px
+		flex-grow: 1
+
+		.h4
+			font-weight: normal
+
+	&__label
+		margin-bottom: 5px
+		SPAN
+			font-size: 13px
+			color: $cGreen
+			padding: 5px 9px
+			background-color: #efefef
+			border-radius: 4px
+			display: inline-block
+
+	&__date
+		font-size: 13px
+		color: $cGray
+		margin-bottom: 3px
+
+	&__username
+		font-size: 16px
+		color: $cGrayDText
+		margin-bottom: 10px
+		font-weight: bold
+
+	&__text
+		P
+			margin-bottom: 20px
+			font-size: 14px
+			line-height: 18px
+
+.blog-comments
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px
+	margin-bottom: 30px
+
+	.h3
+		font-weight: 300
+
+.blog-comment
+	&-wr
+		.blog-comment-wr
+			margin-left: 30px
+
+			.blog-comment-wr
+				margin-left: 60px
+
+				.blog-comment-wr
+					margin-left: 90px
+
+					.blog-comment-wr
+						margin-left: 120px
+
+	background-color: #f9f9f9
+	border-radius: 7px
+	padding: 20px
+	margin-bottom: 30px
+	display: flex
+
+	&__ava
+		width: 100px
+		height: 100px
+		border-radius: 5px
+		overflow: hidden
+		flex-shrink: 0
+		IMG
+			width: 100%
+
+	&__content
+		padding-left: 20px
+		flex-grow: 1
+
+	&__title
+		font-size: 16px
+		font-weight: bold
+		color: $cGrayDText
+		margin-bottom: 5px
+
+		.label
+			margin-left: 10px
+
+	&__date
+		font-size: 13px
+		color: $cGray
+		margin-bottom: 8px
+
+	&__text
+		font-size: 14px
+		line-height: 20px
+		margin-bottom: 8px
+
+	&__btns
+		.link
+			font-size: 14px
+			margin-right: 20px
+
+
+.content
+	display: flex
+	padding: 0 0 30px
+
+	&__body
+		flex-grow: 1
+		padding-right: 20px
+
+	&__sidebar
+		width: 300px
+		flex-shrink: 0
+		position: relative
+
+		&-item
+			background-color: #fff
+			margin-bottom: 20px
+			box-shadow: 0 1px 5px rgba(80,72,68,0.23)
+			border-radius: 7px
+
+			&--padd
+				padding: 20px
+
+	&--leftbar
+		.main-catalog__body
+			padding-right: 0
+			padding-left: 20px
+
+
+.sticky-sidebar
+	&._scroll
+		position: absolute
+		top: 20px
+		width: 300px
