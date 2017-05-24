@@ -85,7 +85,6 @@
     &--o-green
         color: $cGreen
         border: 2px solid $cGreen
-        background-color: #fff
         .btn-icon__ico.iconic
             color: $cGreen!important
 
@@ -94,6 +93,19 @@
             border-color: $cGreenL
             .btn-icon__ico.iconic
                 color: $cGreenL!important
+
+
+    &--o-red
+        color: $cRed
+        border: 2px solid $cRed
+        .btn-icon__ico.iconic
+            color: $cRed!important
+
+        &:hover
+            color: $cRed
+            border-color: $cRedL
+            .btn-icon__ico.iconic
+                color: $cRedL!important
 
 
 
@@ -137,7 +149,8 @@
         font-weight: bold
         margin: 0 10px
 
-        &.btn--o-green
+        &.btn--o-green,
+        &.btn--o-red
             line-height: 40px
 
     &--xss
@@ -159,8 +172,43 @@
         font-weight: bold
         border-radius: 5px
 
-        &.btn--o-green
+        &.btn--o-green,
+        &.btn--o-red
             line-height: 28px
+
+    &--xl
+        height: 58px
+        line-height: 58px
+        padding: 0 20px
+        font-family: $titleFont
+        font-size: 18px
+        font-weight: bold
+        border-radius: 7px
+
+        &.btn--stretch
+            padding: 0 10px
+
+        &.btn--o-green,
+        &.btn--o-red
+            border-width: 3px
+            line-height: 52px
+
+    &--xxl
+        height: 66px
+        line-height: 66px
+        padding: 0 25px
+        font-family: $titleFont
+        font-size: 18px
+        font-weight: bold
+        border-radius: 7px
+
+        &.btn--stretch
+            padding: 0 10px
+
+        &.btn--o-green,
+        &.btn--o-red
+            border-width: 3px
+            line-height: 60px
 
     &--mrgr
         margin-left: 0
@@ -195,6 +243,15 @@
         .iconic
             color: #fff
             font-size: 14px
+
+    &.btn--xl
+        font-size: 0
+        .btn-icon__text
+            font-size: 18px
+
+        .iconic
+            font-size: 40px
+            margin-right: 15px
 
     &--fav
         .iconic

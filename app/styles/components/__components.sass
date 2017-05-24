@@ -92,6 +92,49 @@
 		display: inline-block
 		vertical-align: middle
 
+.price-label
+	display: inline-block
+	font-size: 30px
+	font-weight: bold
+	height: 56px
+	border: 5px solid $cRed
+	border-radius: 7px
+	padding: 0 0 0 10px
+	margin-right: 25px
+	line-height: 46px
+	color: $cRed
+	font-family: $titleFont
+	position: relative
+
+	&__text
+		position: relative
+		z-index: 1
+
+	&:after
+		content: ""
+		position: absolute
+		right: -20px
+		top: 50%
+		margin-top: -20px
+		width: 40px
+		height: 40px
+		border-radius: 7px
+		background: $cRed
+		transform: rotate(45deg)
+
+	&:before
+		content: ""
+		position: absolute
+		right: -14px
+		top: 50%
+		margin-top: -18px
+		width: 36px
+		height: 36px
+		border-radius: 6px
+		background: #f9f9f9
+		transform: rotate(45deg)
+		z-index: 1
+
 ._no-photo
 	background: url(../images/no-photo-img.png) no-repeat 50% 50% #f0f0f0!important
 
@@ -129,3 +172,9 @@
 			&:after
 				display: inline-block
 				transform: rotate(45deg)
+
+.text-green
+	color: $cGreen
+
+.text-red
+	color: $cRed

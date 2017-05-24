@@ -168,6 +168,29 @@
 			right: auto
 			left: 15px
 
+	&--full
+		margin-bottom: 20px
+		.product__header
+			border-bottom: 1px solid #f3f3f3
+			&-label
+				right: auto
+				left: 30px
+				top: 10px
+
+		.product__body
+			display: flex
+			padding: 30px
+
+		.product__body-price
+			position: static
+			height: auto
+			line-height: inherit
+			background: none
+			padding: 0
+			min-width: 0
+			margin-top: 10px
+			display: inline-block
+
 	&__header
 		flex-grow: 1
 		padding: 32px 15px 10px
@@ -230,6 +253,9 @@
 			font-size: 18px
 			font-weight: 500
 			color: #000
+
+		&-info
+			padding-left: 30px
 
 	&__footer
 		padding: 13px 15px
@@ -673,6 +699,14 @@
 	+max-screen($screenM)
 		padding: 10px
 
+	&--big
+		.user__ava
+			width: 90px
+			height: 90px
+
+		.user__header
+			margin-bottom: 0
+
 	&__ava
 		flex-shrink: 0
 		width: 70px
@@ -682,6 +716,11 @@
 		IMG
 			display: block
 			width: 100%
+
+	&__date
+		font-size: 13px
+		color: $cGray
+		margin-bottom: 17px
 
 	&__info
 		padding-left: 20px
@@ -952,3 +991,64 @@
 		position: absolute
 		top: 20px
 		width: 300px
+
+.yourad
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px 15px
+	margin-bottom: 30px
+	display: flex
+
+	&__col
+		width: 50%
+		margin: 0 15px
+
+	&__title
+		border-radius: 7px 7px 0 0
+		height: 80px
+		line-height: 80px
+		font-size: 25px
+		font-weight: bold
+		font-family: $titleFont
+		color: #fff
+		text-transform: uppercase
+		text-align: center
+
+		&--red
+			background-color: $cRed
+
+		&--green
+			background-color: $cGreen
+
+	&__items
+		display: flex
+		padding: 20px 10px
+		background-color: #f9f9f9
+		border-radius: 0 0 7px 7px
+
+	&__item
+		width: 50%
+		margin: 0 10px
+
+.pay
+	display: flex
+	background-color: #f9f9f9
+	padding: 18px
+	align-items: center
+	margin-bottom: 25px
+	border-radius: 7px
+
+	&__price
+		flex-shrink: 0
+
+	&__text
+		text-align: right
+		flex-grow: 1
+		padding-left: 15px
+		font-weight: bold
+		font-size: 18px
+		color: $cGrayDText
+		font-family: $titleFont
+		line-height: 26px
