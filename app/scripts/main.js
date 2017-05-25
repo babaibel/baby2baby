@@ -307,20 +307,25 @@ $(function () {
     });
 });
 
+// $(function () {
+//     var $selectStatus = $('.select--status.js-select');
+//     if (!$selectStatus.length) return;
+
+//     $selectStatus.change(function(){
+//         $.magnificPopup.open({
+//             items: {
+//                 src: '#status'
+//             },
+//             type: 'inline'
+//         });
+//     });
+// });
+
 $(function () {
-    var $selectStatus = $('.select--status.js-select');
-    if (!$selectStatus.length) return;
-
-    $selectStatus.change(function(){
-        $.magnificPopup.open({
-            items: {
-                src: '#status'
-            },
-            type: 'inline'
-        });
-    });
+    var $itemGall = $('.fancybox');
+    if (!$itemGall.length) return; 
+    $itemGall.magnificPopup({type:'image'});
 });
-
 
 $(function () {
     var $sidebarDropdown = $('.js-sidebar-dropdown');
@@ -333,6 +338,7 @@ $(function () {
         } else{
             $(this).next('.sidebar-nav-sub').slideUp();
         }
+        return false;
     });
 });
 
@@ -389,7 +395,8 @@ $(function () {
     if (!$pasStrength.length) return;
 
     $pasStrength.passtrength({
-        passwordToggle: false
+        passwordToggle: false,
+        minChars: 6
     });
 });
 

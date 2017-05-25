@@ -77,6 +77,23 @@
     </div>
 </div>
 
+<div class="popup mfp-hide" id="message">
+    <div class="popup__login">
+        <h3 class="popup__title popup__title--left h1">
+            Message system popup
+        </h3>
+        <div class="popup__info">
+            <div class="popup__info-icon iconic iconic--information"></div>
+            <div class="popup__info-text">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p><b>Nemo enim ipsam voluptatem quia</b> voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos 
+                qui ratione <a href="#!" class="link link--u-red">voluptatem sequi nesciunt</a>. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="popup popup--remind mfp-hide" id="remind">
     <div class="popup__remind">
         <h3 class="popup__title h1">

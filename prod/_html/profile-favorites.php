@@ -51,17 +51,152 @@
 
                     <div class="main-catalog">
                         <div class="main-catalog__content">
-                            <div class="favorite-tabs js-tabs">
-                                <div class="favorite-tabs__btns">
-                                    <div class="favorite-tabs__btn js-tabs-btn">
+                            <div class="profile-tabs js-tabs">
+                                <div class="profile-tabs__btns">
+                                    <div class="profile-tabs__btn js-tabs-btn">
                                         <a href="#!"><span>Favorite items</span></a>
                                     </div>
-                                    <div class="favorite-tabs__btn js-tabs-btn _active">
+                                    <div class="profile-tabs__btn js-tabs-btn _active">
                                         <a href="#!"><span>Favorite users</span></a>
                                     </div>
                                 </div>
-                                <div class="favorite-tabs__tabs">
-                                    <div class="favorite-tabs__tab js-tabs-tab">
+                                <div class="profile-tabs__tabs">
+                                    <div class="profile-tabs__tab js-tabs-tab">
+                                        <div class="catalog-wr">
+                                            <div class="catalog">
+                                                <div class="catalog__item ">
+                                                    <div class="product product--edit">
+                                                        <div class="product__header">
+                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
+                                                            <div class="product__header-label">
+                                                                30 min ago <span class="label label--red">new</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Size: 24 Age: 7</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                            <div class="product__body-price"><b>22</b> €</div>
+                                                        </a>
+                                                        <div class="product__footer">
+                                                            <div class="product__footer-links">
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
+                                                            </div>
+                                                            <div class="product__footer-user">
+                                                                <a href="#!">
+                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item ">
+                                                    <div class="product product--edit">
+                                                        <div class="product__header">
+                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
+                                                            <div class="product__header-label">
+                                                                30 min ago <span class="label label--red">new</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Size: 24 Age: 7</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                            <div class="product__body-price"><b>22</b> €</div>
+                                                        </a>
+                                                        <div class="product__footer">
+                                                            <div class="product__footer-links">
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
+                                                            </div>
+                                                            <div class="product__footer-user">
+                                                                <a href="#!">
+                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item ">
+                                                    <div class="product product--edit">
+                                                        <div class="product__header">
+                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
+                                                            <div class="product__header-label">
+                                                                30 min ago <span class="label label--red">new</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Size: 24 Age: 7</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                            <div class="product__body-price"><b>22</b> €</div>
+                                                        </a>
+                                                        <div class="product__footer">
+                                                            <div class="product__footer-links">
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
+                                                            </div>
+                                                            <div class="product__footer-user">
+                                                                <a href="#!">
+                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item ">
+                                                    <div class="product product--edit">
+                                                        <div class="product__header">
+                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
+                                                            <div class="product__header-label">
+                                                                30 min ago <span class="label label--red">new</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Size: 24 Age: 7</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                            <div class="product__body-price"><b>22</b> €</div>
+                                                        </a>
+                                                        <div class="product__footer">
+                                                            <div class="product__footer-links">
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
+                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
+                                                            </div>
+                                                            <div class="product__footer-user">
+                                                                <a href="#!">
+                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-tabs__tab js-tabs-tab _active">
+                                        
                                         <div class="catalog-wr">
                                             <div class="catalog">
                                                 <div class="catalog__item ">
@@ -136,140 +271,6 @@
                                                             </div>
                                                             <div class="user__info-btn">
                                                                 <a href="#!" class="btn btn--green btn--s btn--stretch">send message</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-tabs__tab js-tabs-tab _active">
-                                        <div class="catalog-wr">
-                                            <div class="catalog">
-                                                <div class="catalog__item ">
-                                                    <div class="product product--edit">
-                                                        <div class="product__header">
-                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
-                                                            <div class="product__header-label">
-                                                                30 min ago <span class="label label--red">new</span>
-                                                            </div>
-                                                            <div class="product__header-brand">Puma</div>
-                                                            <div class="product__header-title">
-                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
-                                                            </div>
-                                                            <div class="product__header-info">Size: 24 Age: 7</div>
-                                                        </div>
-                                                        <a href="#!" class="product__body">
-                                                            <div class="product__body-img">
-                                                                <img src="../images/userfiles/product-img.jpg" alt="">
-                                                            </div>
-                                                            <div class="product__body-price"><b>22</b> €</div>
-                                                        </a>
-                                                        <div class="product__footer">
-                                                            <div class="product__footer-links">
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                            </div>
-                                                            <div class="product__footer-user">
-                                                                <a href="#!">
-                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="catalog__item ">
-                                                    <div class="product product--edit">
-                                                        <div class="product__header">
-                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
-                                                            <div class="product__header-label">
-                                                                30 min ago <span class="label label--red">new</span>
-                                                            </div>
-                                                            <div class="product__header-brand">Puma</div>
-                                                            <div class="product__header-title">
-                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
-                                                            </div>
-                                                            <div class="product__header-info">Size: 24 Age: 7</div>
-                                                        </div>
-                                                        <a href="#!" class="product__body">
-                                                            <div class="product__body-img">
-                                                                <img src="../images/userfiles/product-img.jpg" alt="">
-                                                            </div>
-                                                            <div class="product__body-price"><b>22</b> €</div>
-                                                        </a>
-                                                        <div class="product__footer">
-                                                            <div class="product__footer-links">
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                            </div>
-                                                            <div class="product__footer-user">
-                                                                <a href="#!">
-                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="catalog__item ">
-                                                    <div class="product product--edit">
-                                                        <div class="product__header">
-                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
-                                                            <div class="product__header-label">
-                                                                30 min ago <span class="label label--red">new</span>
-                                                            </div>
-                                                            <div class="product__header-brand">Puma</div>
-                                                            <div class="product__header-title">
-                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
-                                                            </div>
-                                                            <div class="product__header-info">Size: 24 Age: 7</div>
-                                                        </div>
-                                                        <a href="#!" class="product__body">
-                                                            <div class="product__body-img">
-                                                                <img src="../images/userfiles/product-img.jpg" alt="">
-                                                            </div>
-                                                            <div class="product__body-price"><b>22</b> €</div>
-                                                        </a>
-                                                        <div class="product__footer">
-                                                            <div class="product__footer-links">
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                            </div>
-                                                            <div class="product__footer-user">
-                                                                <a href="#!">
-                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="catalog__item ">
-                                                    <div class="product product--edit">
-                                                        <div class="product__header">
-                                                            <a href="#!" class="product__header-del btn-del iconic iconic--add"></a>
-                                                            <div class="product__header-label">
-                                                                30 min ago <span class="label label--red">new</span>
-                                                            </div>
-                                                            <div class="product__header-brand">Puma</div>
-                                                            <div class="product__header-title">
-                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
-                                                            </div>
-                                                            <div class="product__header-info">Size: 24 Age: 7</div>
-                                                        </div>
-                                                        <a href="#!" class="product__body">
-                                                            <div class="product__body-img">
-                                                                <img src="../images/userfiles/product-img.jpg" alt="">
-                                                            </div>
-                                                            <div class="product__body-price"><b>22</b> €</div>
-                                                        </a>
-                                                        <div class="product__footer">
-                                                            <div class="product__footer-links">
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--like"></span>3</a>
-                                                                <a class="link-ico" href="#!"><span class="iconic iconic--comment"></span>14</a>
-                                                            </div>
-                                                            <div class="product__footer-user">
-                                                                <a href="#!">
-                                                                    <img src="../images/userfiles/user-img.jpg" alt="">
-                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>

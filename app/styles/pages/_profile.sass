@@ -34,7 +34,8 @@
 			border-radius: 7px
 
 			IMG
-				width: 100px
+				width: 100%
+				border-radius: 7px
 
 		&-text
 			padding-left: 10px
@@ -43,13 +44,26 @@
 				font-size: 13px
 				color: $cGrayD
 
+				.circle
+					display: inline-block
+					font-size: 10px
+					font-family: $titleFont
+					height: 21px
+					width: 21px
+					text-align: center
+					line-height: 16px
+					border: 2px solid $cGreen
+					border-radius: 50%
+					margin-top: -2px
+					font-weight: 700
+
 				.iconic--boy,
 				.iconic--girl
 					font-size: 15px
 					color: $cGrayD
 					position: relative
-					top: 2px
-					margin-right: -2px
+					top: 3px
+					margin-right: -1px
 
 	&__rating
 		background-color: #f8f8f8
@@ -149,6 +163,7 @@
 			overflow: hidden
 			IMG
 				display: block
+				border-radius: 4px
 				width: 100%
 
 		.profile-edit__row-btn
@@ -218,3 +233,245 @@
 					margin-bottom: 20px
 					&:last-child
 						margin-bottom: 0
+
+.messages
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	padding: 30px
+
+	&__search
+		margin-bottom: 20px
+
+	&-item
+		padding: 20px
+		background-color: #f9f9f9
+		display: flex
+		border-radius: 7px
+		margin-bottom: 20px
+		&:last-child
+			margin-bottom: 0
+
+		&__ava
+			width: 100px
+			height: 100px
+			border-radius: 5px
+			overflow: hidden
+			flex-shrink: 0
+			IMG
+				width: 100%
+				border-radius: 5px
+
+		&__info
+			flex-grow: 1
+			padding-left: 20px
+
+			&-date
+				font-size: 13px
+				color: $cGrayD
+
+			&-text
+				font-size: 14px
+				line-height: 18px
+				margin-bottom: 5px
+
+			&-btns
+				.btn
+					margin-right: 10px
+
+		&__header
+			display: flex
+			align-items: center
+			margin-bottom: 5px
+
+			&-username
+				flex-grow: 1
+				font-size: 16px
+				color: $cGrayDText
+				font-weight: bold
+
+				.label
+					margin-left: 5px
+
+			&-time
+				font-size: 13px
+				color: $cGrayD
+				flex-shrink: 0
+				padding-left: 20px
+
+.chat
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	margin: 25px 0
+
+	&__header
+		padding: 20px 30px
+		border-radius: 7px 7px 0 0 
+		background-color: #f9f9f9
+		border-bottom: 1px solid rgba(0,0,0,0.13)
+		.form-row
+			margin-bottom: 0
+			align-items: center
+
+	&-dateline
+		margin-bottom: 30px
+		text-align: center
+		SPAN
+			display: inline-block
+			background-color: #ebebeb
+			border-radius: 8px
+			padding: 0 8px
+			height: 20px
+			line-height: 20px
+			font-size: 12px
+			color: $cGrayD
+
+	&-user
+		display: flex
+		&__ava
+			flex-shrink: 0
+			width: 48px
+			border-radius: 5px
+			overflow: hidden
+			height: 48px
+			IMG
+				width: 100%
+				border-radius: 5px
+
+		&__info
+			flex-grow: 1
+			padding-left: 20px
+
+			&-name
+				font-size: 16px
+				color: $cGrayDText
+				font-weight: bold
+
+			&-btns
+				margin-top: 5px
+				.btn
+					margin-right: 8px
+
+
+	&__body
+		padding: 25px 30px 20px
+		background-color: #fff
+
+		&-inner
+			min-height: 200px
+			max-height: 640px
+			padding-right: 30px
+			overflow-y: auto
+
+			&::-webkit-scrollbar
+				width: 6px
+
+			&::-webkit-scrollbar-thumb
+				background-color: $cGrayD
+
+		&-status
+			font-size: 13px
+			color: $cGrayD
+			text-align: center
+
+	&__footer
+		padding: 20px 30px
+		border-top: 1px solid rgba(0,0,0,0.13)
+		background-color: #fff
+		border-radius: 0 0 7px 7px
+		display: flex
+
+		&-input
+			flex-grow: 1
+
+		&-btns
+			flex-shrink: 0
+
+			.btn
+				width: 44px
+				margin-right: 0
+
+				.iconic--attach
+					font-size: 26px!important
+
+.chat-mess
+	display: flex
+	background-color: #f9f9f9
+	padding: 20px
+	border-radius: 7px
+	margin-bottom: 30px
+	position: relative
+
+	&:after
+		content: ""
+		position: absolute
+		bottom: -22px
+		left: 45px
+		border-width: 11px
+		border-style: solid
+		border-color: #f9f9f9 transparent transparent transparent
+		width: 0
+		height: 0
+
+	&--answer
+		margin-left: 30px
+		&:after
+			left: auto
+			right: 45px
+
+	&__ava
+		flex-shrink: 0
+		width: 48px
+		border-radius: 5px
+		overflow: hidden
+		height: 48px
+		IMG
+			width: 100%
+			border-radius: 5px
+
+	&__info
+		flex-grow: 1
+		padding-left: 20px
+
+		&-text
+			font-size: 14px
+
+	&__header
+		margin-bottom: 10px
+		&-name
+			font-size: 16px
+			color: $cGrayDText
+			font-weight: bold
+			margin-right: 5px
+
+			&.offline
+				&:after
+					content: ""
+					display: inline-block
+					width: 8px
+					height: 8px
+					border-radius: 50%
+					background-color: $cRed
+					margin-left: 3px
+
+			&.online
+				&:after
+					content: ""
+					display: inline-block
+					width: 8px
+					height: 8px
+					border-radius: 50%
+					background-color: $cGreen
+					margin-left: 3px
+
+		&-time
+			display: inline-block
+			background-color: #ebebeb
+			border-radius: 8px
+			padding: 0 8px
+			height: 16px
+			line-height: 16px
+			font-size: 12px
+			color: $cGrayD
+

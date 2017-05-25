@@ -163,6 +163,14 @@
         text-transform: uppercase
         border-radius: 5px
 
+    &--xxs
+        height: 24px
+        line-height: 24px
+        padding: 0 8px
+        font-family: $titleFont
+        font-size: 13px
+        border-radius: 3px
+
     &--xs
         height: 32px
         line-height: 32px
@@ -235,7 +243,8 @@
         vertical-align: top
         transition: $t300
 
-    &.btn--s
+    &.btn--s,
+    &.btn--xss
         font-size: 0
         .btn-icon__text
             font-size: 15px
@@ -244,7 +253,12 @@
             color: #fff
             font-size: 14px
 
-    &.btn--xl
+        &.btn-icon--fav
+            padding: 0 10px
+            .iconic
+                margin-right: 0
+
+    &.btn--xxl
         font-size: 0
         .btn-icon__text
             font-size: 18px

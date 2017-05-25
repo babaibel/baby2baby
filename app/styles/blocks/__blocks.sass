@@ -1,3 +1,37 @@
+.search
+	height: 40px
+	width: 100%
+	border-radius: 7px
+	border: 1px solid #e3e2e1
+	background-color: #fff
+	position: relative
+
+	&__btn
+		position: absolute
+		left: 0
+		top: -1px
+		width: 40px
+		height: 40px
+		@extend .iconic--search
+		&:after
+			font-size: 20px
+			position: absolute
+			top: 50%
+			left: 50%
+			margin: -10px 0 0 -10px
+			color: #6e6e6e!important
+			line-height: 20px!important
+			@extend .iconic
+
+	&__text
+		width: 100%
+		height: 38px
+		line-height: 38px
+		padding: 0 20px 0 45px
+		font-size: 14px
+		color: #505050
+		font-family: $titleFont
+
 .dropdown
 	background-color: #fff
 	box-shadow: 0 2px 7px rgba(80,72,68,0.6)
@@ -428,6 +462,7 @@
 		margin-right: 10px
 		IMG
 			width: 100%
+			border-radius: 3px
 
 	&__header
 		display: flex
@@ -468,6 +503,7 @@
 		margin-right: 10px
 		IMG
 			width: 100%
+			border-radius: 3px
 
 	&__header
 		display: flex
@@ -642,7 +678,7 @@
 			&:hover
 				opacity: 0.9
 
-.favorite-tabs
+.profile-tabs
 
 	&__btns
 		margin-bottom: 15px
@@ -716,6 +752,7 @@
 		IMG
 			display: block
 			width: 100%
+			border-radius: 5px
 
 	&__date
 		font-size: 13px
@@ -854,6 +891,7 @@
 		flex-shrink: 0
 		IMG
 			width: 100%
+			border-radius: 5px
 
 	&__content
 		padding-left: 20px
@@ -928,6 +966,7 @@
 		flex-shrink: 0
 		IMG
 			width: 100%
+			border-radius: 5px
 
 	&__content
 		padding-left: 20px
@@ -1052,3 +1091,78 @@
 		color: $cGrayDText
 		font-family: $titleFont
 		line-height: 26px
+
+.opinion
+	background-color: #fff
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	border-radius: 7px
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px
+	margin-bottom: 30px
+
+	&__header
+		display: flex
+		margin-bottom: 30px
+
+		&-ava
+			width: 100px
+			height: 100px
+			border-radius: 5px
+			overflow: hidden
+			flex-shrink: 0
+			IMG
+				width: 100%
+				border-radius: 5px
+
+		&-content
+			flex-grow: 1
+			padding-left: 20px
+
+	&__username
+		font-size: 16px
+		font-weight: bold
+		padding-right: 10px
+		color: $cGrayDText
+		margin-bottom: 10px
+
+		.label
+			margin-left: 10px
+
+	&__add
+		.form-row
+			margin-bottom: 0
+
+			&__name
+				font-size: 13px
+				color: $cGrayDText
+				line-height: 20px
+				margin-bottom: 10px
+				.rating
+					display: inline-block
+					vertical-align: middle
+					margin-left: 5px
+
+.opinion-product
+	display: inline-flex
+	padding: 10px
+	background-color: #f9f9f9
+	align-items: center
+	border-radius: 7px
+
+	&__img
+		width: 60px
+
+		IMG
+			max-width: 100%
+			display: block
+
+	&__info
+		padding-left: 10px
+
+		&-text
+			font-size: 13px
+			color: $cGrayDText
+
+		&-link
+			font-size: 16px
+			font-weight: bold

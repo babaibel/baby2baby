@@ -65,7 +65,7 @@
                                                 <p><span class="label-verified"><span class="iconic iconic--verified"></span><span class="label-verified__text">Verified user</span></span></p>
                                                 <p>Belgium, Brussels</p>
                                                 <p>Age: 34</p>
-                                                <p>Children (age): <span class="iconic iconic--boy"></span>12 <span class="iconic iconic--girl"></span>11</p>
+                                                <p>Children: <span class="iconic iconic--boy"></span><span class="circle">12</span> <span class="iconic iconic--girl"></span><span class="circle">11</span> </p>
                                             </div>
                                         </div>
                                         <div class="profile-card__rating">
@@ -79,6 +79,10 @@
                                                 </select>
                                             </div>
                                             <div class="profile-card__rating-numbers">3445</div>
+                                        </div>
+                                        <div class="profile-card__dopinfo">
+                                            <p>Last visit: 11.03.2017 (11:34)</p>
+                                            <p>Registered: 1 year and 2 months</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,7 +178,8 @@
                                                     <div class="product-status">
                                                         <div class="product-status__text">Item status:</div>
                                                         <div class="product-status__select">
-                                                            <select class="select select--status js-select">
+                                                            <select class="select select--status js-select" data-placeholder="Select">
+                                                                <option></option>
                                                                 <option value="1">Sold out</option>
                                                                 <option value="2">Canceled</option>
                                                                 <option value="3">Removed</option>

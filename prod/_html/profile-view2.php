@@ -25,7 +25,7 @@
                                                 <p><span class="label-verified"><span class="iconic iconic--verified"></span><span class="label-verified__text">Verified user</span></span></p>
                                                 <p>Belgium, Brussels</p>
                                                 <p>Age: 34</p>
-                                                <p>Children (age): <span class="iconic iconic--boy"></span>12 <span class="iconic iconic--girl"></span>11</p>
+                                                 <p>Children: <span class="iconic iconic--boy"></span><span class="circle">12</span> <span class="iconic iconic--girl"></span><span class="circle">11</span> </p>
                                             </div>
                                         </div>
                                         <div class="profile-card__rating">
