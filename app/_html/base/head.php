@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../../bower_components/passtrength/src/passtrength.css" />
     <link rel="stylesheet" href="../../bower_components/selectize/dist/css/selectize.css" />
     <link rel="stylesheet" href="../../bower_components/jquery-bar-rating/dist/themes/fontawesome-stars-o.css" />
+    <link rel="stylesheet" href="../../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css" />
     <!-- endbower-->
     <!-- endbuild -->
 

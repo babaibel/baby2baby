@@ -1194,40 +1194,66 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 14px;
 }
-/* line 256, ../styles/components/_buttons.sass */
-.btn-icon.btn--s.btn-icon--fav, .btn-icon.btn--xss.btn-icon--fav {
+/* line 257, ../styles/components/_buttons.sass */
+.btn-icon.btn--xss.btn-icon--fav {
   padding: 0 10px;
 }
-/* line 258, ../styles/components/_buttons.sass */
-.btn-icon.btn--s.btn-icon--fav .iconic, .btn-icon.btn--s.btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--s.btn-icon--fav .header-nav__link:after, .btn-icon.btn--s.btn-icon--fav .header-search__btn-real:after, .btn-icon.btn--s.btn-icon--fav .header-search__btn-close:after, .btn-icon.btn--s.btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--s.btn-icon--fav .select2-selection__arrow, .btn-icon.btn--s.btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--s.btn-icon--fav .select2-selection--multiple, .btn-icon.btn--s.btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--s.btn-icon--fav A, .btn-icon.btn--s.btn-icon--fav .checkbox__view, .btn-icon.btn--s.btn-icon--fav .search__btn:after, .btn-icon.btn--s.btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon.btn--s.btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon.btn--s.btn-icon--fav .open-info__btn:after, .btn-icon.btn--s.btn-icon--fav .main-filter__item-title:after, .btn-icon.btn--xss.btn-icon--fav .iconic, .btn-icon.btn--xss.btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--xss.btn-icon--fav .header-nav__link:after, .btn-icon.btn--xss.btn-icon--fav .header-search__btn-real:after, .btn-icon.btn--xss.btn-icon--fav .header-search__btn-close:after, .btn-icon.btn--xss.btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--xss.btn-icon--fav .select2-selection__arrow, .btn-icon.btn--xss.btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--xss.btn-icon--fav .select2-selection--multiple, .btn-icon.btn--xss.btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--xss.btn-icon--fav A, .btn-icon.btn--xss.btn-icon--fav .checkbox__view, .btn-icon.btn--xss.btn-icon--fav .search__btn:after, .btn-icon.btn--xss.btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon.btn--xss.btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon.btn--xss.btn-icon--fav .open-info__btn:after, .btn-icon.btn--xss.btn-icon--fav .main-filter__item-title:after {
+/* line 259, ../styles/components/_buttons.sass */
+.btn-icon.btn--xss.btn-icon--fav .iconic, .btn-icon.btn--xss.btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--xss.btn-icon--fav .header-nav__link:after, .btn-icon.btn--xss.btn-icon--fav .header-search__btn-real:after, .btn-icon.btn--xss.btn-icon--fav .header-search__btn-close:after, .btn-icon.btn--xss.btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--xss.btn-icon--fav .select2-selection__arrow, .btn-icon.btn--xss.btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--xss.btn-icon--fav .select2-selection--multiple, .btn-icon.btn--xss.btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--xss.btn-icon--fav A, .btn-icon.btn--xss.btn-icon--fav .checkbox__view, .btn-icon.btn--xss.btn-icon--fav .search__btn:after, .btn-icon.btn--xss.btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon.btn--xss.btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon.btn--xss.btn-icon--fav .open-info__btn:after, .btn-icon.btn--xss.btn-icon--fav .main-filter__item-title:after {
   margin-right: 0;
 }
-/* line 261, ../styles/components/_buttons.sass */
+/* line 262, ../styles/components/_buttons.sass */
 .btn-icon.btn--xxl {
   font-size: 0;
 }
-/* line 263, ../styles/components/_buttons.sass */
+/* line 264, ../styles/components/_buttons.sass */
 .btn-icon.btn--xxl .btn-icon__text {
   font-size: 18px;
 }
-/* line 266, ../styles/components/_buttons.sass */
+/* line 267, ../styles/components/_buttons.sass */
 .btn-icon.btn--xxl .iconic, .btn-icon.btn--xxl .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon.btn--xxl .header-nav__link:after, .btn-icon.btn--xxl .header-search__btn-real:after, .btn-icon.btn--xxl .header-search__btn-close:after, .btn-icon.btn--xxl .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon.btn--xxl .select2-selection__arrow, .btn-icon.btn--xxl .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon.btn--xxl .select2-selection--multiple, .btn-icon.btn--xxl .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon.btn--xxl A, .btn-icon.btn--xxl .checkbox__view, .btn-icon.btn--xxl .search__btn:after, .btn-icon.btn--xxl .dropdown-menu-nav__item._active:after, .btn-icon.btn--xxl .sidebar-nav__link--dropdown:after, .btn-icon.btn--xxl .open-info__btn:after, .btn-icon.btn--xxl .main-filter__item-title:after {
   font-size: 40px;
   margin-right: 15px;
 }
-/* line 271, ../styles/components/_buttons.sass */
+/* line 272, ../styles/components/_buttons.sass */
 .btn-icon--fav .iconic, .btn-icon--fav .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--fav .header-nav__link:after, .btn-icon--fav .header-search__btn-real:after, .btn-icon--fav .header-search__btn-close:after, .btn-icon--fav .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--fav .select2-selection__arrow, .btn-icon--fav .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--fav .select2-selection--multiple, .btn-icon--fav .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--fav A, .btn-icon--fav .checkbox__view, .btn-icon--fav .search__btn:after, .btn-icon--fav .dropdown-menu-nav__item._active:after, .btn-icon--fav .sidebar-nav__link--dropdown:after, .btn-icon--fav .open-info__btn:after, .btn-icon--fav .main-filter__item-title:after {
   font-size: 20px !important;
   margin-right: 10px;
 }
 /* line 276, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--green {
+  background-color: #b4b4b4 !important;
+}
+/* line 278, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--green:hover {
+  background-color: #777777 !important;
+}
+/* line 281, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--o-green {
+  color: #b4b4b4 !important;
+  border-color: #b4b4b4 !important;
+}
+/* line 284, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--o-green .iconic, .btn-icon--fav._infav.btn--o-green .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--fav._infav.btn--o-green .header-nav__link:after, .btn-icon--fav._infav.btn--o-green .header-search__btn-real:after, .btn-icon--fav._infav.btn--o-green .header-search__btn-close:after, .btn-icon--fav._infav.btn--o-green .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--fav._infav.btn--o-green .select2-selection__arrow, .btn-icon--fav._infav.btn--o-green .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--fav._infav.btn--o-green .select2-selection--multiple, .btn-icon--fav._infav.btn--o-green .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--fav._infav.btn--o-green A, .btn-icon--fav._infav.btn--o-green .checkbox__view, .btn-icon--fav._infav.btn--o-green .search__btn:after, .btn-icon--fav._infav.btn--o-green .dropdown-menu-nav__item._active:after, .btn-icon--fav._infav.btn--o-green .sidebar-nav__link--dropdown:after, .btn-icon--fav._infav.btn--o-green .open-info__btn:after, .btn-icon--fav._infav.btn--o-green .main-filter__item-title:after {
+  color: #b4b4b4 !important;
+}
+/* line 286, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--o-green:hover {
+  color: #777777 !important;
+  border-color: #777777 !important;
+}
+/* line 289, ../styles/components/_buttons.sass */
+.btn-icon--fav._infav.btn--o-green:hover .iconic, .btn-icon--fav._infav.btn--o-green:hover .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--fav._infav.btn--o-green:hover .header-nav__link:after, .btn-icon--fav._infav.btn--o-green:hover .header-search__btn-real:after, .btn-icon--fav._infav.btn--o-green:hover .header-search__btn-close:after, .btn-icon--fav._infav.btn--o-green:hover .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--fav._infav.btn--o-green:hover .select2-selection__arrow, .btn-icon--fav._infav.btn--o-green:hover .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--fav._infav.btn--o-green:hover .select2-selection--multiple, .btn-icon--fav._infav.btn--o-green:hover .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--fav._infav.btn--o-green:hover A, .btn-icon--fav._infav.btn--o-green:hover .checkbox__view, .btn-icon--fav._infav.btn--o-green:hover .search__btn:after, .btn-icon--fav._infav.btn--o-green:hover .dropdown-menu-nav__item._active:after, .btn-icon--fav._infav.btn--o-green:hover .sidebar-nav__link--dropdown:after, .btn-icon--fav._infav.btn--o-green:hover .open-info__btn:after, .btn-icon--fav._infav.btn--o-green:hover .main-filter__item-title:after {
+  color: #777777 !important;
+}
+/* line 293, ../styles/components/_buttons.sass */
 .btn-icon--like .iconic, .btn-icon--like .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--like .header-nav__link:after, .btn-icon--like .header-search__btn-real:after, .btn-icon--like .header-search__btn-close:after, .btn-icon--like .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--like .select2-selection__arrow, .btn-icon--like .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--like .select2-selection--multiple, .btn-icon--like .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--like A, .btn-icon--like .checkbox__view, .btn-icon--like .search__btn:after, .btn-icon--like .dropdown-menu-nav__item._active:after, .btn-icon--like .sidebar-nav__link--dropdown:after, .btn-icon--like .open-info__btn:after, .btn-icon--like .main-filter__item-title:after {
   font-size: 16px !important;
   margin-right: 0;
   color: #fff;
   opacity: 0.95;
 }
-/* line 282, ../styles/components/_buttons.sass */
+/* line 299, ../styles/components/_buttons.sass */
 .btn-icon--add {
   height: 38px;
   line-height: 38px;
@@ -1236,30 +1262,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0;
   font-family: "Lato", sans-serif;
 }
-/* line 290, ../styles/components/_buttons.sass */
+/* line 307, ../styles/components/_buttons.sass */
 .btn-icon--add .btn-icon__text {
   font-size: 16px;
   font-weight: 300;
 }
-/* line 294, ../styles/components/_buttons.sass */
+/* line 311, ../styles/components/_buttons.sass */
 .btn-icon--add .iconic, .btn-icon--add .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--add .header-nav__link:after, .btn-icon--add .header-search__btn-real:after, .btn-icon--add .header-search__btn-close:after, .btn-icon--add .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--add .select2-selection__arrow, .btn-icon--add .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--add .select2-selection--multiple, .btn-icon--add .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--add A, .btn-icon--add .checkbox__view, .btn-icon--add .search__btn:after, .btn-icon--add .dropdown-menu-nav__item._active:after, .btn-icon--add .sidebar-nav__link--dropdown:after, .btn-icon--add .open-info__btn:after, .btn-icon--add .main-filter__item-title:after {
   color: #fff;
   font-size: 14px;
 }
-/* line 300, ../styles/components/_buttons.sass */
+/* line 317, ../styles/components/_buttons.sass */
 .btn-icon--logout .btn-icon__text {
   font-size: 18px;
   font-weight: 300;
   color: #777777;
   font-family: "Lato", sans-serif;
 }
-/* line 306, ../styles/components/_buttons.sass */
+/* line 323, ../styles/components/_buttons.sass */
 .btn-icon--logout .iconic, .btn-icon--logout .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .btn-icon--logout .header-nav__link:after, .btn-icon--logout .header-search__btn-real:after, .btn-icon--logout .header-search__btn-close:after, .btn-icon--logout .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .btn-icon--logout .select2-selection__arrow, .btn-icon--logout .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .btn-icon--logout .select2-selection--multiple, .btn-icon--logout .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .btn-icon--logout A, .btn-icon--logout .checkbox__view, .btn-icon--logout .search__btn:after, .btn-icon--logout .dropdown-menu-nav__item._active:after, .btn-icon--logout .sidebar-nav__link--dropdown:after, .btn-icon--logout .open-info__btn:after, .btn-icon--logout .main-filter__item-title:after {
   color: #777777;
   margin-top: 2px;
   font-size: 18px;
 }
-/* line 312, ../styles/components/_buttons.sass */
+/* line 329, ../styles/components/_buttons.sass */
 .btn-icon--logout:hover .btn-icon__text,
 .btn-icon--logout:hover .iconic,
 .btn-icon--logout:hover .header-nav__item--dropdown .header-nav__link:after,
@@ -1281,7 +1307,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #c11718;
 }
 
-/* line 316, ../styles/components/_buttons.sass */
+/* line 333, ../styles/components/_buttons.sass */
 .ico-btn {
   display: inline-block;
   vertical-align: middle;
@@ -1295,7 +1321,7 @@ h1, h2, h3, h4, h5, h6 {
           user-select: none;
   transition: 300ms;
 }
-/* line 326, ../styles/components/_buttons.sass */
+/* line 343, ../styles/components/_buttons.sass */
 .ico-btn__newmess {
   position: absolute;
   width: 16px;
@@ -1310,14 +1336,14 @@ h1, h2, h3, h4, h5, h6 {
   top: -4px;
   font-family: "Lato", sans-serif;
 }
-/* line 340, ../styles/components/_buttons.sass */
+/* line 357, ../styles/components/_buttons.sass */
 .ico-btn__newmess._long {
   width: 22px;
   border-radius: 10px;
   font-size: 10px;
 }
 
-/* line 345, ../styles/components/_buttons.sass */
+/* line 362, ../styles/components/_buttons.sass */
 .btn-fav {
   display: block;
   width: 27px;
@@ -1330,21 +1356,21 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0 0 3px 3px;
   transition: 150ms;
 }
-/* line 357, ../styles/components/_buttons.sass */
+/* line 374, ../styles/components/_buttons.sass */
 .btn-fav:after {
   display: inline-block;
 }
-/* line 361, ../styles/components/_buttons.sass */
+/* line 378, ../styles/components/_buttons.sass */
 .btn-fav:active:after {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-/* line 364, ../styles/components/_buttons.sass */
+/* line 381, ../styles/components/_buttons.sass */
 .btn-fav._active {
   color: #6c851f;
 }
 
-/* line 367, ../styles/components/_buttons.sass */
+/* line 384, ../styles/components/_buttons.sass */
 .form-close-btn {
   color: #c11718;
   text-decoration: none;
@@ -1354,12 +1380,12 @@ h1, h2, h3, h4, h5, h6 {
   top: 10px;
   transition: 300ms;
 }
-/* line 375, ../styles/components/_buttons.sass */
+/* line 392, ../styles/components/_buttons.sass */
 .form-close-btn:hover {
   color: #cc4040;
 }
 
-/* line 378, ../styles/components/_buttons.sass */
+/* line 395, ../styles/components/_buttons.sass */
 .btn-del {
   display: inline-block;
   width: 20px;
@@ -1373,12 +1399,12 @@ h1, h2, h3, h4, h5, h6 {
           transform: rotate(45deg);
   transition: 300ms;
 }
-/* line 390, ../styles/components/_buttons.sass */
+/* line 407, ../styles/components/_buttons.sass */
 .btn-del:hover {
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
 }
-/* line 393, ../styles/components/_buttons.sass */
+/* line 410, ../styles/components/_buttons.sass */
 .btn-del.iconic, .header-nav__item--dropdown .btn-del.header-nav__link:after, .btn-del.header-search__btn-real:after, .btn-del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .btn-del.select2-selection__arrow, .select--search + .select2.select2-container .btn-del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.btn-del, .btn-del.checkbox__view, .btn-del.search__btn:after, .btn-del.dropdown-menu-nav__item._active:after, .btn-del.sidebar-nav__link--dropdown:after, .btn-del.open-info__btn:after, .btn-del.main-filter__item-title:after {
   font-size: 10px;
   color: #fff;
@@ -2236,6 +2262,32 @@ input:disabled + .radio__view {
   cursor: not-allowed;
 }
 
+/* line 568, ../styles/components/_formElements.sass */
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active:active {
+  background-color: #9bbc33;
+  border-color: #9bbc33;
+}
+
+/* line 575, ../styles/components/_formElements.sass */
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active.focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.datepicker table tr td.active.highlighted.active:hover,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active:active:hover {
+  background-color: #9bbc33;
+  border-color: #9bbc33;
+}
+
 /* line 2, ../styles/components/_formLayout.sass */
 .form--cols {
   display: -webkit-box;
@@ -2747,11 +2799,54 @@ input:disabled + .radio__view {
 }
 
 /* line 176, ../styles/components/__components.sass */
+.main-filter-label {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+/* line 181, ../styles/components/__components.sass */
+.main-filter-label__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #9bbc33;
+  font-weight: 300;
+  border-bottom: 1px solid #b6cd6a;
+}
+/* line 190, ../styles/components/__components.sass */
+.main-filter-label__del {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+  background-color: #9bbc33;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+/* line 204, ../styles/components/__components.sass */
+.main-filter-label__del.iconic, .header-nav__item--dropdown .main-filter-label__del.header-nav__link:after, .main-filter-label__del.header-search__btn-real:after, .main-filter-label__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .main-filter-label__del.select2-selection__arrow, .select--search + .select2.select2-container .main-filter-label__del.select2-selection--multiple, .br-theme-fontawesome-stars-o .br-widget A.main-filter-label__del, .main-filter-label__del.checkbox__view, .main-filter-label__del.search__btn:after, .main-filter-label__del.dropdown-menu-nav__item._active:after, .main-filter-label__del.sidebar-nav__link--dropdown:after, .main-filter-label__del.open-info__btn:after, .main-filter-label__del.main-filter__item-title:after {
+  font-size: 10px;
+  color: #fff;
+}
+/* line 207, ../styles/components/__components.sass */
+.main-filter-label__del.iconic:after, .header-nav__item--dropdown .main-filter-label__del.header-nav__link:after, .main-filter-label__del.header-search__btn-real:after, .main-filter-label__del.header-search__btn-close:after, .select2.select2-container .select2-selection--single .main-filter-label__del.select2-selection__arrow:after, .select--search + .select2.select2-container .main-filter-label__del.select2-selection--multiple:after, .br-theme-fontawesome-stars-o .br-widget A.main-filter-label__del:after, .main-filter-label__del.checkbox__view:after, .main-filter-label__del.search__btn:after, .main-filter-label__del.dropdown-menu-nav__item._active:after, .main-filter-label__del.sidebar-nav__link--dropdown:after, .main-filter-label__del.open-info__btn:after, .main-filter-label__del.main-filter__item-title:after {
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+/* line 211, ../styles/components/__components.sass */
 .text-green {
   color: #9bbc33;
 }
 
-/* line 179, ../styles/components/__components.sass */
+/* line 214, ../styles/components/__components.sass */
 .text-red {
   color: #c11718;
 }
@@ -4550,21 +4645,55 @@ input:disabled + .radio__view {
   font-family: "Lato", sans-serif;
 }
 
-/* line 182, ../styles/pages/_index.sass */
+/* line 180, ../styles/pages/_index.sass */
+.main-filter-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 10px 0;
+}
+/* line 184, ../styles/pages/_index.sass */
+.main-filter-labels__text {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 14px;
+  color: #777777;
+  padding-top: 3px;
+}
+/* line 190, ../styles/pages/_index.sass */
+.main-filter-labels__clear {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  text-align: right;
+}
+/* line 194, ../styles/pages/_index.sass */
+.main-filter-labels__clear .iconic--cancel, .main-filter-labels__clear .header-search__btn-close {
+  font-size: 16px;
+  margin-top: -2px;
+}
+/* line 198, ../styles/pages/_index.sass */
+.main-filter-labels__content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 25px;
+}
+
+/* line 204, ../styles/pages/_index.sass */
 .page-catalog .main-filter {
   margin: 30px 0 10px;
   padding-top: 10px;
 }
-/* line 186, ../styles/pages/_index.sass */
+/* line 208, ../styles/pages/_index.sass */
 .page-catalog .main-filter__col {
   width: 33.33333%;
 }
-/* line 192, ../styles/pages/_index.sass */
+/* line 214, ../styles/pages/_index.sass */
 .page-catalog .main-filter__item-title {
   font-size: 18px;
   font-weight: 500;
 }
-/* line 196, ../styles/pages/_index.sass */
+/* line 218, ../styles/pages/_index.sass */
 .page-catalog .main-filter__item-icon {
   width: 55px;
   -ms-flex-negative: 0;
@@ -4572,19 +4701,19 @@ input:disabled + .radio__view {
   text-align: center;
   padding-top: 15px;
 }
-/* line 201, ../styles/pages/_index.sass */
+/* line 223, ../styles/pages/_index.sass */
 .page-catalog .main-filter__item-icon .iconic, .page-catalog .main-filter__item-icon .header-nav__item--dropdown .header-nav__link:after, .header-nav__item--dropdown .page-catalog .main-filter__item-icon .header-nav__link:after, .page-catalog .main-filter__item-icon .header-search__btn-real:after, .page-catalog .main-filter__item-icon .header-search__btn-close:after, .page-catalog .main-filter__item-icon .select2.select2-container .select2-selection--single .select2-selection__arrow, .select2.select2-container .select2-selection--single .page-catalog .main-filter__item-icon .select2-selection__arrow, .page-catalog .main-filter__item-icon .select--search + .select2.select2-container .select2-selection--multiple, .select--search + .select2.select2-container .page-catalog .main-filter__item-icon .select2-selection--multiple, .page-catalog .main-filter__item-icon .br-theme-fontawesome-stars-o .br-widget A, .br-theme-fontawesome-stars-o .br-widget .page-catalog .main-filter__item-icon A, .page-catalog .main-filter__item-icon .checkbox__view, .page-catalog .main-filter__item-icon .search__btn:after, .page-catalog .main-filter__item-icon .dropdown-menu-nav__item._active:after, .page-catalog .main-filter__item-icon .sidebar-nav__link--dropdown:after, .page-catalog .main-filter__item-icon .open-info__btn:after, .page-catalog .main-filter__item-icon .main-filter__item-title:after {
   font-size: 35px;
 }
-/* line 204, ../styles/pages/_index.sass */
+/* line 226, ../styles/pages/_index.sass */
 .page-catalog .main-filter__item-icon .iconic--cake {
   font-size: 40px;
 }
-/* line 207, ../styles/pages/_index.sass */
+/* line 229, ../styles/pages/_index.sass */
 .page-catalog .main-filter__item-icon .iconic--location {
   font-size: 38px;
 }
-/* line 210, ../styles/pages/_index.sass */
+/* line 232, ../styles/pages/_index.sass */
 .page-catalog .select--city .selectize-input > input,
 .page-catalog .select--city .selectize-input > .item {
   font-size: 18px;
@@ -5662,13 +5791,18 @@ input:disabled + .radio__view {
 .chat__footer-btns .btn {
   width: 44px;
   margin-right: 0;
+  padding: 0;
 }
-/* line 395, ../styles/pages/_profile.sass */
+/* line 396, ../styles/pages/_profile.sass */
+.chat__footer-btns .btn .btn-icon__ico {
+  margin-right: 0;
+}
+/* line 399, ../styles/pages/_profile.sass */
 .chat__footer-btns .btn .iconic--attach {
   font-size: 26px !important;
 }
 
-/* line 398, ../styles/pages/_profile.sass */
+/* line 402, ../styles/pages/_profile.sass */
 .chat-mess {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5679,7 +5813,7 @@ input:disabled + .radio__view {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 406, ../styles/pages/_profile.sass */
+/* line 410, ../styles/pages/_profile.sass */
 .chat-mess:after {
   content: "";
   position: absolute;
@@ -5691,16 +5825,16 @@ input:disabled + .radio__view {
   width: 0;
   height: 0;
 }
-/* line 417, ../styles/pages/_profile.sass */
+/* line 421, ../styles/pages/_profile.sass */
 .chat-mess--answer {
   margin-left: 30px;
 }
-/* line 419, ../styles/pages/_profile.sass */
+/* line 423, ../styles/pages/_profile.sass */
 .chat-mess--answer:after {
   left: auto;
   right: 45px;
 }
-/* line 423, ../styles/pages/_profile.sass */
+/* line 427, ../styles/pages/_profile.sass */
 .chat-mess__ava {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -5709,34 +5843,34 @@ input:disabled + .radio__view {
   overflow: hidden;
   height: 48px;
 }
-/* line 429, ../styles/pages/_profile.sass */
+/* line 433, ../styles/pages/_profile.sass */
 .chat-mess__ava IMG {
   width: 100%;
   border-radius: 5px;
 }
-/* line 433, ../styles/pages/_profile.sass */
+/* line 437, ../styles/pages/_profile.sass */
 .chat-mess__info {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding-left: 20px;
 }
-/* line 437, ../styles/pages/_profile.sass */
+/* line 441, ../styles/pages/_profile.sass */
 .chat-mess__info-text {
   font-size: 14px;
 }
-/* line 440, ../styles/pages/_profile.sass */
+/* line 444, ../styles/pages/_profile.sass */
 .chat-mess__header {
   margin-bottom: 10px;
 }
-/* line 442, ../styles/pages/_profile.sass */
+/* line 446, ../styles/pages/_profile.sass */
 .chat-mess__header-name {
   font-size: 16px;
   color: #4b4b4b;
   font-weight: bold;
   margin-right: 5px;
 }
-/* line 449, ../styles/pages/_profile.sass */
+/* line 453, ../styles/pages/_profile.sass */
 .chat-mess__header-name.offline:after {
   content: "";
   display: inline-block;
@@ -5746,7 +5880,7 @@ input:disabled + .radio__view {
   background-color: #c11718;
   margin-left: 3px;
 }
-/* line 459, ../styles/pages/_profile.sass */
+/* line 463, ../styles/pages/_profile.sass */
 .chat-mess__header-name.online:after {
   content: "";
   display: inline-block;
@@ -5756,7 +5890,7 @@ input:disabled + .radio__view {
   background-color: #9bbc33;
   margin-left: 3px;
 }
-/* line 468, ../styles/pages/_profile.sass */
+/* line 472, ../styles/pages/_profile.sass */
 .chat-mess__header-time {
   display: inline-block;
   background-color: #ebebeb;

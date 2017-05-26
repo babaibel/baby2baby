@@ -606,6 +606,38 @@
                                     <button type="submit" class="btn btn--red-l">Search</button>
                                 </div>
                             </div>
+                            <div class="main-filter-labels">
+                                <div class="main-filter-labels__text">Filtered by: </div>
+                                <div class="main-filter-labels__content">
+                                    <div class="main-filter-label">
+                                        <span class="main-filter-label__text">
+                                            Girl
+                                        </span>
+                                        <span class="main-filter-label__del iconic iconic--add"></span>
+                                    </div>
+                                    <div class="main-filter-label">
+                                        <span class="main-filter-label__text">
+                                            Red
+                                        </span>
+                                        <span class="main-filter-label__del iconic iconic--add"></span>
+                                    </div>
+                                    <div class="main-filter-label">
+                                        <span class="main-filter-label__text">
+                                            6 up to 8
+                                        </span>
+                                        <span class="main-filter-label__del iconic iconic--add"></span>
+                                    </div>
+                                    <div class="main-filter-label">
+                                        <span class="main-filter-label__text">
+                                            Glasses
+                                        </span>
+                                        <span class="main-filter-label__del iconic iconic--add"></span>
+                                    </div>
+                                </div>
+                                <div class="main-filter-labels__clear">
+                                    <a class="link-ico" href="#!"><span class="iconic iconic--cancel"></span>Reset filters</a>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </section>

@@ -114,7 +114,7 @@
                                     <div class="form-row__col">
                                         <div class="form-row__name">Birthday</div>
                                         <div class="form-row__input">
-                                            <input type="text" placeholder="01.01.1990" class="input-text input-text--white">
+                                            <input type="text" placeholder="01.01.1990" class="input-text input-text--white js-datepicker">
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row__col form-row__col--long">
-                                        <div class="form-row__name">&nbsp;</div>
+                                        <div class="form-row__name">Location</div>
                                         <div class="form-row__input profile-edit__row--cols">
                                             <div class="profile-edit__row-input">
                                                 <select class="select select--search select--white js-select" data-placeholder="Choose city" data-multiple="1" multiple>

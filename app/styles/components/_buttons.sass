@@ -253,6 +253,7 @@
             color: #fff
             font-size: 14px
 
+    &.btn--xss
         &.btn-icon--fav
             padding: 0 10px
             .iconic
@@ -271,6 +272,22 @@
         .iconic
             font-size: 20px!important
             margin-right: 10px
+
+        &._infav.btn--green
+            background-color: $cGray!important
+            &:hover
+                background-color: $cGrayD!important
+
+        &._infav.btn--o-green
+            color: $cGray!important
+            border-color: $cGray!important
+            .iconic
+                color: $cGray!important
+            &:hover
+                color: $cGrayD!important
+                border-color: $cGrayD!important
+                .iconic
+                    color: $cGrayD!important
 
     &--like
         .iconic

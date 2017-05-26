@@ -328,6 +328,16 @@ $(function () {
 });
 
 $(function () {
+    var $datepicker = $('.js-datepicker');
+    if (!$datepicker.length) return; 
+
+    $datepicker.datepicker({
+        format: 'dd.mm.yyyy'
+    });
+});
+
+
+$(function () {
     var $sidebarDropdown = $('.js-sidebar-dropdown');
     if (!$sidebarDropdown.length) return;
 
