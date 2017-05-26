@@ -310,9 +310,16 @@
 		border-radius: 7px 7px 0 0 
 		background-color: #f9f9f9
 		border-bottom: 1px solid rgba(0,0,0,0.13)
-		.form-row
-			margin-bottom: 0
-			align-items: center
+		display: flex
+		align-items: center
+
+		&-user,
+		&-back
+			flex-shrink: 0
+
+		&-search
+			flex-grow: 1
+			padding: 0 5%
 
 	&-dateline
 		margin-bottom: 30px

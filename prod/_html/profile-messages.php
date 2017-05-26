@@ -51,27 +51,31 @@
 
                     <div class="chat">
                         <div class="chat__header">
-                            <div class="form-row form-row--cols2">
-                                <div class="form-row__col">
-                                    <div class="chat-user">
-                                        <div class="chat-user__ava">
-                                            <img src="../images/userfiles/user-img-big.jpg" alt="">
-                                        </div>
-                                        <div class="chat-user__info">
-                                            <div class="chat-user__info-name">happyness77</div>
-                                            <div class="chat-user__info-btns">
-                                                <a href="#!" class="btn btn--xxs btn--green">Clear messages</a>
-                                                <a href="#!" class="btn btn--xxs btn--gray-l">Delete user</a>
-                                            </div>
+                            <div class="chat__header-user">
+                                <div class="chat-user">
+                                    <div class="chat-user__ava">
+                                        <img src="../images/userfiles/user-img-big.jpg" alt="">
+                                    </div>
+                                    <div class="chat-user__info">
+                                        <div class="chat-user__info-name">happyness77</div>
+                                        <div class="chat-user__info-btns">
+                                            <a href="#!" class="btn btn--xxs btn--green">Clear messages</a>
+                                            <a href="#!" class="btn btn--xxs btn--gray-l">Delete user</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row__col">
-                                    <div class="search">
-                                        <button type="submit" class="search__btn"></button>
-                                        <input type="text" class="search__text" placeholder="Search">
-                                    </div>
+                            </div>
+                            <div class="chat__header-search">
+                                <div class="search">
+                                    <button type="submit" class="search__btn"></button>
+                                    <input type="text" class="search__text" placeholder="Search">
                                 </div>
+                            </div>
+                            <div class="chat__header-back">
+                                <a href="#!" class="btn btn-icon btn-icon--back">
+                                    <span class="btn-icon__ico iconic iconic--round-left-button"></span>
+                                    <span class="btn-icon__text">Back to dialog list</span>
+                                </a>
                             </div>
                         </div>
                         <div class="chat__body">
