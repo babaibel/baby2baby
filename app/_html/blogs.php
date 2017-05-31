@@ -16,38 +16,24 @@
                         <div class="content js-sticky-sidebar-wr">
                             <div class="content__body">
                                 <div class="blog">
-                                    <div class="blog__ava">
-                                        <img src="../images/userfiles/user-img-big.jpg" alt="">
+                                    <div class="blog__date">3 августа 2017 15:20</div>
+                                    <h4 class="h4"><a href="#!" class="link link--green">Lorem ipsum dolor is sit amet</a></h4>
+                                    <div class="blog__text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                        <p><img src="../images/userfiles/content-img1.jpg" alt=""></p>
                                     </div>
-                                    <div class="blog__content">
-                                        <div class="blog__label"><span>Person blogs</span></div>
-                                        <div class="blog__date">3 августа 2017 15:20</div>
-                                        <div class="blog__username">happyness77</div>
-                                        <h4 class="h4"><a href="#!" class="link link--green">Lorem ipsum dolor is sit amet</a></h4>
-                                        <div class="blog__text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                                            <p><img src="../images/userfiles/content-img1.jpg" alt=""></p>
-                                        </div>
-                                        <div class="blog__btn">
-                                            <a href="#!" class="btn btn--o-green btn--xs">121 comments</a>
-                                        </div>
+                                    <div class="blog__btn">
+                                        <a href="#!" class="btn btn--o-green btn--xs">121 comments</a>
                                     </div>
                                 </div>
                                 <div class="blog">
-                                    <div class="blog__ava">
-                                        <img src="../images/userfiles/user-img-big.jpg" alt="">
+                                    <div class="blog__date">3 августа 2017 15:20</div>
+                                    <h4 class="h4"><a href="#!" class="link link--green">Lorem ipsum dolor is sit amet</a></h4>
+                                    <div class="blog__text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                                     </div>
-                                    <div class="blog__content">
-                                        <div class="blog__label"><span>Person blogs</span></div>
-                                        <div class="blog__date">3 августа 2017 15:20</div>
-                                        <div class="blog__username">happyness77</div>
-                                        <h4 class="h4"><a href="#!" class="link link--green">Lorem ipsum dolor is sit amet</a></h4>
-                                        <div class="blog__text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                                        </div>
-                                        <div class="blog__btn">
-                                            <a href="#!" class="btn btn--o-green btn--xs">121 comments</a>
-                                        </div>
+                                    <div class="blog__btn">
+                                        <a href="#!" class="btn btn--o-green btn--xs">121 comments</a>
                                     </div>
                                 </div>
                                 <div class="pagination-wr">

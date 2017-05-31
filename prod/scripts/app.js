@@ -267,8 +267,8 @@ $(function () {
     if (!$openInfoBtn.length) return;
 
     $openInfoBtn.click(function(){
-        $openInfoBtn.toggleClass('_open');
-        $openInfoBtn.next().slideToggle();
+        $(this).toggleClass('_open');
+        $(this).next().slideToggle();
     });
 });
 
@@ -296,13 +296,13 @@ $(function () {
 
         if (scroll > stickySidebarOffsetTop) {
             if(scroll < stickySidebarOffsetBot - 20){
-                $stickySidebar.addClass('_scroll').css({'bottom': 'auto','top': scroll - stickySidebarOffsetTop});
+                $stickySidebar.addClass('_scroll').css({'bottom': 'auto','top': '20px','position':'fixed'});
             } else{
-                $stickySidebar.addClass('_scroll').css({'bottom': '0','top':'auto'});
+                $stickySidebar.addClass('_scroll').css({'bottom': '0','top':'auto','position':'absolute'});
             }
             
         } else {
-            $stickySidebar.removeClass('_scroll');
+            $stickySidebar.removeClass('_scroll').css({'bottom': '0','top':'auto','position':'static'});
         }
     });
 });

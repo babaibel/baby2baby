@@ -72,7 +72,7 @@
                                         <div class="additem__col">
                                             <div class="form">
                                                 <div class="form-row">
-                                                    <div class="form-row__name">Name</div>
+                                                    <div class="form-row__name">Name <sup class="red-star">*</sup></div>
                                                     <div class="form-row__input">
                                                         <input type="text" placeholder="Enter name" class="input-text input-text--gray">
                                                     </div>
@@ -132,7 +132,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-row">
-                                                    <div class="form-row__name">&nbsp;</div>
+                                                    <div class="form-row__name">&nbsp;<sup class="red-star">*</sup></div>
                                                     <div class="form-row__input">
                                                         <select class="select select--search js-select" data-placeholder="Enter item subcategory" multiple>
                                                             <option></option>

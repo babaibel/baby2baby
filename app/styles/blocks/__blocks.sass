@@ -1,3 +1,10 @@
+.white-block
+	border-radius: 7px
+	background-color: #fff
+	border: 1px solid rgba(0,0,0,0.13)
+	padding: 30px
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+
 .search
 	height: 40px
 	width: 100%
@@ -258,6 +265,7 @@
 			font-size: 16px
 			font-weight: bold
 			margin-bottom: 5px
+			margin-top: 5px
 
 		&-info
 			font-size: 13px
@@ -703,8 +711,7 @@
 			transition: $t300
 			font-family: $titleFont
 			font-weight: 500
-			padding: 5px 8px
-			border: 2px solid transparent
+			padding: 7px 10px
 			border-radius: 5px
 
 			&:hover
@@ -717,8 +724,8 @@
 
 		&._active
 			A
-				border-color: $cRed
-				color: $cRed
+				background-color: $cGrayDText
+				color: #fff
 				box-shadow: none
 
 				SPAN
@@ -764,10 +771,27 @@
 		flex-grow: 1
 		min-width: 0
 
+		+max-screen($screenM)
+			padding-left: 10px
+
 		&-btn
 			.btn
 				height: 36px
 				line-height: 36px
+
+			&--cols
+				display: flex
+
+				.btn
+					padding-left: 0px
+					padding-right: 0px
+					border-radius: 5px
+					font-size: 14px
+
+				.btn-icon
+					margin-left: 10px
+					padding-left: 8px!important
+					padding-right: 8px!important
 
 	&__header
 		display: flex
@@ -874,6 +898,11 @@
 		border-radius: 0 0 7px 7px
 		display: none
 
+		.form-row
+			margin-bottom: 20px
+			&--nomrg
+				margin-bottom: 10px
+
 .blog
 	background-color: #fff
 	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
@@ -881,7 +910,8 @@
 	border: 1px solid rgba(0,0,0,0.13)
 	padding: 30px
 	margin-bottom: 30px
-	display: flex
+	display: block
+	// display: flex
 
 	&__ava
 		width: 100px
@@ -1000,6 +1030,11 @@
 .content
 	display: flex
 	padding: 0 0 30px
+
+	&--leftbar
+		.content__body
+			padding-right: 0
+			padding-left: 20px
 
 	&__body
 		flex-grow: 1
@@ -1166,3 +1201,33 @@
 		&-link
 			font-size: 16px
 			font-weight: bold
+
+.user-search
+	box-shadow: 0 2px 4px rgba(80,72,68,0.18)
+	background-color: #fff
+	border-radius: 7px
+	padding: 30px
+	margin-bottom: 30px
+	display: flex
+
+	&__input
+		flex-grow: 1
+
+		.form-row
+			margin-bottom: 0
+
+			&__input-label
+				font-weight: 500
+				font-size: 14px
+				padding-right: 10px
+
+	&__btn
+		flex-shrink: 0
+		padding-left: 30px
+		.btn
+			width: 120px
+			height: 46px
+			line-height: 46px
+			font-size: 22px
+			text-align: center
+			font-family: $titleFont

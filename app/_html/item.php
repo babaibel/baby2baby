@@ -167,7 +167,7 @@
                             </div>
                         </div>
 
-                        <h3 class="h3 h3--mrg25">All announcements of the seller</h3>
+                        <h3 class="h3 h3--mrg25"><a href="#!" class="link link--u-gray-d2">All announcements of the seller</a></h3>
                         <div class="catalog-wr">
                             <div class="catalog">
                                 <div class="catalog__item">
