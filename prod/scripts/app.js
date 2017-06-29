@@ -193,6 +193,47 @@ function toggleClass(selector, className, callback) {
     };
 })(jQuery);
 
+// tabs Plugin
+(function ($) {
+    $.fn.stickySidebars = function () {
+
+        $(this).each(function () {
+            var $stickySidebar = $(this),
+                $stickySidebarWr = $('.js-sticky-sidebar-wr'),
+                stickySidebarOffsetTop = $stickySidebar.offset().top - 20,
+                stickySidebarHeight = $stickySidebar.height(),
+                stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+
+            $(window).resize(function(){
+                stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+            });
+
+            $(window).scroll(function(){
+                var scroll = $(this).scrollTop(),
+                    stickySidebarHeightNew = $stickySidebar.height();
+
+                if(stickySidebarHeight != stickySidebarHeightNew){
+                    stickySidebarHeight = stickySidebarHeightNew;
+                    stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+                }
+
+                if (scroll > stickySidebarOffsetTop) {
+                    if(scroll < stickySidebarOffsetBot - 20){
+                        $stickySidebar.addClass('_scroll').css({'bottom': 'auto','top': '20px','position':'fixed'});
+                    } else{
+                        $stickySidebar.addClass('_scroll').css({'bottom': '0','top':'auto','position':'absolute'});
+                    }
+                    
+                } else {
+                    $stickySidebar.removeClass('_scroll').css({'bottom': '0','top':'auto','position':'static'});
+                }
+            });
+
+        })
+
+    };
+})(jQuery);
+
 /* -- Применение общих плагинов и функций --- */
 
 // Scroll trigger
@@ -236,6 +277,15 @@ $(function () {
 });
 
 $(function () {
+    var $stickySidebarWr = $('.js-sticky-sidebar-wr');
+    if (!$stickySidebarWr.length) return;
+
+    var $stickySidebars = $('.js-sticky-sidebar');
+    $stickySidebars.stickySidebars({});
+});
+
+
+$(function () {
     var $like = $('.js-like');
     if (!$like.length) return;
 
@@ -272,40 +322,40 @@ $(function () {
     });
 });
 
-$(function () {
-    var $stickySidebarWr = $('.js-sticky-sidebar-wr');
-    if (!$stickySidebarWr.length) return;
+// $(function () {
+//     var $stickySidebarWr = $('.js-sticky-sidebar-wr');
+//     if (!$stickySidebarWr.length) return;
 
-    var $stickySidebar = $stickySidebarWr.find('.js-sticky-sidebar'),
-        stickySidebarOffsetTop = $stickySidebar.offset().top - 20,
-        stickySidebarHeight = $stickySidebar.height(),
-        stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+//     var $stickySidebar = $stickySidebarWr.find('.js-sticky-sidebar'),
+//         stickySidebarOffsetTop = $stickySidebar.offset().top - 20,
+//         stickySidebarHeight = $stickySidebar.height(),
+//         stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
 
-    $(window).resize(function(){
-        stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
-    });
+//     $(window).resize(function(){
+//         stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+//     });
 
-    $(window).scroll(function(){
-        var scroll = $(this).scrollTop(),
-            stickySidebarHeightNew = $stickySidebar.height();
+//     $(window).scroll(function(){
+//         var scroll = $(this).scrollTop(),
+//             stickySidebarHeightNew = $stickySidebar.height();
 
-        if(stickySidebarHeight != stickySidebarHeightNew){
-            stickySidebarHeight = stickySidebarHeightNew;
-            stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
-        }
+//         if(stickySidebarHeight != stickySidebarHeightNew){
+//             stickySidebarHeight = stickySidebarHeightNew;
+//             stickySidebarOffsetBot = $stickySidebarWr.offset().top + $stickySidebarWr.height() - stickySidebarHeight;
+//         }
 
-        if (scroll > stickySidebarOffsetTop) {
-            if(scroll < stickySidebarOffsetBot - 20){
-                $stickySidebar.addClass('_scroll').css({'bottom': 'auto','top': '20px','position':'fixed'});
-            } else{
-                $stickySidebar.addClass('_scroll').css({'bottom': '0','top':'auto','position':'absolute'});
-            }
+//         if (scroll > stickySidebarOffsetTop) {
+//             if(scroll < stickySidebarOffsetBot - 20){
+//                 $stickySidebar.addClass('_scroll').css({'bottom': 'auto','top': '20px','position':'fixed'});
+//             } else{
+//                 $stickySidebar.addClass('_scroll').css({'bottom': '0','top':'auto','position':'absolute'});
+//             }
             
-        } else {
-            $stickySidebar.removeClass('_scroll').css({'bottom': '0','top':'auto','position':'static'});
-        }
-    });
-});
+//         } else {
+//             $stickySidebar.removeClass('_scroll').css({'bottom': '0','top':'auto','position':'static'});
+//         }
+//     });
+// });
 
 // $(function () {
 //     var $selectStatus = $('.select--status.js-select');

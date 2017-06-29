@@ -48,7 +48,68 @@
                                     </div>
                                     <div class="item-text">
                                         <h2 class="h3">Box contains the goods:</h2>
-                                        <ul class="item-box">
+                                        <div class="catalog-wr">
+                                            <div class="catalog">
+                                                <div class="catalog__item">
+                                                    <div class="product">
+                                                        <div class="product__header">
+                                                            <div class="product__header-label">
+                                                                <span class="label label--gray">used</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Размеры товара</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <div class="product">
+                                                        <div class="product__header">
+                                                            <div class="product__header-label">
+                                                                <span class="label label--gray">used</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Размеры товара</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <div class="product">
+                                                        <div class="product__header">
+                                                            <div class="product__header-label">
+                                                                <span class="label label--gray">used</span>
+                                                            </div>
+                                                            <div class="product__header-brand">Puma</div>
+                                                            <div class="product__header-title">
+                                                                <a href="#!" class="link link--gray-d2">Jackets children 8 years Jackets children 8 years</a>
+                                                            </div>
+                                                            <div class="product__header-info">Размеры товара</div>
+                                                        </div>
+                                                        <a href="#!" class="product__body">
+                                                            <div class="product__body-img">
+                                                                <img src="../images/userfiles/product-img.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <ul class="item-box">
                                             <li class="item-box__item">
                                                 <div class="item-box__item-title">Dress for small girl</div>
                                                 <div class="item-box__item-info">
@@ -73,7 +134,7 @@
                                                     <span>Condition: <b>New</b></span>
                                                 </div>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                         <h2 class="h3">Information about item</h2>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
                                         <p>Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
@@ -82,7 +143,7 @@
                                 <div class="item__body-right">
                                     <div class="item-sidebar">
                                         <div class="item-sidebar__item">
-                                            <div class="item-sidebar__price">Price: <b>52 €</b><span class="label label--green"><span class="iconic iconic--download-box"></span>box</span></div>
+                                            <div class="item-sidebar__price">Price: <b>52 €</b><span class="label label--xl label--green"><span class="iconic iconic--download-box"></span>box</span></div>
                                         </div>
                                         <div class="item-sidebar__item">
                                             <div class="item-info">

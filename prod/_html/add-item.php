@@ -336,6 +336,20 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="form-row">
+                                                    <div class="form-row__name">Add item photo</div>
+                                                    <div class="form-row__input">
+                                                        <div class="add-photoline">
+                                                            <div class="add-photoline__btn">
+                                                                <a href="#!" class="btn btn--gray-l btn--s">Choose and upload</a>
+                                                            </div>
+                                                            <div class="add-photoline__link">
+                                                                <a href="#!" class="link link--u-green">photonamelongomgwtf.jpg</a>
+                                                                <a href="#!" class="iconic iconic--cross"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <a href="#!" class="form-close-btn iconic iconic--cross"></a>
                                             </div>
                                             <div class="form">
@@ -347,7 +361,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="additem__row">
+                                        <div class="additem__row _form1 _form2">
                                             <div class="form">
                                                 <div class="form-row form-row--nomrg">
                                                     <div class="form-row__name">Item photo (max 5 photo)</div>

@@ -89,6 +89,11 @@
 		border-style: solid
 		border-color: transparent transparent #fff transparent
 
+	&__text
+		padding: 0 10px
+		font-size: 14px
+		line-height: 18px
+
 	&--right
 		right: 0
 
@@ -271,6 +276,13 @@
 			font-size: 13px
 			color: $cGrayD
 
+			.ageandsize
+				display: inline-block
+				padding: 2px 5px
+				background: $cGray
+				border-radius: 4px
+				color: #fff
+
 	&__body
 		position: relative
 		display: block
@@ -379,7 +391,7 @@
 			background-color: rgba(0,0,0,0.05)
 
 		&._active
-			background-color: $cRedL
+			background-color: rgba(0, 0, 0, 0.05)
 			box-shadow: inset -6px 0 4px -4px rgba(0,0,0,0.3)
 			@extend .iconic--down-arrow
 			&:after
@@ -390,17 +402,17 @@
 				margin-top: -7px
 				display: inline-block
 				transform: rotate(-90deg)
-				color: #fff
+				color: #000
 				transition: $t300
 				@extend .iconic
 
-			.dropdown-menu-nav__item-title
+			// .dropdown-menu-nav__item-title
 				color: #fff
 
-			.dropdown-menu-nav__item-numbers
+			// .dropdown-menu-nav__item-numbers
 				color: #fefefe
 
-			.dropdown-menu-nav__item-icon
+			// .dropdown-menu-nav__item-icon
 				.iconic
 					color: #fff
 

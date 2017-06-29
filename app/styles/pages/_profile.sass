@@ -211,6 +211,16 @@
 			.profile-edit__row-btn
 				flex-shrink: 0
 				padding-left: 30px
+				position: relative
+
+				.dropdown
+					min-width: 200px
+
+				&:hover
+					.dropdown
+						opacity: 1
+						visibility: visible
+						transform: translateY(0)
 
 				.btn
 					text-transform: none
@@ -449,6 +459,13 @@
 
 		&-text
 			font-size: 14px
+			font-family: $titleFont
+			line-height: 20px
+			color: $cGrayDText
+
+			A
+				@extend .link
+				@extend .link--u-green
 
 	&__header
 		margin-bottom: 10px
